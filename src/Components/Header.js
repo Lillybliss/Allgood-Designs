@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Header.css";
 import logo from "../Assets/lightblue.svg";
+import github from "../Assets/icons/icons8-github.svg";
+import linkedin from "../Assets/icons/icons8-linkedin-50.svg";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Header = () => {
   return (
@@ -31,18 +34,27 @@ const Header = () => {
               Contact
             </Link>
           </li>
-          <li>
-            <Link to="/contact" className="nav-link">
-              Github
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="nav-link">
-              Linkedin
-            </Link>
-          </li>
         </ul>
       </nav>
+      <div className="social-icons">
+        <a
+          href="https://github.com/Lillybliss"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="GitHub" className="icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/lillian-allgood-39213a127/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={linkedin} alt="LinkedIn" className="icon-linkedin" />
+        </a>
+      </div>
+      <div className="mobile-menu">
+        <HamburgerMenu />
+      </div>
     </header>
   );
 };

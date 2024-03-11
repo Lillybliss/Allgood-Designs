@@ -20,17 +20,61 @@ header {
 .nav-links {
     list-style: none;
     display: flex; /* Make the list items (li) flex containers to arrange them horizontally */
+    margin-right: auto; /* Push the list items to the left */
   }
 
 
 .nav-link {
+  font-family: 'Montserrat-Medium', sans-serif;
     text-decoration: none;
     color: white;
     padding: 15px; 
-    font-weight: bold;
+
   }
   
 
   .nav-link:hover {
     color: #AEDEF3;
+  }
+
+  .social-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .icon {
+    width: 40px; 
+    height: auto;
+    margin-left: 10px; /* Add some spacing between the icons */
+  }
+
+  .icon-linkedin {
+    width: 37px; /* This one is a bit smaller on purpose */
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  
+  .icon:hover, .icon-linkedin:hover {
+    opacity: 0.8; 
+    transform: scale(1.2); /* Increase the size of the icon on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+
+
+  @media (min-width: 768px) {   /* Web styles */
+
+    .mobile-menu {
+      display: none; 
+    }
+  }
+
+
+  @media screen and (max-width: 768px) { /* Mobile styles */
+    .nav-links {
+      display: none; 
+    }
+
+    
   }

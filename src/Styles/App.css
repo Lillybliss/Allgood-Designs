@@ -1,14 +1,24 @@
 button {
   background-color: #F6BBBC;
   border-radius: 30px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   height: 35px;
   min-width: 120px; 
   border: none;
+  font-family: 'Montserrat-Medium', sans-serif;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #ffd6d6;
+  cursor: pointer;
+  transform: scale(1.1); /* Increase the size of the icon on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
 h1 {
-  font-size: 2.5em;
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-size: 2em;
   color: #527687;
   text-align: left;
   margin: 0;
@@ -16,9 +26,46 @@ h1 {
 }
 
 h2 {
+  font-family: 'Lovelace-Regular', serif;
   font-size: 1.5em;
-  color: #00000;
   text-align: left;
   margin: 0;
   padding: 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('../Fonts/Montserrat-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: local('Montserrat-Medium'), url('../Fonts/Montserrat-Medium.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lovelace-Regular';
+  src: local('Lovelace-Regular'), url('../Fonts/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lovelace-Bold';
+  src: local('Lovelace-Bold'), url('../Fonts/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Bold\ Italic.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
 }
