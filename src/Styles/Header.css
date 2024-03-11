@@ -1,0 +1,36 @@
+header {
+    background-color: rgba(57, 76, 86, 0.8);
+    padding: 20px;
+    display: flex;
+  align-items: center;
+}
+
+.logo {
+    margin-right: 10px; /* Adjust the margin for spacing between the logo and links */
+    display: flex; /* Make the logo container a flex container */
+    align-items: center; /* Center items vertically within the flex container */
+  }
+
+.logo-img {
+    width: 150px;
+    height: auto;
+    margin-right: 0px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; /* Make the list items (li) flex containers to arrange them horizontally */
+  }
+
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 15px; 
+    font-weight: bold;
+  }
+  
+
+  .nav-link:hover {
+    color: #AEDEF3;
+  }
