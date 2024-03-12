@@ -2,6 +2,12 @@ body {
   background-color: #527687;
 }
 
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+
 button {
   background-color: #F6BBBC;
   border-radius: 30px;

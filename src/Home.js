@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import logo from "./Assets/lightblue.svg";
 import headshot from "./Assets/headshot_circle.png";
@@ -9,11 +10,25 @@ const Home = () => {
     <div>
       <div className="home-image">
         <img src={logo} alt="Lilly Allgood Logo" className="homeLogo" />
-        <h2>
-          Elevating Digital Experiences Through Design, Development, and More...
-        </h2>
-        <Button>Download Resume</Button>
-        <Button>View Portfolio</Button>
+        <div className="home-content">
+          <h2 className="tagline">
+            Elevating Digital Experiences Through Design, Development, and
+            More...
+          </h2>
+          <div className="home-buttons">
+            <Button className="home-btn">
+              <Link to="/resume" className="Link">
+                Download Resume
+              </Link>
+            </Button>
+
+            <Button className="home-btn">
+              <Link to="/portfolio" className="Link">
+                View Portfolio
+              </Link>
+            </Button>
+          </div>
+        </div>
       </div>
 
       <div className="about">
