@@ -1,0 +1,73 @@
+.homeLogo {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.home-image {
+    width: 100%;
+    min-height: 550px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+body {   
+
+  background-image: url('./Assets/home_clouds.png');
+  /* Set background size to cover the entire screen */
+  background-size: cover;
+  /* Center the background image horizontally and vertically */
+  background-position: center center;
+  /* Repeat the background image only horizontally and vertically */
+  background-repeat: no-repeat;
+  /* Set a fixed background attachment */
+  background-attachment: fixed;
+}
+
+.about {
+    background-color: #527687;
+
+}
+
+.about-text {
+    display: block;
+    width: 30%;
+}
+
+.about-text {
+    margin-bottom: 20px; /* Add space below the entire 'about-text' div */
+  }
+  
+  .about-text h1 {
+    margin-bottom: 30px; /* Add space below the h1 element */
+    margin-top: 50px;
+  }
+  
+  .about-text h2 {
+    margin-bottom: 20px; /* Add space below the h2 element */
+  }
+  
+  .about-text p {
+    margin-bottom: 20px; /* Add space below the p element */
+  }
+
+.white-box {
+    background-color: white;
+    min-height: 500px;
+    width: 100%;
+    padding: 0;
+    border-radius: 400px 0 400px 0; /*top-left, top-right, bottom-right, bottom-left*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot {
+    width: 45%;
+    height: auto;
+}
