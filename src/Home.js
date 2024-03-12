@@ -4,6 +4,8 @@ import { Button } from "react-bootstrap";
 import logo from "./Assets/lightblue.svg";
 import headshot from "./Assets/headshot_circle.png";
 import "./Home.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
@@ -67,7 +69,9 @@ const Home = () => {
           </div>
 
           <div className="services-3">
-            <Button>View More</Button>
+            <Button className="viewMore">
+              View More <FontAwesomeIcon icon={faArrowRightLong} />
+            </Button>
           </div>
         </div>
         <div className="bottomRow">
