@@ -57,12 +57,32 @@ const Home = () => {
       </div>
 
       <div className="services">
-        <h2>Web Design</h2>
-        <h2>Web Development</h2>
-        <Button>View More</Button>
-        <h2>Graphic Design</h2>
-        <h2>Digital Marketing</h2>
-        <h2>User Experience</h2>
+        <div className="topRow">
+          <div className="services-1">
+            <h2>Web Design</h2>
+          </div>
+
+          <div className="services-2">
+            <h2>Web Development</h2>
+          </div>
+
+          <div className="services-3">
+            <Button>View More</Button>
+          </div>
+        </div>
+        <div className="bottomRow">
+          <div className="services-4">
+            <h2>Graphic Design</h2>
+          </div>
+
+          <div className="services-5">
+            <h2>Digital Marketing</h2>
+          </div>
+
+          <div className="services-6">
+            <h2>User Experience</h2>
+          </div>
+        </div>
       </div>
 
       <div className="working-together">
