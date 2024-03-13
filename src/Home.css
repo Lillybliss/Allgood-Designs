@@ -172,7 +172,7 @@ body {
   display: block;
   margin-left: 40px; 
   margin-top: 20px;
-  width: 50%;
+  width: 45%;
 }
 
 .headshot_round {
@@ -240,7 +240,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-weight: bolder;
   }
 
   .about {
@@ -314,27 +313,28 @@ body {
   }
 
   .working-together-text {
-    margin-left: 0;
+    margin-left: 5%;
     margin-top: 10px;
-    width: 100%;
+    width: 47%;
   }
 
   .headshot_round {
-    width: 30%;
-    margin-left: 0;
+    width: 40%;
+    margin-left: 5%;
   }
 
   .working-together-text h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 10px;
   }
 
   .working-together-text p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
   }
 
   .working-together button {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -368,6 +368,67 @@ body {
     width: 55%;
     margin-bottom: -9%;
   }
+
+  .services {
+    width: 98%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .services  h2 {
+    font-size: 1.05em;
+  }
+
+  .bottomRow {
+    margin-top: 3%;
+}
+
+
+.services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
+    min-height: 150px;
+}
+
+.services-1 {
+    border-radius: 80px 0 0px 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+.services-6 {
+    border-radius: 0 0 80px 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+
+ 
+
+  .working-together {
+    width: 90%;
+
+  }
+
+  .working-together-text {
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .headshot_round {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .working-together-text h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .working-together-text p {
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .working-together button {
+    width: 80%;
+  }
+
 }
 
 @media (min-width: 826px) and (max-width: 962px) {
@@ -398,6 +459,66 @@ body {
   .headshot {
     width: 55%;
     margin-bottom: 0%;
+  }
+
+  .services {
+    width: 80%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .services  h2 {
+    font-size: 1.5em;
+  }
+
+  .bottomRow {
+    margin-top: 3%;
+}
+
+
+.services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
+    min-height: 200px;
+}
+
+.services-1 {
+    border-radius: 80px 0 0px 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+.services-6 {
+    border-radius: 0 0 80px 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+
+ 
+
+  .working-together {
+    width: 75%;
+
+  }
+
+  .working-together-text {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 45%;
+  }
+
+  .headshot_round {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .working-together-text h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .working-together-text p {
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .working-together button {
+    width: 80%;
   }
 }
 
@@ -430,5 +551,66 @@ body {
   .headshot {
     width: 55%;
   }
+
+  .services {
+    width: 80%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .services  h2 {
+    font-size: 1.5em;
+  }
+
+  .bottomRow {
+    margin-top: 3%;
+}
+
+
+.services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
+    min-height: 200px;
+}
+
+.services-1 {
+    border-radius: 80px 0 0px 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+.services-6 {
+    border-radius: 0 0 80px 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+
+ 
+
+  .working-together {
+    width: 75%;
+
+  }
+
+  .working-together-text {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 45%;
+  }
+
+  .headshot_round {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .working-together-text h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .working-together-text p {
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .working-together button {
+    width: 80%;
+  }
+  
 
 }
