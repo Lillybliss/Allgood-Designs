@@ -22,8 +22,8 @@ button {
 button:hover {
   background-color: #ffd6d6;
   cursor: pointer;
-  transform: scale(1.1); /* Increase the size of the icon on hover */
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  background: linear-gradient(to bottom, #ffd6d6, #df8e90);
 }
 
 h1 {

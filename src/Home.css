@@ -160,11 +160,11 @@ body {
   margin-bottom: 150px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: white;
   height: auto; /* Set the height of your div */
   background-color: #f4f4f4; /* Set the background color */
-  border: 20px solid rgba(244, 244, 244, 0.5); 
-}
+  outline: 20px solid rgba(255, 255, 255, 0.5);
+  }
+
 
 .working-together-text {
   display: block;

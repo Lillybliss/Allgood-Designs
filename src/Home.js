@@ -71,7 +71,9 @@ const Home = () => {
 
           <div className="services-3">
             <Button className="viewMore">
-              View More <FontAwesomeIcon icon={faArrowRightLong} />
+              <Link to="/resume" className="Link">
+                View More <FontAwesomeIcon icon={faArrowRightLong} />
+              </Link>
             </Button>
           </div>
         </div>
@@ -103,7 +105,11 @@ const Home = () => {
             discuss potential opportunities, please don't hesitate to contact me
             and Visit me on LinkedIn. 
           </p>
-          <Button>Contact Me</Button>
+          <Button>
+            <Link to="/contact" className="Link">
+              Contact Me
+            </Link>
+          </Button>
         </div>
       </div>
     </div>
