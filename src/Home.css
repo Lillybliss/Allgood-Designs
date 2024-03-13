@@ -198,71 +198,106 @@ body {
 @media (max-width: 767px) {
   .homeLogo {
     width: 50%;
-    margin-left: 3%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 10%;
   }
   
   .home-image {
     width: 100%;
     min-height: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 20%;
   }
 
   .tagline {
-    width: 80%;
+    width: 90%;
     font-weight: bolder;
-    margin-top: 50px;
-    margin-left: 3%;
+    margin-top: 10%;
+    margin-left: 5%;
     padding-top: 10px;
   }
   
   .home-content {
     margin-left: 0;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   
   .home-buttons {
-    flex-direction: column;
-    padding-top: 10px;
-    margin-left: 2%;
+    justify-content: center;
+    padding-top: 10%;
+    display: block;
+    margin-top: 0%;
   }
 
   .home-btn {
-    width: 97%;
+    width: 93%;
     height: 50px;
-    margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-text {
-    width: 100%;
     margin-bottom: 10px;
+    text-align: center;
+    width: 97%;
+  }
+
+  .about-text h1, .about-text p, .about-text h2 {
+    text-align: center; /* Add this property to center the h1 */
   }
 
   .white-box {
-    border-radius: 0;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border-radius: 100px 0 100px 0;
   }
 
   .headshot {
-    width: 70%;
+    width: 100%;
+    margin-bottom: -5%;
+    margin-top: -5%;
   }
 
   .services {
-    width: 100%;
-    margin-top: 100px;
+    width: 98%;
+    margin-top: 20%;
+    margin-bottom: 20%;
   }
 
-  .topRow, .bottomRow {
-    flex-direction: column;
-    margin-top: 30px;
+  .services  h2 {
+    font-size: 1.05em;
   }
 
-  .services-3, .services-1, .services-2, .services-4, .services-5, .services-6 {
-    width: 100%;
-    margin-bottom: 10px;
-  }
+  .bottomRow {
+    margin-top: 3%;
+}
+
+
+.services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
+    min-height: 150px;
+}
+
+.services-1 {
+    border-radius: 80px 0 0px 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+.services-6 {
+    border-radius: 0 0 80px 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+
+ 
 
   .working-together {
     width: 100%;
