@@ -60,20 +60,20 @@ body {
 .about-text {
     display: block;
     width: 30%;
-    margin-bottom: 20px; /* Add space below the entire 'about-text' div */
+    margin-bottom: 20px; 
   }
   
   .about-text h1 {
-    margin-bottom: 30px; /* Add space below the h1 element */
+    margin-bottom: 30px; 
     margin-top: 50px;
   }
   
   .about-text h2 {
-    margin-bottom: 20px; /* Add space below the h2 element */
+    margin-bottom: 20px; 
   }
   
   .about-text p {
-    margin-bottom: 20px; /* Add space below the p element */
+    margin-bottom: 20px; 
   }
 
 .white-box {
@@ -92,6 +92,8 @@ body {
 .headshot {
     width: 43%;
     height: auto;
+    position: sticky;
+    bottom: 0
 }
 
 .services {
@@ -195,6 +197,7 @@ body {
 
 }
 
+/* mobile styles */
 @media (max-width: 767px) {
   .homeLogo {
     width: 50%;
@@ -247,26 +250,32 @@ body {
   }
 
   .about-text {
-    margin-bottom: 10px;
-    text-align: center;
-    width: 97%;
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto;
   }
 
   .about-text h1, .about-text p, .about-text h2 {
-    text-align: center; /* Add this property to center the h1 */
+    text-align: justify; 
+  }
+
+  .about-text h1 {
+    text-align: center;
+    margin-bottom: 40px; 
+  }
+
+  .about-text h2 {
+    display: none;
   }
 
   .white-box {
     display: block;
-    padding: 20px;
     text-align: center;
     border-radius: 100px 0 100px 0;
   }
 
   .headshot {
     width: 100%;
-    margin-bottom: -5%;
-    margin-top: -5%;
   }
 
   .services {
@@ -300,11 +309,8 @@ body {
  
 
   .working-together {
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 90%;
+
   }
 
   .working-together-text {
@@ -314,7 +320,7 @@ body {
   }
 
   .headshot_round {
-    width: 50%;
+    width: 30%;
     margin-left: 0;
   }
 
@@ -330,4 +336,99 @@ body {
   .working-together button {
     width: 100%;
   }
+}
+
+/*awkward breakpoint in between */
+@media (min-width: 767px) and (max-width: 826px) {
+
+  .about-text {
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+  }
+
+  .about-text h2 {
+    display: none;
+  }
+
+  .about-text h1 {
+    margin-top: 5%;
+  }
+
+  .about-text p {
+    font-size: 0.8em;
+  }
+
+  .white-box {
+    border-radius: 120px 0 120px 0;
+    margin-top: -10%;
+  }
+
+  .headshot {
+    width: 55%;
+    margin-bottom: -9%;
+  }
+}
+
+@media (min-width: 826px) and (max-width: 962px) {
+
+  .about-text {
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+  }
+
+  .about-text h2 {
+    display: none;
+  }
+
+  .about-text h1 {
+    margin-top: 5%;
+  }
+
+  .about-text p {
+    font-size: 0.8em;
+  }
+
+  .white-box {
+    border-radius: 120px 0 120px 0;
+    margin-top: -10%;
+  }
+
+  .headshot {
+    width: 55%;
+    margin-bottom: 0%;
+  }
+}
+
+/* tablet styles */
+@media (min-width: 962px) and (max-width: 1300px) {
+
+  .about-text {
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  .about-text h2 {
+    display: none;
+  }
+
+  .about-text h1 {
+    margin-top: 15%;
+  }
+
+  .about-text p {
+    font-size: 1em;
+  }
+
+  .white-box {
+
+    border-radius: 120px 0 120px 0;
+  }
+
+  .headshot {
+    width: 55%;
+  }
+
 }
