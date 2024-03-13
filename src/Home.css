@@ -335,7 +335,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    width: 90%;
+    width: 95%;
   }
 
   .headshot_round {
@@ -368,7 +368,7 @@ body {
     width: 45%;
     margin-left: 8%;
     margin-top: 15%;
-    margin-bottom: 5%;
+    margin-bottom: -5%;
   }
   
   .home-image {
@@ -379,7 +379,7 @@ body {
 
   .tagline {
     width: 50%;
-    margin-top: 5%;
+    margin-top: 0;
     margin-left: 8%;
     padding-top: 10px;
   }
@@ -394,12 +394,13 @@ body {
     display: flex;
     flex-direction: row; 
     margin-top: 5%; 
-    margin-left: 8%;
+    margin-left: 7%;
   }
 
   .home-btn {
-    width: 180px;
+    width: 190px;
     margin-right: 15px;
+    height: 50px;
   }
 
 
@@ -443,6 +444,11 @@ body {
 
   .bottomRow {
     margin-top: 3%;
+}
+
+.viewMore {
+  height: 50px;
+
 }
 
 
@@ -489,6 +495,8 @@ body {
 
   .working-together button {
     width: 80%;
+    height: 50px;
+
   }
 
 }
@@ -620,10 +628,10 @@ body {
 
   .working-together button {
     width: 80%;
-  }
+    }
 }
 
-/* tablet styles */
+/* large tablet styles */
 @media (min-width: 962px) and (max-width: 1300px) {
   .homeLogo {
     width: 45%;
@@ -636,7 +644,7 @@ body {
   .home-image {
     width: 100%;
     min-height: 300px;
-    margin-bottom: 30%;
+    margin-bottom: 0;
   }
 
   .tagline {
@@ -661,7 +669,8 @@ body {
   }
 
   .home-btn {
-    width: 180px;
+    width: 200px;
+    height: 50px;
     margin-right: 15px;
   }
 
@@ -686,11 +695,11 @@ body {
 
   .white-box {
 
-    border-radius: 120px 0 120px 0;
+    border-radius: 150px 0 150px 0;
   }
 
   .headshot {
-    width: 55%;
+    width: 50%;
   }
 
   .services {
@@ -720,7 +729,9 @@ body {
     border-radius: 0 0 80px 0; /*top-left, top-right, bottom-right, bottom-left*/
 }
 
-
+.viewMore {
+  width: 200px;
+    height: 50px;}
  
 
   .working-together {
@@ -751,6 +762,7 @@ body {
 
   .working-together button {
     width: 80%;
+    height: 50px;
   }
   
 
