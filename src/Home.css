@@ -275,7 +275,10 @@ body {
 
   .headshot {
     width: 100%;
+    position: relative;
+    margin-top: -5%;
   }
+  
 
   .services {
     width: 98%;
@@ -284,24 +287,35 @@ body {
   }
 
   .services  h2 {
-    font-size: 1.05em;
+    font-size: 0.9em;
   }
 
   .bottomRow {
     margin-top: 3%;
 }
 
+.viewMore {
+  min-height: 140px;
+  border-radius: 0;
+  width: 31%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
 
 .services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
-    min-height: 150px;
+    min-height: 140px;
 }
 
 .services-1 {
-    border-radius: 80px 0 0px 0; /*top-left, top-right, bottom-right, bottom-left*/
+    border-radius: 60px 0 0px 0; /*top-left, top-right, bottom-right, bottom-left*/
 }
 
 .services-6 {
-    border-radius: 0 0 80px 0; /*top-left, top-right, bottom-right, bottom-left*/
+    border-radius: 0 0 60px 0; /*top-left, top-right, bottom-right, bottom-left*/
 }
 
 
@@ -309,32 +323,41 @@ body {
 
   .working-together {
     width: 90%;
-
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 10px solid rgba(255, 255, 255, 0.5);
   }
 
   .working-together-text {
-    margin-left: 5%;
-    margin-top: 10px;
-    width: 47%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 90%;
   }
 
   .headshot_round {
-    width: 40%;
-    margin-left: 5%;
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .working-together-text h2 {
     margin-bottom: 20px;
     margin-top: 10px;
-  }
+    }
 
   .working-together-text p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 1em;
   }
 
   .working-together button {
-    width: 80%;
+    width: 100%;
   }
 }
 

@@ -45,14 +45,16 @@ const Home = () => {
               crafting exceptional user experiences and leveraging my creativity
               to enhance the digital world. Currently pursuing a BA in Digital
               Media at UCF, I have immersed myself in various coding languages
-              and design software. </p> <p>
-              Throughout my academic journey, I've earned a
-              place on the Honor's List, Dean's List, and President's Honor
-              Roll, maintaining a stellar 4.0 GPA. Outside of academia, I enjoy
-              painting and showcasing my art in local galleries and markets. I
-              believe in the power of art as a form of self-expression, and I'm
-              committed to using my diverse skills to make a meaningful impact
-              in today's digital landscape.
+              and design software.{" "}
+            </p>{" "}
+            <p>
+              Throughout my academic journey, I've earned a place on the Honor's
+              List, Dean's List, and President's Honor Roll, maintaining a
+              stellar 4.0 GPA. Outside of academia, I enjoy painting and
+              showcasing my art in local galleries and markets. I believe in the
+              power of art as a form of self-expression, and I'm committed to
+              using my diverse skills to make a meaningful impact in today's
+              digital landscape.
             </p>
           </div>
 
