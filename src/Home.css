@@ -194,3 +194,105 @@ body {
   width: 200px;
 
 }
+
+@media (max-width: 767px) {
+  .homeLogo {
+    width: 50%;
+    margin-left: 3%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .home-image {
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .tagline {
+    width: 80%;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 3%;
+    padding-top: 10px;
+  }
+  
+  .home-content {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 2%;
+  }
+
+  .home-btn {
+    width: 97%;
+    height: 50px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .about-text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .white-box {
+    border-radius: 0;
+  }
+
+  .headshot {
+    width: 70%;
+  }
+
+  .services {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .topRow, .bottomRow {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .services-3, .services-1, .services-2, .services-4, .services-5, .services-6 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .working-together {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .working-together-text {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .headshot_round {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .working-together-text h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .working-together-text p {
+    margin-bottom: 10px;
+  }
+
+  .working-together button {
+    width: 100%;
+  }
+}

@@ -102,8 +102,8 @@ const Home = () => {
           <h2>Curious about working together?</h2>
           <p>
             If you're interested in learning more about my work or would like to
-            discuss potential opportunities, please don't hesitate to contact me
-            and Visit me on LinkedIn. 
+            discuss potential opportunities, please don't hesitate to contact
+            me. 
           </p>
           <Button>
             <Link to="/contact" className="Link">
