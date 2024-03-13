@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import logo from "./Assets/lightblue.svg";
 import headshot from "./Assets/headshot_circle.png";
+import roundHeadshot from "./Assets/rounded_headshot.png";
 import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
@@ -90,14 +91,20 @@ const Home = () => {
       </div>
 
       <div className="working-together">
-        <image src="https://www.linkedin.com/in/lilly-allgood-0a3b3b1b3/"></image>
-        <h2>Curious about working together?</h2>
-        <p>
-          If you're interested in learning more about my work or would like to
-          discuss potential opportunities, please don't hesitate to contact me
-          and Visit me on LinkedIn. 
-        </p>
-        <Button>Contact Me</Button>
+        <img
+          src={roundHeadshot}
+          alt="Headshot"
+          className="headshot_round"
+        ></img>
+        <div className="working-together-text">
+          <h2>Curious about working together?</h2>
+          <p>
+            If you're interested in learning more about my work or would like to
+            discuss potential opportunities, please don't hesitate to contact me
+            and Visit me on LinkedIn. 
+          </p>
+          <Button>Contact Me</Button>
+        </div>
       </div>
     </div>
   );
