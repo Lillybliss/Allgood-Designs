@@ -300,6 +300,8 @@ body {
       .about-text p {
         font-size: 0.8em;
         margin-bottom: 10px; 
+        text-align: justify; 
+
       }
     
 
@@ -311,10 +313,6 @@ body {
     
       
     
-      .about-text h1, .about-text p, .about-text h2 {
-        text-align: justify; 
-      }
-    
     
       .white-box {
         display: flex;
@@ -323,20 +321,20 @@ body {
       }
     
       .headshot {
-        width: 53%;
+        width: 52%;
         height: auto;
         position: relative;
         margin-top: 0;
       }
 
-
-
-
     
       .services {
-        width: 98%;
         margin-top: 20%;
         margin-bottom: 20%;
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
       }
     
       .services  h2 {
@@ -346,12 +344,13 @@ body {
       .bottomRow {
         margin-top: 3%;
     }
-    
+      
     .viewMore {
-      height: 50px;
-    
-    }
-    
+        height: 40px;
+        border-radius: 30px;
+        width: 31%;
+        min-height: 40px;
+      }
     
     .services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
         min-height: 150px;
@@ -366,39 +365,46 @@ body {
     }
     
     
-     
-    
       .working-together {
-        width: 90%;
-    
+        width: 85%;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 20px;
       }
     
       .working-together-text {
-        margin-left: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 10px;
         width: 50%;
+        text-align: left;
+
       }
     
       .headshot_round {
-        width: 40%;
-        margin-left: 5%;
+        width: 35%;
+        height: auto;
       }
     
       .working-together-text h2 {
+        text-align: left;
         margin-bottom: 20px;
         margin-top: 10px;
+        font-size: 1.5em;
       }
     
       .working-together-text p {
+        text-align: left;
         margin-bottom: 20px;
-        font-size: 1em;
+        font-size: 0.9em;
       }
     
       .working-together button {
-        width: 80%;
-        height: 50px;
-    
-      }
+        width: 70%;
+        height: 40px;
+    }
     
 
   }
