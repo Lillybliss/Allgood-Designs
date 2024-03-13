@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 import logo from "./Assets/lightblue.svg";
 import headshot from "./Assets/headshot_circle.png";
 import roundHeadshot from "./Assets/rounded_headshot.png";
-import "./Home.css";
+import "./Styles/Home1.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
