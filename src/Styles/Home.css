@@ -313,6 +313,8 @@ body {
     
       .white-box {
         display: flex;
+        flex-direction: row;
+        align-items: center;
         border-radius: 120px 0 120px 0;
         background-color: white;
       }
@@ -440,9 +442,36 @@ body {
     
     .headshot {
         width: 40%;
+        margin-left: 5%;;
+      }
 
+      .white-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center; 
+      }
+
+      .about-text {
+        max-width: 400px;
+        width: 50%; 
+        margin-right: 5%; 
+        text-align: center; 
+        margin-bottom: 5%; 
       }
   
+
+      .services {
+        max-width: 800px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+      }
+
+      .working-together {
+        max-width: 800px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+      }
 
   }
   
