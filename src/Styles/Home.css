@@ -1,9 +1,4 @@
 /* Extra small styles up to 577px */
-.about {
-    background-color: #527687;
-
-}
-
 
 body {   
     background-image: url('../Assets/home_clouds.png');
@@ -385,6 +380,8 @@ body {
       .headshot_round {
         width: 35%;
         height: auto;
+        margin-bottom: 20px;
+
       }
     
       .working-together-text h2 {
@@ -442,6 +439,7 @@ body {
     
     .headshot {
         width: 40%;
+        max-width: 900px;
         margin-left: 5%;;
       }
 
@@ -462,13 +460,13 @@ body {
   
 
       .services {
-        max-width: 800px;
+        max-width: 750px;
         margin-top: 10%;
         margin-bottom: 10%;
       }
 
       .working-together {
-        max-width: 800px;
+        max-width: 750px;
         margin-top: 10%;
         margin-bottom: 10%;
       }
