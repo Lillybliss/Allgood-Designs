@@ -286,11 +286,11 @@ body {
       .about-text h1 {
         text-align: left;
         margin-bottom: 5%; 
-        font-size: 1.5em;
+        font-size: 1.3em;
       }
     
       .about-text p {
-        font-size: 0.8em;
+        font-size: 0.75em;
         margin-bottom: 10px; 
         text-align: justify; 
 
@@ -312,7 +312,6 @@ body {
         flex-direction: row;
         align-items: center;
         max-width: 750px;
-
       }
     
       .headshot {
@@ -320,6 +319,7 @@ body {
         height: auto;
         position: relative;
         margin-top: 0;
+        
       }
 
     
@@ -409,6 +409,21 @@ body {
 
   /* Web Breakpoint */
   @media (min-width: 993px) {
+
+    .about-text h2 {
+      margin-bottom: 20px; 
+      display: none;
+      font-size: 1.3em;
+    }
+  
+    .about-text h1 {
+      font-size: 2em;
+    }
+  
+    .about-text p {
+      font-size: 1em;
+
+    }
       
       .home-image {
         max-height: 500px;
@@ -439,9 +454,10 @@ body {
     }
     
     .headshot {
-        width: 40%;
+        width: 60%;
         max-width: 900px;
-        margin-left: 5%;;
+        margin-left: 5%;
+        margin-right: -7%;
       }
 
       .about-content {
@@ -449,7 +465,8 @@ body {
         flex-direction: row;
         justify-content: center; 
         align-items: center; 
-        max-width: 950px;
+        max-width: 900px;
+
       }
 
       .about-text {
@@ -467,10 +484,30 @@ body {
         margin-bottom: 10%;
       }
 
+      .services h2 {
+        font-size: 1.3em;
+      }
+
+      .services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
+        min-height: 200px;
+    }
+
       .working-together {
         max-width: 750px;
         margin-top: 10%;
         margin-bottom: 10%;
+      }
+
+      .working-together h2 {
+        font-size: 2em;
+      }
+
+      .working-together p {
+        font-size: 1em;
+      }
+
+      .working-together-text {
+        width: 50%;
       }
 
   }
