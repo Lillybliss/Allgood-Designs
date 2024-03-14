@@ -1,5 +1,6 @@
 import React from "react";
 import "./Styles/Portfolio.css";
+import PortPieces from "./Components/PortPieces";
 
 const Portfolio = () => {
   return (
@@ -15,6 +16,8 @@ const Portfolio = () => {
         <button className="category-btn">Digital Marketing</button>
         <button className="category-btn">Art</button>
       </div>
+
+      <PortPieces />
     </div>
   );
 };

@@ -2,10 +2,10 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    background-image: url('../Assets/clouds.gif');
-    /*background-image: url('../Assets/blue-water2.gif');/*
-
-    background-size: cover; /* Adjust background size as needed */
+    background-image: url('../Assets/clouds2.gif');
+    /*background-image: url('../Assets/clouds.gif');*/
+    /*background-image: url('../Assets/blue-water2.gif');*/
+    background-size: cover; 
     background-position: center; /* Adjust background position as needed */
     height: 150px; /* Adjust header height as needed */
     /* Add additional styles for the header */
