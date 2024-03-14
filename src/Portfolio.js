@@ -1,10 +1,11 @@
 import React from "react";
 import "./Styles/Portfolio.css";
-import PortPieces from "./Components/PortPieces";
+import { Link } from "react-router-dom";
+import portfolioData from "./Data/portfolioData";
 
 const Portfolio = () => {
   return (
-    <div style={{ backgroundColor: "#ffffff" }}>
+    <div>
       <div className="header-container">
         <h1 className="header-title">Portfolio</h1>
       </div>
@@ -17,7 +18,24 @@ const Portfolio = () => {
         <button className="category-btn">Art</button>
       </div>
 
-      <PortPieces />
+      {/* This is the Portfolio Pieces section */}
+      <div className="portfolio">
+        {portfolioData.map((piece) => (
+          <div key={piece.id} className="portfolio-piece">
+            <Link to={piece.route} className="portfolio-link">
+              <div className="portfolio-content">
+                <div className="portfolio-image">
+                  <img src={piece.imageUrl} alt={piece.title} />
+                </div>
+                <div className="portfolio-info">
+                  <h2>{piece.title}</h2>
+                  <p>{piece.subtitle}</p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

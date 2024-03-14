@@ -2,15 +2,67 @@
     {
       "id": 1,
       "imageUrl": "image1.jpg",
-      "title": "Portfolio Piece 1",
-      "subtitle": "Subtitle for Piece 1",
-      "route": "/portfolio/piece1"
+      "title": "This Suite Spot Project",
+      "subtitle": "Branding, Web Design, and Responsive Development",
+      "route": "/portfolio/The-Suite-Spot-Project"
     },
     {
       "id": 2,
       "imageUrl": "image2.jpg",
-      "title": "Portfolio Piece 2",
-      "subtitle": "Subtitle for Piece 2",
-      "route": "/portfolio/piece2"
-    }
+      "title": "Allgood Designs",
+      "subtitle": "Branding, Web Design, and Responsive Development",
+      "route": "/portfolio/Allgood-Designs"
+    },
+    {
+        "id": 3,
+        "imageUrl": "image2.jpg",
+        "title": "MerchMate Project",
+        "subtitle": "Mobile App Prototype",
+        "route": "/portfolio/MerchMate"
+      }
+      ,
+    {
+        "id": 4,
+        "imageUrl": "image2.jpg",
+        "title": "Revolution Lash Studio",
+        "subtitle": "Rebrand Marketing Collateral",
+        "route": "/portfolio/Revolution-Lash-Studio"
+      }
+      ,
+    {
+        "id": 5,
+        "imageUrl": "image2.jpg",
+        "title": "L.A.",
+        "subtitle": "Logo Design",
+        "route": "/portfolio/LA-logo"
+      }
+      ,
+    {
+        "id": 6,
+        "imageUrl": "image6.jpg",
+        "title": "Image Retouching",
+        "subtitle": "Adobe Photoshop",
+        "route": "/portfolio/image-retouching"
+      } ,
+      {
+          "id": 7,
+          "imageUrl": "image6.jpg",
+          "title": "Fungi Skull",
+          "subtitle": "Acrylic on Canvas",
+          "route": "/portfolio/Fungi-Skull"
+    } ,
+        {
+            "id": 8,
+            "imageUrl": "image6.jpg",
+            "title": "Bubble Dragon",
+            "subtitle": "Acrylic on Canvas",
+            "route": "/portfolio/Bubble-Dragon"
+    } ,
+    {
+        "id": 9,
+        "imageUrl": "image6.jpg",
+        "title": "Floral Moth",
+        "subtitle": "Ink on Paper",
+        "route": "/portfolio/Floral-Moth-Ink"
+      }
   ]
