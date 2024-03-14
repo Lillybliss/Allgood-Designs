@@ -1,0 +1,17 @@
+.header-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-image: url('../Assets/blue-water.gif');
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Adjust background position as needed */
+  height: 200px; /* Adjust header height as needed */
+  /* Add additional styles for the header */
+}
+
+.header-title {
+  color: white;
+  font-size: 2.5em;
+  margin-left: 20px;
+  font-weight: bold;
+}

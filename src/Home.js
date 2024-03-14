@@ -10,7 +10,7 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-background">
       <div className="home-image">
         <img src={logo} alt="Lilly Allgood Logo" className="homeLogo" />
         <div className="home-content">
@@ -95,24 +95,26 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="working-together">
-        <img
-          src={roundHeadshot}
-          alt="Headshot"
-          className="headshot_round"
-        ></img>
-        <div className="working-together-text">
-          <h2>Curious about working together?</h2>
-          <p>
-            If you're interested in learning more about my work or would like to
-            discuss potential opportunities, please don't hesitate to contact
-            me. 
-          </p>
-          <Button>
-            <Link to="/contact" className="Link">
-              Contact Me
-            </Link>
-          </Button>
+      <div className="bottom">
+        <div className="working-together">
+          <img
+            src={roundHeadshot}
+            alt="Headshot"
+            className="headshot_round"
+          ></img>
+          <div className="working-together-text">
+            <h2>Curious about working together?</h2>
+            <p>
+              If you're interested in learning more about my work or would like
+              to discuss potential opportunities, please don't hesitate
+              to contact me. 
+            </p>
+            <Button>
+              <Link to="/contact" className="Link">
+                Contact Me
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
     </div>

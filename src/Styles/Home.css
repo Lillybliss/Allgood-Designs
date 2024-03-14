@@ -15,7 +15,7 @@
 }
 
 
-body {   
+.home-background {   
     background-image: url('../Assets/home_clouds.png');
     /* Set background size to cover the entire screen */
     background-size: cover;
@@ -24,8 +24,8 @@ body {
     /* Repeat the background image only horizontally and vertically */
     background-repeat: no-repeat;
     /* Set a fixed background attachment */
-    background-attachment: fixed;
-}
+    background-attachment: fixed;  
+  }
 
 
 .homeLogo {
@@ -182,6 +182,10 @@ body {
     border-radius: 0 0 60px 0; /*top-left, top-right, bottom-right, bottom-left*/
 }
 
+.bottom {
+    padding-top: 0;
+    padding-bottom: 15%;
+}
 
 
   .working-together {
@@ -192,8 +196,7 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 0;
     outline: 10px solid rgba(255, 255, 255, 0.5);
     background-color: #f4f4f4; /* Set the background color */
   }
@@ -506,6 +509,10 @@ body {
       .services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
         min-height: 200px;
     }
+
+    .bottom {
+      padding-bottom: 3%;
+  }
 
       .working-together {
         max-width: 750px;
