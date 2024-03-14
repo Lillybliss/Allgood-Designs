@@ -57,10 +57,13 @@ body {
     margin-right: auto;
   }
 
-  .about {
+  .round-div {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 100px 0 100px 0;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   }
 
   .about-text {
@@ -83,12 +86,10 @@ body {
     display: none;
   }
 
-  .white-box {
+  .about-content {
     display: block;
     text-align: center;
-    border-radius: 100px 0 100px 0;
-    background-color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    
   }
 
   .headshot {
@@ -297,21 +298,20 @@ body {
       }
     
 
-      .about {
+      .round-div {
         display: flex;
         align-items: center;
         justify-content: center;
+        border-radius: 120px 0 120px 0;
       }
     
       
     
     
-      .white-box {
+      .about-content {
         display: flex;
         flex-direction: row;
         align-items: center;
-        border-radius: 120px 0 120px 0;
-        background-color: white;
       }
     
       .headshot {
@@ -443,7 +443,7 @@ body {
         margin-left: 5%;;
       }
 
-      .white-box {
+      .about-content {
         display: flex;
         flex-direction: row;
         justify-content: center; 

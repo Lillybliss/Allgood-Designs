@@ -34,8 +34,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="about">
-        <div className="white-box">
+      <div className="round-div">
+        <div className="about-content">
           <div className="about-text">
             <h1>About Me</h1>
             <h2>Hello and welcome to my online portfolio!</h2>
