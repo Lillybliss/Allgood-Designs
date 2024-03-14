@@ -1,4 +1,19 @@
 /* Extra small styles up to 577px */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-image {
+  animation: slideIn 1.7s ease-out; /* Adjust animation duration and timing function as needed */
+}
+
 
 body {   
     background-image: url('../Assets/home_clouds.png');
