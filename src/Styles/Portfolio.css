@@ -2,8 +2,8 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    background-image: url('../Assets/blue-water2.gif');
-    /*background-image: url('../Assets/pink-water.gif');*/
+    background-image: url('../Assets/clouds.gif');
+    /*background-image: url('../Assets/blue-water2.gif');/*
 
     background-size: cover; /* Adjust background size as needed */
     background-position: center; /* Adjust background position as needed */
@@ -19,4 +19,10 @@
     margin-right: auto;
     font-weight: bold;
     text-align: center;
+}
+
+.category-bts {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
