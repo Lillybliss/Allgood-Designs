@@ -43,6 +43,7 @@
 
   .tagline {
     color: white;
+    text-shadow: 2px 4px 5px #324b56;
     width: 90%;
     font-weight: bolder;
     margin-top: 10%;

@@ -4,8 +4,7 @@ body {
 
 .gradient-body {
   background-image: linear-gradient(white, #527687);
-  padding-bottom: 20px;
-}
+  padding-bottom: 100px;}
 
 .Link {
   text-decoration: none;
