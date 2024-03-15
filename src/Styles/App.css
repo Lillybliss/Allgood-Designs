@@ -2,8 +2,8 @@ body {
   background-color: #527687;
 }
 
-.white-body {
-  background-color: white;
+.gradient-body {
+  background-image: linear-gradient(white, #527687);
   padding-bottom: 20px;
 }
 
