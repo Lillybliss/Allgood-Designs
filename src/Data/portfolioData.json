@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "imageUrl": "image1.jpg",
-      "title": "This Suite Spot Project",
+      "imageUrl": "TSS_hifi_mockup.png",
+      "title": "The Suite Spot Project",
       "subtitle": "Branding, Web Design, and Responsive Development",
       "route": "/portfolio/The-Suite-Spot-Project",
       "categories": ["projects", "web"],
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "imageUrl": "image2.jpg",
+      "imageUrl": "Allgood_Designs_Mockup_transparent.png",
       "title": "Allgood Designs",
       "subtitle": "Branding, Web Design, and Responsive Development",
       "route": "/portfolio/Allgood-Designs",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "imageUrl": "image2.jpg",
+        "imageUrl": "merchmate_inhand_mockup.png",
         "title": "MerchMate Project",
         "subtitle": "Mobile App Prototype",
         "route": "/portfolio/MerchMate",
@@ -29,7 +29,7 @@
       ,
     {
         "id": 4,
-        "imageUrl": "image2.jpg",
+        "imageUrl": "revolution-trifold_grey.png",
         "title": "Revolution Lash Studio",
         "subtitle": "Rebrand Marketing Collateral",
         "route": "/portfolio/Revolution-Lash-Studio",
@@ -39,7 +39,7 @@
       ,
     {
         "id": 5,
-        "imageUrl": "image2.jpg",
+        "imageUrl": "logo_LA_transparent.png",
         "title": "L.A.",
         "subtitle": "Logo Design",
         "route": "/portfolio/LA-logo",
@@ -49,7 +49,7 @@
       ,
     {
         "id": 6,
-        "imageUrl": "image6.jpg",
+        "imageUrl": "colorization_coverphoto.png",
         "title": "Image Retouching",
         "subtitle": "Adobe Photoshop",
         "route": "/portfolio/image-retouching",
@@ -58,7 +58,7 @@
       } ,
       {
           "id": 7,
-          "imageUrl": "image6.jpg",
+          "imageUrl": "lilly-allgood-fungi-skull-sm.jpeg",
           "title": "Fungi Skull",
           "subtitle": "Acrylic on Canvas",
           "route": "/portfolio/Fungi-Skull",
@@ -67,7 +67,7 @@
     } ,
         {
             "id": 8,
-            "imageUrl": "image6.jpg",
+            "imageUrl": "bubble_dragon.jpeg",
             "title": "Bubble Dragon",
             "subtitle": "Acrylic on Canvas",
             "route": "/portfolio/Bubble-Dragon",
@@ -76,7 +76,7 @@
     } ,
     {
         "id": 9,
-        "imageUrl": "image6.jpg",
+        "imageUrl": "floral_moth.jpeg",
         "title": "Floral Moth",
         "subtitle": "Ink on Paper",
         "route": "/portfolio/Floral-Moth-Ink",

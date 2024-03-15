@@ -59,12 +59,22 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    height: 150px;
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack content vertically */
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally*/
 
+  }
+
+  .portfolio-image {
+    flex: 0 0 auto; /* Let the image grow or shrink as needed */
+  }
+
+  .portfolio-image img {
+    width: 100%; /* Take up the width of the container */
+    height: auto; /* Automatically adjust height while maintaining aspect ratio */
+    max-width: 100%; /* Ensure image stays within the container */
+    border-radius: 8px; /* Optionally add border radius */
   }
   
   .portfolio-info {

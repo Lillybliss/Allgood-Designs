@@ -25,7 +25,12 @@ const Portfolio = () => {
             <Link to={piece.route} className="portfolio-link">
               <div className="portfolio-content">
                 <div className="portfolio-image">
-                  <img src={piece.imageUrl} alt={piece.title} />
+                  <img
+                    src={require("./Assets/Portfolio/CoverPhotos/" +
+                      piece.imageUrl)}
+                    alt={piece.title}
+                    className="portfolio-img"
+                  />
                 </div>
                 <div className="portfolio-info">
                   <h2>{piece.title}</h2>
