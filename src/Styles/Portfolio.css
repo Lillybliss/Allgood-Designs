@@ -37,8 +37,7 @@
   }
   
   .portfolio-piece {
-    width: calc((90% / 3) - 20px); /* 3 pieces per row within 90% of the page width */
-}
+    width: calc((90% / 3) - 20px); /* 3 pieces per row within 90% of the page width */}
   
   .portfolio-link {
     text-decoration: none;
@@ -50,11 +49,24 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    height: 150px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally*/
   }
   
   .portfolio-info {
     margin-top: 10px;
   }
+
+  .portfolio-info h2, .portfolio-info p {
+    text-align: center; 
+}
+
+  .portfolio-info h2 {
+    margin-bottom: 10px; 
+}
   
   .portfolio-image img {
     width: 100%;
