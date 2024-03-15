@@ -35,6 +35,9 @@ const Portfolio = () => {
             </Link>
           </div>
         ))}
+        <a href="#top" className="back-to-top">
+          {" "}
+        </a>
       </div>
     </div>
   );

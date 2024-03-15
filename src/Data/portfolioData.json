@@ -4,21 +4,27 @@
       "imageUrl": "image1.jpg",
       "title": "This Suite Spot Project",
       "subtitle": "Branding, Web Design, and Responsive Development",
-      "route": "/portfolio/The-Suite-Spot-Project"
+      "route": "/portfolio/The-Suite-Spot-Project",
+      "categories": ["projects", "web"],
+      "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
       "id": 2,
       "imageUrl": "image2.jpg",
       "title": "Allgood Designs",
       "subtitle": "Branding, Web Design, and Responsive Development",
-      "route": "/portfolio/Allgood-Designs"
+      "route": "/portfolio/Allgood-Designs",
+      "categories": ["projects", "web"],
+      "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
         "id": 3,
         "imageUrl": "image2.jpg",
         "title": "MerchMate Project",
         "subtitle": "Mobile App Prototype",
-        "route": "/portfolio/MerchMate"
+        "route": "/portfolio/MerchMate",
+        "categories": ["projects", "web"],
+      "tags": ["Branding", "WireFrame & Prototyping"]
       }
       ,
     {
@@ -26,7 +32,9 @@
         "imageUrl": "image2.jpg",
         "title": "Revolution Lash Studio",
         "subtitle": "Rebrand Marketing Collateral",
-        "route": "/portfolio/Revolution-Lash-Studio"
+        "route": "/portfolio/Revolution-Lash-Studio",
+        "categories": ["projects", "graphic design", "digital marketing"],
+      "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
       }
       ,
     {
@@ -34,7 +42,9 @@
         "imageUrl": "image2.jpg",
         "title": "L.A.",
         "subtitle": "Logo Design",
-        "route": "/portfolio/LA-logo"
+        "route": "/portfolio/LA-logo",
+        "categories": [ "graphic design"],
+      "tags": ["Graphic Design"]
       }
       ,
     {
@@ -42,27 +52,35 @@
         "imageUrl": "image6.jpg",
         "title": "Image Retouching",
         "subtitle": "Adobe Photoshop",
-        "route": "/portfolio/image-retouching"
+        "route": "/portfolio/image-retouching",
+        "categories": ["graphic design"],
+      "tags": ["Graphic Design"]
       } ,
       {
           "id": 7,
           "imageUrl": "image6.jpg",
           "title": "Fungi Skull",
           "subtitle": "Acrylic on Canvas",
-          "route": "/portfolio/Fungi-Skull"
+          "route": "/portfolio/Fungi-Skull",
+          "categories": ["art"],
+          "tags": ["Art"]
     } ,
         {
             "id": 8,
             "imageUrl": "image6.jpg",
             "title": "Bubble Dragon",
             "subtitle": "Acrylic on Canvas",
-            "route": "/portfolio/Bubble-Dragon"
+            "route": "/portfolio/Bubble-Dragon",
+            "categories": ["art"],
+          "tags": ["Art"]
     } ,
     {
         "id": 9,
         "imageUrl": "image6.jpg",
         "title": "Floral Moth",
         "subtitle": "Ink on Paper",
-        "route": "/portfolio/Floral-Moth-Ink"
+        "route": "/portfolio/Floral-Moth-Ink",
+        "categories": ["art"],
+          "tags": ["Art"]
       }
   ]
