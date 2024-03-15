@@ -58,7 +58,7 @@
       } ,
       {
           "id": 7,
-          "imageUrl": "lilly-allgood-fungi-skull-sm.jpeg",
+          "imageUrl": "lilly-allgood-fungi-skull-sm.png",
           "title": "Fungi Skull",
           "subtitle": "Acrylic on Canvas",
           "route": "/portfolio/Fungi-Skull",
@@ -67,7 +67,7 @@
     } ,
         {
             "id": 8,
-            "imageUrl": "bubble_dragon.jpeg",
+            "imageUrl": "bubble_dragon.png",
             "title": "Bubble Dragon",
             "subtitle": "Acrylic on Canvas",
             "route": "/portfolio/Bubble-Dragon",
@@ -76,7 +76,7 @@
     } ,
     {
         "id": 9,
-        "imageUrl": "floral_moth.jpeg",
+        "imageUrl": "floral_moth.png",
         "title": "Floral Moth",
         "subtitle": "Ink on Paper",
         "route": "/portfolio/Floral-Moth-Ink",
