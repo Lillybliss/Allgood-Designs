@@ -5,7 +5,7 @@ import portfolioData from "./Data/portfolioData";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="white-body">
       <div className="header-container">
         <h1 className="header-title">Portfolio</h1>
       </div>

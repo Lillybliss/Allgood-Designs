@@ -2,6 +2,11 @@ body {
   background-color: #527687;
 }
 
+.white-body {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
 .Link {
   text-decoration: none;
   color: black;
