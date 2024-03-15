@@ -1,21 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Styles/Portfolio.css";
 import { Link } from "react-router-dom";
 import portfolioData from "./Data/portfolioData";
 
 const Portfolio = () => {
+  const [activeCategory, setActiveCategory] = useState("All"); // State to track active category
+
+  const handleCategoryClick = (category) => {
+    setActiveCategory(category);
+    // Logic to filter content based on category
+    // You can use this filtered content to render portfolio pieces accordingly
+    // For now, let's just log the selected category
+    console.log("Selected category:", category);
+  };
+
   return (
     <div className="gradient-body">
       <div className="header-container">
         <h1 className="header-title">Portfolio</h1>
       </div>
       <div className="category-bts">
-        <button className="category-btn">All</button>
-        <button className="category-btn">Projects</button>
-        <button className="category-btn">Web</button>
-        <button className="category-btn">Graphic Design</button>
-        <button className="category-btn">Digital Marketing</button>
-        <button className="category-btn">Art</button>
+        {[
+          "All",
+          "Projects",
+          "Web",
+          "Graphic Design",
+          "Digital Marketing",
+          "Art",
+        ].map((category) => (
+          <button
+            key={category}
+            className={`category-btn${
+              category === activeCategory ? ":active" : ""
+            }`}
+            onClick={() => handleCategoryClick(category)}
+          >
+            {category}
+          </button>
+        ))}
       </div>
 
       {/* This is the Portfolio Pieces section */}

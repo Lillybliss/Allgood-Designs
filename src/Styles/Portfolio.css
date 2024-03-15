@@ -38,6 +38,15 @@
     margin: auto 5px;
 }
 
+.category-btn:active {
+  background: #F6BBBC;
+  font-size: 0.75em;
+  cursor: pointer;
+  width: max-content;
+  min-width: 80px; 
+  margin: auto 5px;
+}
+
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -141,8 +150,26 @@
     @media (min-width: 768px) and (max-width: 1024px) { 
 
         .category-btn {
-        min-width: 65px; 
+        min-width: 65px;
+        white-space: nowrap; /* Ensure the text stays on one line */
+        width: min-content;
+
         }
+
+        .category-btn:active {
+          min-width: 65px;    
+        }
+
+        .category-bts {
+          display: flex;
+          justify-content: right;
+          margin-right: 10%;
+          margin-left: 10%;
+          margin-top: 35px;
+          width: 80%;
+          background-color: red;
+      }
+
 
       .portfolio-piece {
         width: calc((90% / 2) - 20px); /* Display two pieces per row on tablet */
