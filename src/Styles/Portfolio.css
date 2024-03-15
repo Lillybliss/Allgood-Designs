@@ -59,13 +59,18 @@
   .portfolio-content {
     background-color: white;
     padding: 5px;
-    box-shadow: 2px 3px 7px #324b56;
+    box-shadow: 0px 2px 7px #324b56;
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack content vertically */
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally*/
 
   }
+
+  .portfolio-content:hover {
+    transform: translateY(-4px);    
+    box-shadow: 0 5px 7px #324b56;
+}
 
   .portfolio-image {
     flex: 0 0 auto; /* Let the image grow or shrink as needed */
