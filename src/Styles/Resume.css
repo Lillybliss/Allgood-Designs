@@ -137,3 +137,72 @@ p {
 
 
 
+/* For tablets */
+@media (min-width: 708px) {
+    .skills ul{
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+
+    .column-container {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+        margin-right: 0;
+    }
+
+    .pers-info-container, .resume-header {
+        max-width: 500px;
+    }
+
+    .horizontal-rows {
+        margin-left: 10px;
+        max-width: 800px;
+    }
+
+    .transparent-header {
+        width: 38.5%;
+        margin-top: -78px;
+        max-width: fit-content;
+        padding-right: 10px;
+    }
+
+    .white-header {
+        font-size: 0.9em;
+        margin-left: 25px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resume-btn {
+        margin-right:10px;
+        margin-left: 18px;
+        width: 100px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  
+  /* For laptops */
+  @media (min-width: 1108px) {
+    .pers-info-container, .resume-header {
+        min-width: 500px;
+        max-width: 500px;
+    }
+
+    .transparent-header {
+        background-color: red;
+        min-width: 490px;
+        max-width: 490px;
+    }
+
+
+  }
+

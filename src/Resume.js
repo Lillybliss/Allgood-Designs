@@ -8,7 +8,7 @@ import briefcase from "./Assets/icons/icons8-work-100 (1).png";
 
 const Resume = () => {
   return (
-    <div>
+    <div className="column-container">
       <div className="pers-info-container">
         <div className="resume-header">
           <img
@@ -99,160 +99,165 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="prof-summary">
-        <h2 className="underline">Professional Summary</h2>
-        <p>
-          Digital Media student with a strong passion for user-centric design
-          and creative problem-solving. Skilled in designing and developing
-          responsive user interfaces, combining aesthetics and functionality
-          seamlessly. Proficient in various design tools and techniques, adept
-          at creating impactful solutions in today's digital landscape.
-          Passionate contributor to local galleries and markets, showcasing
-          artistic talents and fostering self-expression through art. 
-        </p>
-      </div>
-
-      <div className="Experience">
-        <h2 className="underline">Experience</h2>
-        {/* 1st row */}
-        <div className="resumeRow">
-          <div className="left-column">
-            <img src={briefcase} alt="Briefcase" className="briefcase-icon" />
-            <div className="vertical-line"></div>
-          </div>
-          <div className="right-column">
-            <p>
-              <strong>BLACK DOG DESIGNS</strong>
-            </p>
-            <p>Design Intern</p>
-            <p>January 2024 - April 2024</p>
-            <ul>
-              <li>
-                Designed engaging layouts for effective email marketing
-                campaigns, enhancing customer outreach.
-              </li>
-              <li>
-                Utilized marketing analytics tools to gather insights and
-                improve campaign performance.
-              </li>
-              <li>
-                Produced digital assets for social media platforms, maintaining
-                brand coherence across various channels.
-              </li>
-              <li>
-                Worked closely with cross-functional teams to understand
-                marketing goals and translated them into visually appealing
-                design solutions.
-              </li>
-              <li>
-                Developed aesthetically pleasing and user-friendly web page
-                designs, focusing on optimal user experience and brand
-                consistency.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* 2nd row */}
-        <div className="resumeRow">
-          <div className="left-column">
-            <img src={briefcase} alt="Briefcase" className="briefcase-icon" />
-            <div className="vertical-line"></div>
-          </div>
-          <div className="right-column">
-            <p>
-              <strong>Revolution Lash Studio</strong>
-            </p>
-            <p>Manager / Licensed Esthetician</p>
-            <p>July 2019 - December 2023</p>
-            <ul>
-              <li>Led redesign of company's brand identity during rebrand.</li>
-              <li>
-                Created a variety of marketing collateral, ensuring a cohesive
-                brand image.
-              </li>
-              <li>
-                Assisted in developing monthly promotional campaigns to attract
-                new clients.
-              </li>
-              <li>
-                Designed digital assets and composed copy for marketing
-                campaigns.
-              </li>
-              <li>
-                Fostered friendly, warm, and exceptional customer experience.
-              </li>
-              <li>
-                Analyzed business performance to identify areas of improvement
-                and make necessary adjustments.
-              </li>
-              <li>
-                Trained new estheticians on proper techniques and safety
-                protocols to develop capabilities of individuals and improve
-                team efficiency.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* 3rd row */}
-        <div className="resumeRow">
-          <div className="left-column">
-            <img src={briefcase} alt="Briefcase" className="briefcase-icon" />
-          </div>
-          <div className="right-column">
-            <p>
-              <strong>Dr. Jeanette G Warner, MD</strong>
-            </p>
-            <p>Administrative Assistant</p>
-            <p>February 2018 - July 2019</p>
-            <ul>
-              <li>
-                Conducted insurance verification and pre-authorizations and
-                managed patient charts.
-              </li>
-              <li>
-                Managed over 50 customer calls per day, routed messages and
-                resolved patient inquiries within target timeframes.
-              </li>
-              <li>
-                Built and maintained excellent customer relationships through
-                timely response to inquiries and going above and beyond to
-                accommodate unusual requests.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div className="Education">
-        <h2 className="underline">Education</h2>
-        <div className="ucf">
+      {/* horizontal rows*/}
+      <div className="horizontal-rows">
+        <div className="prof-summary">
+          <h2 className="underline">Professional Summary</h2>
           <p>
-            <strong>Bachelor of Arts: Digital Media</strong> - University of
-            Central Florida
-          </p>
-          <p>Expected: May 2024</p>
-          <p className="honors">
-            <strong>Honors and Achievements: </strong>Dean's List, Director's
-            Honor Roll, and President's Honor Roll (4.0 GPA)
+            Digital Media student with a strong passion for user-centric design
+            and creative problem-solving. Skilled in designing and developing
+            responsive user interfaces, combining aesthetics and functionality
+            seamlessly. Proficient in various design tools and techniques, adept
+            at creating impactful solutions in today's digital landscape.
+            Passionate contributor to local galleries and markets, showcasing
+            artistic talents and fostering self-expression through art. 
           </p>
         </div>
-        <hr className="horizontal-line" />
-        <div className="efsc">
-          <p>
-            <strong>Associate of Arts: General Studies</strong> - Eastern
-            Florida State College
-          </p>
-          <p>December 2017</p>
+
+        <div className="Experience">
+          <h2 className="underline">Experience</h2>
+          {/* 1st row */}
+          <div className="resumeRow">
+            <div className="left-column">
+              <img src={briefcase} alt="Briefcase" className="briefcase-icon" />
+              <div className="vertical-line"></div>
+            </div>
+            <div className="right-column">
+              <p>
+                <strong>BLACK DOG DESIGNS</strong>
+              </p>
+              <p>Design Intern</p>
+              <p>January 2024 - April 2024</p>
+              <ul>
+                <li>
+                  Designed engaging layouts for effective email marketing
+                  campaigns, enhancing customer outreach.
+                </li>
+                <li>
+                  Utilized marketing analytics tools to gather insights and
+                  improve campaign performance.
+                </li>
+                <li>
+                  Produced digital assets for social media platforms,
+                  maintaining brand coherence across various channels.
+                </li>
+                <li>
+                  Worked closely with cross-functional teams to understand
+                  marketing goals and translated them into visually appealing
+                  design solutions.
+                </li>
+                <li>
+                  Developed aesthetically pleasing and user-friendly web page
+                  designs, focusing on optimal user experience and brand
+                  consistency.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* 2nd row */}
+          <div className="resumeRow">
+            <div className="left-column">
+              <img src={briefcase} alt="Briefcase" className="briefcase-icon" />
+              <div className="vertical-line"></div>
+            </div>
+            <div className="right-column">
+              <p>
+                <strong>Revolution Lash Studio</strong>
+              </p>
+              <p>Manager / Licensed Esthetician</p>
+              <p>July 2019 - December 2023</p>
+              <ul>
+                <li>
+                  Led redesign of company's brand identity during rebrand.
+                </li>
+                <li>
+                  Created a variety of marketing collateral, ensuring a cohesive
+                  brand image.
+                </li>
+                <li>
+                  Assisted in developing monthly promotional campaigns to
+                  attract new clients.
+                </li>
+                <li>
+                  Designed digital assets and composed copy for marketing
+                  campaigns.
+                </li>
+                <li>
+                  Fostered friendly, warm, and exceptional customer experience.
+                </li>
+                <li>
+                  Analyzed business performance to identify areas of improvement
+                  and make necessary adjustments.
+                </li>
+                <li>
+                  Trained new estheticians on proper techniques and safety
+                  protocols to develop capabilities of individuals and improve
+                  team efficiency.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* 3rd row */}
+          <div className="resumeRow">
+            <div className="left-column">
+              <img src={briefcase} alt="Briefcase" className="briefcase-icon" />
+            </div>
+            <div className="right-column">
+              <p>
+                <strong>Dr. Jeanette G Warner, MD</strong>
+              </p>
+              <p>Administrative Assistant</p>
+              <p>February 2018 - July 2019</p>
+              <ul>
+                <li>
+                  Conducted insurance verification and pre-authorizations and
+                  managed patient charts.
+                </li>
+                <li>
+                  Managed over 50 customer calls per day, routed messages and
+                  resolved patient inquiries within target timeframes.
+                </li>
+                <li>
+                  Built and maintained excellent customer relationships through
+                  timely response to inquiries and going above and beyond to
+                  accommodate unusual requests.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <hr className="horizontal-line" />
-        <div className="tspa">
-          <p>
-            <strong>Esthetician's License</strong> - The Salon Professional
-            Academy
-          </p>
-          <p>June 2019</p>
+
+        <div className="Education">
+          <h2 className="underline">Education</h2>
+          <div className="ucf">
+            <p>
+              <strong>Bachelor of Arts: Digital Media</strong> - University of
+              Central Florida
+            </p>
+            <p>Expected: May 2024</p>
+            <p className="honors">
+              <strong>Honors and Achievements: </strong>Dean's List, Director's
+              Honor Roll, and President's Honor Roll (4.0 GPA)
+            </p>
+          </div>
+          <hr className="horizontal-line" />
+          <div className="efsc">
+            <p>
+              <strong>Associate of Arts: General Studies</strong> - Eastern
+              Florida State College
+            </p>
+            <p>December 2017</p>
+          </div>
+          <hr className="horizontal-line" />
+          <div className="tspa">
+            <p>
+              <strong>Esthetician's License</strong> - The Salon Professional
+              Academy
+            </p>
+            <p>June 2019</p>
+          </div>
         </div>
       </div>
     </div>
