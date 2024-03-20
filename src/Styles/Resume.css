@@ -1,0 +1,35 @@
+.resumeHeadshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 0 0; /*top-left, top-right, bottom-right, bottom-left*/
+}
+
+.pers-info-container, .prof-summary, .Experience, .Education, .certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    outline: 8px solid rgba(255, 255, 255, 0.5);
+}
+
+.white-header {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.transparent-header {
+    background-color: rgba(57, 76, 86, 0.7);
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+}

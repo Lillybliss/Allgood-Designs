@@ -1,12 +1,21 @@
 import React from "react";
+import "./Styles/Resume.css";
+import resumeHeadshot from "./Assets/newone.png";
 
 const Resume = () => {
   return (
     <div>
       <div className="pers-info-container">
         <div className="resume-header">
-          <h1>Lilly Allgood</h1>
-          <button className="resume-btn">Download Resume</button>
+          <img
+            src={resumeHeadshot}
+            alt="Lilly Allgood"
+            className="resumeHeadshot"
+          />
+          <div className="transparent-header">
+            <h1 className="white-header">Lilly Allgood</h1>
+            <button className="resume-btn">Download Resume</button>
+          </div>
         </div>
 
         <div className="pers-info-icons">
