@@ -1,6 +1,10 @@
 import React from "react";
 import "./Styles/Resume.css";
 import resumeHeadshot from "./Assets/newone.png";
+import location from "./Assets/icons/icons8-location-96.png";
+import email from "./Assets/icons/icons8-email-100.png";
+import phone from "./Assets/icons/icons8-phone-100.png";
+import briefcase from "./Assets/icons/icons8-work-100 (1).png";
 
 const Resume = () => {
   return (
@@ -14,18 +18,31 @@ const Resume = () => {
           />
           <div className="transparent-header">
             <h1 className="white-header">Lilly Allgood</h1>
-            <button className="resume-btn">Download Resume</button>
+            <button type="button" className="resume-btn">
+              Download Resume
+            </button>
           </div>
         </div>
 
         <div className="pers-info-icons">
-          <h2>Orlando, FL</h2>
-          <h2>Lillyallgood@ucf.edu</h2>
-          <h2>(321) 704-4909</h2>
+          <div className="location">
+            <img src={location} alt="Location" className="location-icon" />
+            <p>Orlando, FL</p>
+          </div>
+
+          <div className="email">
+            <img src={email} alt="Email" className="email-icon" />
+            <p>Lillyallgood@ucf.edu</p>
+          </div>
+
+          <div className="phone">
+            <img src={phone} alt="Phone" className="phone-icon" />
+            <p>(321) 704-4909</p>
+          </div>
         </div>
 
         <div className="skills">
-          <h2>What Can I Do?</h2>
+          <h2 className="underline">What Can I Do?</h2>
           <ul>
             <li>Responsive Web Design</li>
             <li>Front-End Development</li>
@@ -38,7 +55,7 @@ const Resume = () => {
             <li>Mockups</li>
           </ul>
 
-          <h2>Software Skills</h2>
+          <h2 className="underline">Software Skills</h2>
           <ul>
             <li>HTML5</li>
             <li>CSS</li>
@@ -58,7 +75,7 @@ const Resume = () => {
             <li>Microsoft Office</li>
           </ul>
 
-          <h2>Design Skills</h2>
+          <h2 className="underline">Design Skills</h2>
           <ul>
             <li>Wireframing & Prototyping</li>
             <li>UI/UX Design</li>
@@ -71,7 +88,7 @@ const Resume = () => {
             <li>Web Accessibility & Engagement</li>
           </ul>
 
-          <h2>Personal Skills</h2>
+          <h2 className="underline">Personal Skills</h2>
           <ul>
             <li>Customer Service</li>
             <li>Organization</li>
@@ -83,7 +100,7 @@ const Resume = () => {
       </div>
 
       <div className="prof-summary">
-        <h2>Professional Summary</h2>
+        <h2 className="underline">Professional Summary</h2>
         <p>
           Digital Media student with a strong passion for user-centric design
           and creative problem-solving. Skilled in designing and developing
@@ -96,10 +113,12 @@ const Resume = () => {
       </div>
 
       <div className="Experience">
-        <h2>Experience</h2>
-        <h3>BLACK DOG DESIGNS</h3>
-        <h4>Design Intern</h4>
-        <h4>January 2024 - April 2024</h4>
+        <h2 className="underline">Experience</h2>
+        <p>
+          <strong>BLACK DOG DESIGNS</strong>
+        </p>
+        <p>Design Intern</p>
+        <p>January 2024 - April 2024</p>
         <ul>
           <li>
             Designed engaging layouts for effective email marketing campaigns,
@@ -123,9 +142,11 @@ const Resume = () => {
           </li>
         </ul>
 
-        <h3>Revolution Lash Studio</h3>
-        <h4>Manager / Licensed Esthetician</h4>
-        <h4>July 2019 - December 2023</h4>
+        <p>
+          <strong>Revolution Lash Studio</strong>
+        </p>
+        <p>Manager / Licensed Esthetician</p>
+        <p>July 2019 - December 2023</p>
         <ul>
           <li>Led redesign of company's brand identity during rebrand.</li>
           <li>
@@ -150,9 +171,11 @@ const Resume = () => {
           </li>
         </ul>
 
-        <h3>Dr. Jeanette G Warner, MD</h3>
-        <h4>Administrative Assistant</h4>
-        <h4>February 2018 - July 2019</h4>
+        <p>
+          <strong>Dr. Jeanette G Warner, MD</strong>
+        </p>
+        <p>Administrative Assistant</p>
+        <p>February 2018 - July 2019</p>
         <ul>
           <li>
             Conducted insurance verification and pre-authorizations and managed
@@ -171,7 +194,7 @@ const Resume = () => {
       </div>
 
       <div className="Education">
-        <h2>Education</h2>
+        <h2 className="underline">Education</h2>
         <div className="ucf">
           <p>
             <strong>Bachelor of Arts: Digital Media</strong> - University of
