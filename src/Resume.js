@@ -40,7 +40,7 @@ const Resume = () => {
             <p>(321) 704-4909</p>
           </div>
         </div>
-
+        <hr className="horizontal-line" />
         <div className="skills">
           <h2 className="underline">What Can I Do?</h2>
           <ul>
@@ -206,7 +206,7 @@ const Resume = () => {
             Honor Roll, and President's Honor Roll (4.0 GPA)
           </p>
         </div>
-
+        <hr className="horizontal-line" />
         <div className="efsc">
           <p>
             <strong>Associate of Arts: General Studies</strong> - Eastern
@@ -214,13 +214,8 @@ const Resume = () => {
           </p>
           <p>December 2017</p>
         </div>
-
-        <div className="certifications">
-          {/*<h2>Certifications</h2>
-          <p>Adobe Certified Associate - Visual Design Using Adobe Photoshop</p>
-          <p>Adobe Certified Associate - Graphic Design & Illustration Using Adobe Illustrator</p>
-          <p>Adobe Certified Associate - Print & Digital Media Publication Using Adobe InDesign</p>
-  */}
+        <hr className="horizontal-line" />
+        <div className="tspa">
           <p>
             <strong>Esthetician's License</strong> - The Salon Professional
             Academy

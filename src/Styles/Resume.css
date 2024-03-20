@@ -1,6 +1,23 @@
+/* mobile styles */
+
 .underline {
-    text-decoration: underline;
+    display: inline-block;
+    border-bottom: 4px solid #AEDEF3;
+    margin: 0 25px;
 }
+
+.horizontal-line {
+    border-top: 1px solid #F1F1F1; /* Adjust color and thickness as needed */
+    margin: 20px 0; /* Adjust margin as needed */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+p {
+    margin: 0 25px;
+}
+
 .resumeHeader {
     position: relative;
     width: 100%;
@@ -28,12 +45,18 @@
 .white-header {
     color: white;
     font-size: 1.5em;
+    margin-left: 25px;
+}
+
+.resume-btn {
+    margin-right: 25px;
 }
 
 .transparent-header {
     position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 93%;
     margin-top: -78px;
     background-color: rgba(57, 76, 86, 0.7);
@@ -42,6 +65,7 @@
 .pers-info-icons img {
     width: 30px;
     height: 30px;
+    margin-left: 25px;
 }
 
 .location, .email, .phone {
@@ -49,4 +73,33 @@
     flex-direction: row;
     align-items: center;
     margin: 10px 0;
+}
+
+.location {
+    margin-top: 25px;
+}
+
+.skills {
+    margin-bottom: 25px;
+}
+
+.skills h2 {
+    margin-top: 25px;
+}
+
+.prof-summary h2, .Experience h2, .Education h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.prof-summary p {
+    margin-bottom: 30px;}
+
+.Experience ul {
+    margin-bottom: 40px;
+    margin-right: 25px;
+}
+
+.tspa {
+    margin-bottom: 40px;
 }
