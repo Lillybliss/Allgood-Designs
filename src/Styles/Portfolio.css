@@ -40,11 +40,8 @@
 
 .category-btn:active {
   background: #F6BBBC;
-  font-size: 0.75em;
-  cursor: pointer;
-  width: max-content;
   min-width: 80px; 
-  margin: auto 5px;
+
 }
 
 .portfolio {
