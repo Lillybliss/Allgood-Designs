@@ -19,17 +19,13 @@ const Home = () => {
             More...
           </h2>
           <div className="home-buttons">
-            <Button className="home-btn">
-              <Link to="/resume" className="Link">
-                View Resume
-              </Link>
-            </Button>
+            <Link to="/resume" className="Link">
+              <Button className="home-btn">View Resume</Button>
+            </Link>
 
-            <Button className="home-btn">
-              <Link to="/portfolio" className="Link">
-                View Portfolio
-              </Link>
-            </Button>
+            <Link to="/portfolio" className="Link">
+              <Button className="home-btn">View Portfolio</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -73,11 +69,11 @@ const Home = () => {
           </div>
 
           <div className="services-3">
-            <Button className="viewMore">
-              <Link to="/resume" className="Link">
+            <Link to="/resume" className="Link">
+              <Button className="viewMore">
                 View More <FontAwesomeIcon icon={faArrowRightLong} />
-              </Link>
-            </Button>
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="bottomRow">
@@ -109,11 +105,9 @@ const Home = () => {
               to discuss potential opportunities, please don't hesitate
               to contact me. 
             </p>
-            <Button>
-              <Link to="/contact" className="Link">
-                Contact Me
-              </Link>
-            </Button>
+            <Link to="/contact" className="Link">
+              <Button>Contact Me</Button>
+            </Link>
           </div>
         </div>
       </div>
