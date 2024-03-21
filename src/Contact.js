@@ -53,51 +53,59 @@ const Contact = () => {
           <h2>Let's get in touch!</h2>
           <form onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="name">Name:</label>
+              <label htmlFor="name"></label>
               <input
                 type="text"
                 id="name"
                 name="name"
+                placeholder="Full Name *"
                 value={formData.name}
                 onChange={handleChange}
                 required
               />
             </div>
             <div>
-              <label htmlFor="company">Company:</label>
+              <label htmlFor="company"></label>
               <input
                 type="text"
                 id="company"
                 name="company"
+                placeholder="Company"
                 value={formData.company}
                 onChange={handleChange}
                 required
               />
             </div>
             <div>
-              <label htmlFor="email">Email:</label>
+              <label htmlFor="email"></label>
               <input
                 type="email"
                 id="email"
                 name="email"
+                placeholder="Email *"
                 value={formData.email}
                 onChange={handleChange}
                 required
               />
             </div>
             <div>
-              <label htmlFor="message">Message:</label>
+              <label htmlFor="message"></label>
               <textarea
                 id="message"
                 name="message"
+                placeholder="Message *"
                 value={formData.message}
                 onChange={handleChange}
                 rows="4"
                 required
               ></textarea>
             </div>
-            <button style={{ cursor: "pointer" }} onClick={handleSubmitClick}>
-              Submit
+            <button
+              style={{ cursor: "pointer" }}
+              onClick={handleSubmitClick}
+              className="contact-btn"
+            >
+              Send Message
             </button>
             <PopUpContact isOpen={isPopupOpen} closePopup={closePopup} />
           </form>

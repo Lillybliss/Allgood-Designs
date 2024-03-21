@@ -69,5 +69,29 @@
     margin-top: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 90%;
+    width: 85%;
+    height: 400px;
+}
+
+.contact-form-container h2 {
+    color: #394c56;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.contact-btn {
+    width: 400px;
+    margin-top: 20px;
 }
