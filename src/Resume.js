@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Styles/Resume.css";
 import resumeHeadshot from "./Assets/newone.png";
 import location from "./Assets/icons/icons8-location-96.png";
@@ -16,7 +16,9 @@ const Resume = () => {
               src={resumeHeadshot}
               alt="Lilly Allgood"
               className="resumeHeadshot"
+              style={{ cursor: "pointer" }}
             />
+
             <div className="transparent-header">
               <h1 className="white-header">Lilly Allgood</h1>
               <button type="button" className="resume-btn">
