@@ -113,7 +113,7 @@ textarea::placeholder {
 /* For tablets */
 @media (min-width: 708px) {
     .contact-background {   
-        background-color: rgba(57, 76, 86, 0.2);
+        background-color: rgba(57, 76, 86, 0.0);
 
     }
 
@@ -188,6 +188,13 @@ textarea::placeholder {
 
 /* For desktop */
 @media (min-width: 900px) {
+    .contact-background {   
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
     .contact-form-container {
         min-width: 400px;
         width: 40%;
