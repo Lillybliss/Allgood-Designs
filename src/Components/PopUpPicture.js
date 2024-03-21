@@ -1,14 +1,18 @@
 import React from "react";
-import "../Styles/Popup.css";
+import "../Styles/PopupPicture.css";
 
-const PopupPicture = ({ isOpen, closePopup }) => {
+const PopupPicture = ({ isOpen, closePopup, image }) => {
   if (!isOpen) return null;
 
   return (
     <div className="popup-background">
       <div className="popup-container">
-        <p>Thank you for contacting us!</p>
-        <p>We will get back to you shortly.</p>
+        <img
+          src={image}
+          alt="pop up image"
+          className="popup-image"
+          style={{ width: "100%", height: "100%" }}
+        />
         <button onClick={closePopup}>Close</button>
       </div>
     </div>

@@ -29,7 +29,11 @@ const Resume = () => {
               style={{ cursor: "pointer" }}
               onClick={handleImageClick}
             />
-            <PopUpPicture isOpen={isPopupOpen} closePopup={closePopup} />
+            <PopUpPicture
+              isOpen={isPopupOpen}
+              closePopup={closePopup}
+              image={resumeHeadshot}
+            />
             <div className="transparent-header">
               <h1 className="white-header">Lilly Allgood</h1>
               <button type="button" className="resume-btn">
