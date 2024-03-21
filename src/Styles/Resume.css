@@ -226,12 +226,25 @@ p {
         max-width: 1000px;
     }
 
-    .prof-summary h2, .Experience h2 {
+    .prof-summary h2, .Experience h2, .Education h2 {
         margin-top: 30px;
     }
 
     .prof-summary p {
-        margin-bottom: 40px;
+        padding-bottom: 12px;
+    }
+
+    .resumeRow {
+        margin-top: 10px;
+
+    }
+
+    .ucf {
+        margin-top: 10px;
+    }
+
+    .Education {
+        padding-bottom: 52px;
     }
     
 
