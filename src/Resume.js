@@ -17,6 +17,20 @@ const Resume = () => {
     openPopup();
   };
 
+  const handleDownload = () => {
+    // Create a link element
+    const link = document.createElement("a");
+    // Set the href and download attributes to specify the file's URL and name
+    link.href = process.env.PUBLIC_URL + "/Lillian_Allgood_Resume_Updated.pdf"; // Adjust the path as needed
+
+    link.download = "Lillian_Allgood_Resume.pdf"; // Replace 'filename.pdf' with the desired file name
+    // Simulate a click on the link to trigger the download
+    document.body.appendChild(link);
+    link.click();
+    // Remove the link from the DOM once the download is initiated
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="home-background">
       <div className="column-container">
@@ -36,7 +50,11 @@ const Resume = () => {
             />
             <div className="transparent-header">
               <h1 className="white-header">Lilly Allgood</h1>
-              <button type="button" className="resume-btn">
+              <button
+                type="button"
+                className="resume-btn"
+                onClick={handleDownload}
+              >
                 Download Resume
               </button>
             </div>

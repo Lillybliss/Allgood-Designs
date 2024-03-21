@@ -53,6 +53,9 @@
 
 .resume-btn {
     margin-right: 25px;
+    height: 35px;
+    min-width: 120px; 
+    padding: 5px 30px;
 }
 
 .transparent-header {
@@ -188,11 +191,13 @@
         justify-content: center;
     }
 
-    .resume-btn {
+    .resume-btn {        
+        min-width: 120px; 
+        padding: 0px 5px;
         margin-right: 5px;
         margin-left: 18px;
-        width: 100px;
-        font-size: 10px;
+        width: 140px;
+        font-size: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -218,7 +223,7 @@
     .resume-btn {
         margin-right: 5px;
         margin-left: 18px;
-        width: 200px;
+        width: 170px;
         font-size: 14px;
     }
 
