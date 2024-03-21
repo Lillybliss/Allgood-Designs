@@ -5,8 +5,18 @@ import location from "./Assets/icons/icons8-location-96.png";
 import email from "./Assets/icons/icons8-email-100.png";
 import phone from "./Assets/icons/icons8-phone-100.png";
 import briefcase from "./Assets/icons/icons8-work-100 (1).png";
+import PopUpPicture from "./Components/PopUpPicture";
 
 const Resume = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => setIsPopupOpen(true);
+  const closePopup = () => setIsPopupOpen(false);
+
+  const handleImageClick = () => {
+    openPopup();
+  };
+
   return (
     <div className="home-background">
       <div className="column-container">
@@ -17,8 +27,9 @@ const Resume = () => {
               alt="Lilly Allgood"
               className="resumeHeadshot"
               style={{ cursor: "pointer" }}
+              onClick={handleImageClick}
             />
-
+            <PopUpPicture isOpen={isPopupOpen} closePopup={closePopup} />
             <div className="transparent-header">
               <h1 className="white-header">Lilly Allgood</h1>
               <button type="button" className="resume-btn">
