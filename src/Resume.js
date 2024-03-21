@@ -18,12 +18,12 @@ const Resume = () => {
   };
 
   const handleDownload = () => {
-    // Create a link element
     const link = document.createElement("a");
-    // Set the href and download attributes to specify the file's URL and name
-    link.href = process.env.PUBLIC_URL + "/Lillian_Allgood_Resume_Updated.pdf"; // Adjust the path as needed
 
-    link.download = "Lillian_Allgood_Resume.pdf"; // Replace 'filename.pdf' with the desired file name
+    link.href = process.env.PUBLIC_URL + "/Lillian_Allgood_Resume_Updated.pdf";
+
+    link.download = "Lillian_Allgood_Resume.pdf";
+
     // Simulate a click on the link to trigger the download
     document.body.appendChild(link);
     link.click();
