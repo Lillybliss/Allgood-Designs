@@ -9,20 +9,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
-  const handleDownload = () => {
-    const link = document.createElement("a");
-
-    link.href = process.env.PUBLIC_URL + "/Lillian_Allgood_Resume_Updated.pdf";
-
-    link.download = "Lillian_Allgood_Resume.pdf";
-
-    // Simulate a click on the link to trigger the download
-    document.body.appendChild(link);
-    link.click();
-    // Remove the link from the DOM once the download is initiated
-    document.body.removeChild(link);
-  };
-
   return (
     <div className="home-background">
       <div className="home-image">
@@ -34,8 +20,8 @@ const Home = () => {
           </h2>
           <div className="home-buttons">
             <Button className="home-btn">
-              <Link className="Link" onClick={handleDownload}>
-                Download Resume
+              <Link to="/resume" className="Link">
+                View Resume
               </Link>
             </Button>
 

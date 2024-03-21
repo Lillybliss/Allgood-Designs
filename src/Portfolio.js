@@ -62,6 +62,8 @@ const Portfolio = () => {
             </Link>
           </div>
         ))}
+        <div className="portfolio-piece"></div>{" "}
+        {/* Empty div to fill the last row */}
         <a href="#top" className="back-to-top">
           {" "}
         </a>
