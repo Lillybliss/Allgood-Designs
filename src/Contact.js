@@ -5,12 +5,32 @@ import email from "./Assets/icons/icons8-email-100.png";
 
 const Contact = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    company: "",
+    message: "",
+  });
 
   const openPopup = () => setIsPopupOpen(true);
   const closePopup = () => setIsPopupOpen(false);
 
-  const handleImageClick = () => {
+  const handleSubmitClick = () => {
     openPopup();
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission, e.g., send form data to server
+    console.log(formData);
   };
 
   return (
@@ -31,10 +51,56 @@ const Contact = () => {
 
         <div className="contact-form-container">
           <h2>Let's get in touch!</h2>
-          <button style={{ cursor: "pointer" }} onClick={handleImageClick}>
-            Submit
-          </button>
-          <PopUpContact isOpen={isPopupOpen} closePopup={closePopup} />
+          <form onSubmit={handleSubmit}>
+            <div>
+              <label htmlFor="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="company">Company:</label>
+              <input
+                type="text"
+                id="company"
+                name="company"
+                value={formData.company}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button style={{ cursor: "pointer" }} onClick={handleSubmitClick}>
+              Submit
+            </button>
+            <PopUpContact isOpen={isPopupOpen} closePopup={closePopup} />
+          </form>
         </div>
       </div>
     </div>
