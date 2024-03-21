@@ -5,6 +5,9 @@
     padding-top: 40px;
 }
 
+.contact-header-container {
+    animation: slideIn 1.7s ease-out; /* Adjust animation duration and timing function as needed */
+  }
 
 .contact-header-container {
     padding: 20px;
