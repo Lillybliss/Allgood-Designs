@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Styles/Portfolio.css";
 import { Link } from "react-router-dom";
 import portfolioData from "./Data/portfolioData";
 
 const Portfolio = () => {
-  const [activeCategory, setActiveCategory] = useState("All"); // State to track active category
+  const [activeCategory, setActiveCategory] = useState("All");
+  const [isVisible, setIsVisible] = useState(false);
 
   const handleCategoryClick = (category) => {
     setActiveCategory(category);
@@ -14,8 +15,38 @@ const Portfolio = () => {
     console.log("Selected category:", category);
   };
 
+  useEffect(() => {
+    // Function to handle scroll event
+    const handleScroll = () => {
+      // Check if the user has scrolled down a certain distance
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+      setIsVisible(scrollTop > 200);
+    };
+
+    // Add scroll event listener when component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove scroll event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="gradient-body">
+      {/* Back-to-top button */}
+      {isVisible && (
+        <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
+      )}
+
       <div className="header-container">
         <h1 className="header-title">Portfolio</h1>
       </div>
@@ -64,9 +95,6 @@ const Portfolio = () => {
         ))}
         <div className="portfolio-piece"></div>{" "}
         {/* Empty div to fill the last row */}
-        <a href="#top" className="back-to-top">
-          {" "}
-        </a>
       </div>
     </div>
   );
