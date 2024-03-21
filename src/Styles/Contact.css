@@ -84,15 +84,26 @@ input, textarea {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     border-radius: 10px;
-    height: 40px;
+    height: 50px;
+    border: 1px solid #b8b8b8; /* Set the border properties */
+    box-sizing: border-box;
 }
 
 textarea {
     height: 150px;
 }
 
+input::placeholder,
+textarea::placeholder {
+  text-indent: 5px; /* Adjust the value to move the placeholder text to the right */
+}
+
+textarea::placeholder {
+    padding-top: 12px;
+  }
+
 .contact-btn {
     width: 400px;
-    height: 50px;
+    height: 45px;
     margin-top: 20px;
 }
