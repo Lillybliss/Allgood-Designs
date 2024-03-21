@@ -28,17 +28,17 @@ const Resume = () => {
           <div className="pers-info-icons">
             <div className="location">
               <img src={location} alt="Location" className="location-icon" />
-              <p>Orlando, FL</p>
+              <p className="resume-p">Orlando, FL</p>
             </div>
 
             <div className="email">
               <img src={email} alt="Email" className="email-icon" />
-              <p>Lillyallgood@ucf.edu</p>
+              <p className="resume-p">Lillyallgood@ucf.edu</p>
             </div>
 
             <div className="phone">
               <img src={phone} alt="Phone" className="phone-icon" />
-              <p>(321) 704-4909</p>
+              <p className="resume-p">(321) 704-4909</p>
             </div>
           </div>
           <hr className="horizontal-line" />
@@ -104,7 +104,7 @@ const Resume = () => {
         <div className="horizontal-rows">
           <div className="prof-summary">
             <h2 className="underline">Professional Summary</h2>
-            <p>
+            <p className="resume-p">
               Digital Media student with a strong passion for user-centric
               design and creative problem-solving. Skilled in designing and
               developing responsive user interfaces, combining aesthetics and
@@ -129,11 +129,11 @@ const Resume = () => {
                 <div className="vertical-line"></div>
               </div>
               <div className="right-column">
-                <p>
+                <p className="resume-p">
                   <strong>BLACK DOG DESIGNS</strong>
                 </p>
-                <p>Design Intern</p>
-                <p>January 2024 - April 2024</p>
+                <p className="resume-p">Design Intern</p>
+                <p className="resume-p">January 2024 - April 2024</p>
                 <ul>
                   <li>
                     Designed engaging layouts for effective email marketing
@@ -172,11 +172,11 @@ const Resume = () => {
                 <div className="vertical-line"></div>
               </div>
               <div className="right-column">
-                <p>
+                <p className="resume-p">
                   <strong>Revolution Lash Studio</strong>
                 </p>
-                <p>Manager / Licensed Esthetician</p>
-                <p>July 2019 - December 2023</p>
+                <p className="resume-p">Manager / Licensed Esthetician</p>
+                <p className="resume-p">July 2019 - December 2023</p>
                 <ul>
                   <li>
                     Led redesign of company's brand identity during rebrand.
@@ -220,11 +220,11 @@ const Resume = () => {
                 />
               </div>
               <div className="right-column">
-                <p>
+                <p className="resume-p">
                   <strong>Dr. Jeanette G Warner, MD</strong>
                 </p>
-                <p>Administrative Assistant</p>
-                <p>February 2018 - July 2019</p>
+                <p className="resume-p">Administrative Assistant</p>
+                <p className="resume-p">February 2018 - July 2019</p>
                 <ul>
                   <li>
                     Conducted insurance verification and pre-authorizations and
@@ -247,31 +247,31 @@ const Resume = () => {
           <div className="Education">
             <h2 className="underline">Education</h2>
             <div className="ucf">
-              <p>
+              <p className="resume-p">
                 <strong>Bachelor of Arts: Digital Media</strong> - University of
                 Central Florida
               </p>
-              <p>Expected: May 2024</p>
-              <p className="honors">
+              <p className="resume-p">Expected: May 2024</p>
+              <p className="honors resume-p">
                 <strong>Honors and Achievements: </strong>Dean's List,
                 Director's Honor Roll, and President's Honor Roll (4.0 GPA)
               </p>
             </div>
             <hr className="horizontal-line" />
             <div className="efsc">
-              <p>
+              <p className="resume-p">
                 <strong>Associate of Arts: General Studies</strong> - Eastern
                 Florida State College
               </p>
-              <p>December 2017</p>
+              <p className="resume-p">December 2017</p>
             </div>
             <hr className="horizontal-line" />
             <div className="tspa">
-              <p>
+              <p className="resume-p">
                 <strong>Esthetician's License</strong> - The Salon Professional
                 Academy
               </p>
-              <p>June 2019</p>
+              <p className="resume-p">June 2019</p>
             </div>
           </div>
         </div>
