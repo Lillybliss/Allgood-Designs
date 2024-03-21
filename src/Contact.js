@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PopUpContact from "./Components/PopUpContact";
 import "./Styles/Contact.css";
-import email from "./Assets/icons/icons8-email-100.png";
+import email from "./Assets/icons/contact-email.png";
 
 const Contact = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
