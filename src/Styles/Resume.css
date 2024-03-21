@@ -143,6 +143,7 @@ p {
     p {
         font-size: 14px;
     }
+    
     .skills ul{
         margin-right: 20px;
         font-size: 14px;
@@ -155,11 +156,13 @@ p {
         margin-left: auto;
         margin-right: auto;
         width: 98%;
+        max-width: 796px;
         margin-right: 0;
+        margin: 0 auto;
     }
 
     .pers-info-container, .resume-header {
-        max-width: 500px;
+        max-width: 400px;
         min-width: 300px;
 
     }
@@ -198,13 +201,13 @@ p {
   /* For laptops */
   @media (min-width: 1108px) {
     .pers-info-container, .resume-header {
-        min-width: 500px;
-        max-width: 500px;
+        min-width: 400px;
+        max-width: 400px;
     }
 
     .transparent-header {
-        min-width: 490px;
-        max-width: 490px;
+        min-width: 390px;
+        max-width: 390px;
     }
 
     .white-header {
@@ -217,6 +220,20 @@ p {
         width: 200px;
         font-size: 14px;
     }
+
+    .column-container {
+        width: 98%;
+        max-width: 1000px;
+    }
+
+    .prof-summary h2, .Experience h2 {
+        margin-top: 30px;
+    }
+
+    .prof-summary p {
+        margin-bottom: 40px;
+    }
+    
 
 
   }
