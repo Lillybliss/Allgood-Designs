@@ -10,39 +10,12 @@
     z-index: 1000;
 }
 
-.cancelPopupBtn {
-    background-color: #F8A0A0;
-}
-
-.closebtnemail {
-    background-color: #F8A0A0;
-}
-
-.closebtnemail:hover {
-    background-color: #F8A0A0;
-        background-color: #ee6363;
-        color: white;
-}
-
-.cancelPopupBtn:hover {
-    background-color: #F8A0A0;
-    background-color: #ee6363;
-        color: white;
-}
-
-.popup-container h2 {
-    color:#000;
-    margin-bottom: 20px;
-}
 
 .popup-container button {
     margin: 10px;
     width: 150px;
 }
 
-.popup-container p {
-    color: #000;
-}
 
 .popup-input {
     width: 200px;
@@ -53,11 +26,10 @@
     place-items: center;
 }
 
-.popup-container {
-    width: 20%;
-    /* Adjust this for desired size */
+.popup-contact {
+    width: 300px;
     background-color: white;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -66,14 +38,10 @@
     place-items: center;
 }
 
-@media screen and (max-width: 760px) {
-    .popup-container {
-        width: 80%;
-    }
+.popup-contact p {
+    margin: 0;
+    margin-bottom: 20px;
+
 }
 
-@media screen and (max-width: 1100px) {
-    .popup-container {
-        width: 40%;
-    }
-}
+
