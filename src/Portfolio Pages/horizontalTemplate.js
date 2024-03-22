@@ -16,15 +16,15 @@ const HorizontalTemplate = () => {
         </div>
       </div>
 
-      <div className="about-container">
-        <h2 className="about-title">About</h2>
-        <p className="about-text">
+      <div className="port-about-container">
+        <h2 className="port-about-title">About</h2>
+        <p className="port-about-text">
           lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
           ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
           lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
           ipsum
         </p>
-        <p className="about-text">
+        <p className="port-about-text">
           lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
           ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
           lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem

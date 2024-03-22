@@ -25,13 +25,17 @@ const HamburgerMenu = () => {
           <nav>
             <ul className="mobile-nav-links">
               <li>
-                <Link to="/" className="mobile-nav-link" onClick={closeMenu}>
+                <Link
+                  to="/Allgood-Designs/"
+                  className="mobile-nav-link"
+                  onClick={closeMenu}
+                >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/resume"
+                  to="/Allgood-Designs/resume"
                   className="mobile-nav-link"
                   onClick={closeMenu}
                 >
@@ -40,7 +44,7 @@ const HamburgerMenu = () => {
               </li>
               <li>
                 <Link
-                  to="/portfolio"
+                  to="/Allgood-Designs/portfolio"
                   className="mobile-nav-link"
                   onClick={closeMenu}
                 >
@@ -49,7 +53,7 @@ const HamburgerMenu = () => {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/Allgood-Designs/contact"
                   className="mobile-nav-link"
                   onClick={closeMenu}
                 >
