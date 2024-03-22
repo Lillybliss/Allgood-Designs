@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Allgood-Designs/static/css/main.42d61f49.css",
-    "main.js": "/Allgood-Designs/static/js/main.88b874fb.js",
+    "main.js": "/Allgood-Designs/static/js/main.9544ca3c.js",
     "static/js/453.9217d0dd.chunk.js": "/Allgood-Designs/static/js/453.9217d0dd.chunk.js",
     "static/media/rounded_headshot.png": "/Allgood-Designs/static/media/rounded_headshot.8abd62021c46562e15d8.png",
     "static/media/home_clouds.png": "/Allgood-Designs/static/media/home_clouds.c9988e4897094a59a698.png",
@@ -26,11 +26,11 @@
     "static/media/icons8-linkedin-50.svg": "/Allgood-Designs/static/media/icons8-linkedin-50.9c15bbe76ac648bf77614acc775192b9.svg",
     "index.html": "/Allgood-Designs/index.html",
     "main.42d61f49.css.map": "/Allgood-Designs/static/css/main.42d61f49.css.map",
-    "main.88b874fb.js.map": "/Allgood-Designs/static/js/main.88b874fb.js.map",
+    "main.9544ca3c.js.map": "/Allgood-Designs/static/js/main.9544ca3c.js.map",
     "453.9217d0dd.chunk.js.map": "/Allgood-Designs/static/js/453.9217d0dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42d61f49.css",
-    "static/js/main.88b874fb.js"
+    "static/js/main.9544ca3c.js"
   ]
 }
