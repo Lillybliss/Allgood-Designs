@@ -19,11 +19,11 @@ const Home = () => {
             More...
           </h2>
           <div className="home-buttons">
-            <Link to="/resume" className="Link">
+            <Link to="/Allgood-Designs/resume" className="Link">
               <Button className="home-btn">View Resume</Button>
             </Link>
 
-            <Link to="/portfolio" className="Link">
+            <Link to="/Allgood-Designs/portfolio" className="Link">
               <Button className="home-btn">View Portfolio</Button>
             </Link>
           </div>
@@ -69,7 +69,7 @@ const Home = () => {
           </div>
 
           <div className="services-3">
-            <Link to="/resume" className="Link">
+            <Link to="/Allgood-Designs/resume" className="Link">
               <Button className="viewMore">
                 View More <FontAwesomeIcon icon={faArrowRightLong} />
               </Button>
@@ -105,7 +105,7 @@ const Home = () => {
               to discuss potential opportunities, please don't hesitate
               to contact me. 
             </p>
-            <Link to="/contact" className="Link">
+            <Link to="/Allgood-Designs/contact" className="Link">
               <Button>Contact Me</Button>
             </Link>
           </div>

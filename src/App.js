@@ -7,6 +7,7 @@ import Home from "./Home";
 import Contact from "./Contact.js";
 import Resume from "./Resume.js";
 import Portfolio from "./Portfolio.js";
+import HorizontalTemplate from "./Portfolio Pages/horizontalTemplate.js";
 
 const App = () => {
   return (
@@ -16,9 +17,13 @@ const App = () => {
 
         <Routes>
           <Route path="/Allgood-Designs" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/Allgood-Designs/contact" element={<Contact />} />
+          <Route path="/Allgood-Designs/resume" element={<Resume />} />
+          <Route path="/Allgood-Designs/portfolio" element={<Portfolio />} />
+          <Route
+            path="/Allgood-Designs/portfolio/The-Suite-Spot-Project"
+            element={<HorizontalTemplate />}
+          />
         </Routes>
 
         <Footer />

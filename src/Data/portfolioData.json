@@ -4,7 +4,7 @@
       "imageUrl": "TSS_hifi_mockup.png",
       "title": "The Suite Spot Project",
       "subtitle": "Branding, Web Design, and Responsive Development",
-      "route": "/portfolio/The-Suite-Spot-Project",
+      "route": "/Allgood-Designs/portfolio/The-Suite-Spot-Project",
       "categories": ["projects", "web"],
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
@@ -13,7 +13,7 @@
       "imageUrl": "Allgood_Designs_Mockup_transparent.png",
       "title": "Allgood Designs",
       "subtitle": "Branding, Web Design, and Responsive Development",
-      "route": "/portfolio/Allgood-Designs",
+      "route": "/Allgood-Designs/portfolio/Allgood-Designs",
       "categories": ["projects", "web"],
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
@@ -22,7 +22,7 @@
         "imageUrl": "merchmate_inhand_mockup.png",
         "title": "MerchMate Project",
         "subtitle": "Mobile App Prototype",
-        "route": "/portfolio/MerchMate",
+        "route": "/Allgood-Designs/portfolio/MerchMate",
         "categories": ["projects", "web"],
       "tags": ["Branding", "WireFrame & Prototyping"]
       }
@@ -32,7 +32,7 @@
         "imageUrl": "revolution-trifold_grey.png",
         "title": "Revolution Lash Studio",
         "subtitle": "Rebrand Marketing Collateral",
-        "route": "/portfolio/Revolution-Lash-Studio",
+        "route": "/Allgood-Designs/portfolio/Revolution-Lash-Studio",
         "categories": ["projects", "graphic design", "digital marketing"],
       "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
       }
@@ -42,7 +42,7 @@
         "imageUrl": "logo_LA_transparent.png",
         "title": "L.A.",
         "subtitle": "Logo Design",
-        "route": "/portfolio/LA-logo",
+        "route": "/Allgood-Designs/portfolio/LA-logo",
         "categories": [ "graphic design"],
       "tags": ["Graphic Design"]
       }
@@ -52,7 +52,7 @@
         "imageUrl": "colorization_coverphoto.png",
         "title": "Image Retouching",
         "subtitle": "Adobe Photoshop",
-        "route": "/portfolio/image-retouching",
+        "route": "/Allgood-Designs/portfolio/image-retouching",
         "categories": ["graphic design"],
       "tags": ["Graphic Design"]
       } ,
@@ -61,7 +61,7 @@
           "imageUrl": "lilly-allgood-fungi-skull-sm.png",
           "title": "Fungi Skull",
           "subtitle": "Acrylic on Canvas",
-          "route": "/portfolio/Fungi-Skull",
+          "route": "/Allgood-Designs/portfolio/Fungi-Skull",
           "categories": ["art"],
           "tags": ["Art"]
     } ,
@@ -70,7 +70,7 @@
             "imageUrl": "bubble_dragon.png",
             "title": "Bubble Dragon",
             "subtitle": "Acrylic on Canvas",
-            "route": "/portfolio/Bubble-Dragon",
+            "route": "/Allgood-Designs/portfolio/Bubble-Dragon",
             "categories": ["art"],
           "tags": ["Art"]
     } ,
@@ -79,7 +79,7 @@
         "imageUrl": "floral_moth.png",
         "title": "Floral Moth",
         "subtitle": "Ink on Paper",
-        "route": "/portfolio/Floral-Moth-Ink",
+        "route": "/Allgood-Designs/portfolio/Floral-Moth-Ink",
         "categories": ["art"],
           "tags": ["Art"]
       }
