@@ -1,0 +1,45 @@
+.portfolio-background {
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 0px;
+
+}
+
+.container {
+    padding: 20px;
+    display: block;
+    align-items: center;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 40px;
+    padding-top: 50px;
+    background-color: aliceblue;
+}
+
+.row h1, .row h2{
+    animation: slideIn 1.7s ease-out; /* Adjust animation duration and timing function as needed */
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.portfolio-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.mockup-image {
+    width: 80%;  
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mockup-image img{
+    width: 100%;
+    height: auto;
+}
