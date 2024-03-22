@@ -12,7 +12,7 @@
     text-align: center; 
     margin-left: auto;
     margin-right: auto;   
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     padding-top: 50px;
     background-color: aliceblue;
 }
@@ -42,4 +42,45 @@
 .mockup-image img{
     width: 100%;
     height: auto;
+}
+
+.about-container {
+    display: block;
+    align-items: center;
+    text-align: left; 
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.about-title, .about-text {
+    text-align: left; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 73%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.project-tags img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;;
+}
+
+.project-tags p {
+    margin-right: 40px;
+    margin-top: 5px;
 }
