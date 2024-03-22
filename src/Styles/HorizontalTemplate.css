@@ -54,7 +54,7 @@
     height: auto;
 }
 
-.port-about-container, .row-4 {
+.port-about-container, .row-4, .row-1, .row-2, .row-3 {
     display: block;
     align-items: center;
     text-align: justify;
@@ -65,11 +65,22 @@
     width: 90%;
 }
 
-.port-about-title, .port-about-text, .right-title, .right-text, .row-4-title, .row-4-text {
+.port-about-title, .port-about-text {
     text-align: justify; 
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    max-width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.right-title, .right-text, .row-4-title, .row-4-text {
+    text-align: justify; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    max-width: 500px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -79,6 +90,8 @@
     flex-wrap: wrap;
     justify-content: left;
     width: 90%;
+    max-width: 500px;
+
     margin-top: 50px;
     margin-bottom: 30px;
     margin-left: auto;
@@ -101,7 +114,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -109,12 +122,26 @@
 
 .row-3 {
     margin-top: 40px;
+    max-width: 650px;
+
 }
 
 .row-3 img {
-    width: 19%;
+    width: 18.5%;
     height: auto;
     margin-bottom: 0px;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 760px) {
+    
+    
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1000px) {
+    
+    
 }
