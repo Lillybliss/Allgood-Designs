@@ -135,7 +135,43 @@
 }
 
 /* Tablet Styles */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 900px) {
+    .container {
+        padding: 20px;
+        align-items: center;
+        text-align: center; 
+        margin-left: auto;
+        margin-right: auto;   
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+
+    .together-top {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        align-items: center;
+        width: 90%;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    
+    .row h1, .row h2{
+        text-align: left; 
+        margin-left: 5px;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
+    .portfolio-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 40px;
+    }
+    
+    
     
     
 }

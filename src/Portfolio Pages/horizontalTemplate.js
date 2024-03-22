@@ -6,13 +6,15 @@ const HorizontalTemplate = () => {
   return (
     <div className="portfolio-background">
       <div className="container">
-        <div className="row">
-          <h1 className="portfolio-title">The Title</h1>
-          <h2 className="header-subtitle">The Subtitle</h2>
-          <button className="portfolio-btn">The Button</button>
-        </div>
-        <div className="mockup-image">
-          <img src="https://via.placeholder.com/500" alt="Mockup" />
+        <div className="together-top">
+          <div className="row">
+            <h1 className="portfolio-title">The Title</h1>
+            <h2 className="header-subtitle">The Subtitle</h2>
+            <button className="portfolio-btn">The Button</button>
+          </div>
+          <div className="mockup-image">
+            <img src="https://via.placeholder.com/500" alt="Mockup" />
+          </div>
         </div>
       </div>
 
