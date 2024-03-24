@@ -1,5 +1,35 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('../Fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: local('Montserrat-Medium'), url('../Fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lovelace-Regular';
+  src: local('Lovelace-Regular'), url('../Fonts/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lovelace-Bold';
+  src: local('Lovelace-Bold'), url('../Fonts/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Bold\ Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #527687;
+  /* Montserrat Fallback */
+  font-family: 'Montserrat', 'Verdana', sans-serif;
 }
 
 .gradient-body {
@@ -31,7 +61,7 @@ button:hover {
 }
 
 h1 {
-  font-family: 'Montserrat-Medium', sans-serif;
+  font-family: 'Montserrat-Medium', 'Verdana', sans-serif;
   font-size: 2em;
   color: #527687;
   text-align: left;
@@ -40,7 +70,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Lovelace-Regular', serif;
+  font-family: 'Lovelace-Regular', 'Garamond', serif;
   font-weight: lighter;
   font-size: 1.5em;
   text-align: left;
@@ -49,7 +79,7 @@ h2 {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Verdana', sans-serif;
   font-size: 1em;
   text-align: left;
   margin: 0;
@@ -58,7 +88,7 @@ p {
 }
 
 li {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Verdana', sans-serif;
   font-size: 1em;
   text-align: left;
   margin: 0;
@@ -67,30 +97,3 @@ li {
 
 }
 
-@font-face {
-  font-family: 'Montserrat';
-  src: local('Montserrat'), url('../Fonts/Montserrat-Regular.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Montserrat-Medium';
-  src: local('Montserrat-Medium'), url('../Fonts/Montserrat-Medium.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Lovelace-Regular';
-  src: local('Lovelace-Regular'), url('../Fonts/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Regular.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Lovelace-Bold';
-  src: local('Lovelace-Bold'), url('../Fonts/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Bold\ Italic.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
