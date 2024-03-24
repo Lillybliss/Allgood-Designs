@@ -71,6 +71,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1em;
   }
 
   .round-div {
@@ -100,6 +101,10 @@
 
   .about-text h2 {
     display: none;
+  }
+
+  .about-text p {
+    margin-top: 20px; 
   }
 
   .about-content {
@@ -239,7 +244,7 @@
 
 
 /* Medium Breakpoint */
-@media (min-width: 769px) {
+@media (min-width: 780px) {
     .homeLogo {
         width: 45%;
         max-width: 400px;
@@ -290,7 +295,7 @@
       .about-text {
         display: block;
         margin-bottom: 0%;
-        width: 37%;
+        width: 50%;
         margin-left: auto; 
         margin-right: 0;
         margin-top: 5%;
@@ -309,7 +314,7 @@
       }
     
       .about-text p {
-        font-size: 0.75em;
+        font-size: 0.9em;
         margin-bottom: 10px; 
         text-align: justify; 
 
@@ -320,7 +325,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 150px 0 150px 0;   
+        border-radius: 100px 0 100px 0;  
       }
     
       
@@ -330,8 +335,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        max-width: 750px;
-      }
+        max-width: 750px;      }
     
       .headshot {
         width: 55%;
@@ -459,11 +463,16 @@
         margin-top: 3%;
       }
 
+      .home-btn {
+        width: 200px;
+        font-size: 0.9em;
+      }
+
       .tagline {
         padding-top: 0%;
         margin-top: 0%;
         font-weight: lighter;
-        font-size: 2em;
+        font-size: 1.9em;
         width: 60%;
         max-width: 600px;
       }

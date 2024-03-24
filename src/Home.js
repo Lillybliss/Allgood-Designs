@@ -69,7 +69,7 @@ const Home = () => {
           </div>
 
           <div className="services-3">
-            <Link to="/Allgood-Designs/resume" className="Link">
+            <Link to="/Allgood-Designs/resume" className="viewMore Link">
               <Button className="viewMore">
                 View More <FontAwesomeIcon icon={faArrowRightLong} />
               </Button>

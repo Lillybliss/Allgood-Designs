@@ -43,6 +43,7 @@
     border-radius: 20px;
     width: 93%;
     outline: 8px solid rgba(255, 255, 255, 0.5);
+    /* Add outline-offset to create rounded border */
 }
 
 .white-header {
