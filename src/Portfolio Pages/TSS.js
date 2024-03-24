@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
 import mainTSSMock from "../Assets/Portfolio/TSS_mockup_web_updates.png";
 import lowfiTSSmock from "../Assets/Portfolio/TSS_lofi_mockup.png";
+import react from "../Assets/icons/react.svg";
+import node from "../Assets/icons/node.svg";
+import mongo from "../Assets/icons/mongoDB.svg";
+import express from "../Assets/icons/express.svg";
 
 const TSS = () => {
   return (
@@ -115,10 +119,10 @@ const TSS = () => {
       </div>
 
       <div className="row-3">
-        <img src="https://via.placeholder.com/500" alt="Mockup" />
-        <img src="https://via.placeholder.com/500" alt="Mockup" />
-        <img src="https://via.placeholder.com/500" alt="Mockup" />
-        <img src="https://via.placeholder.com/500" alt="Mockup" />
+        <img src={mongo} alt="Mockup" />
+        <img src={express} alt="Mockup" />
+        <img src={react} alt="Mockup" />
+        <img src={node} alt="Mockup" />
       </div>
 
       <div className="row-4">

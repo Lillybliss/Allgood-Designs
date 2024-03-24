@@ -125,15 +125,16 @@
 .row-3 {
     margin-top: 40px;
     max-width: 650px;
-
 }
 
 .row-3 img {
-    width: 18.5%;
+    width: 19%;
     height: auto;
     margin-bottom: 0px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* Tablet Styles */
@@ -190,8 +191,10 @@
     }
 
     .row-3 img {
-        width: 23.6%;
+        width: 20%;
         height: auto;
+        margin-right: 16px;
+        margin-left: 16px;
         
     }
 
