@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Allgood-Designs/static/css/main.42d61f49.css",
-    "main.js": "/Allgood-Designs/static/js/main.a58b4c5b.js",
+    "main.css": "/Allgood-Designs/static/css/main.44651219.css",
+    "main.js": "/Allgood-Designs/static/js/main.6d87a0cf.js",
     "static/js/453.9217d0dd.chunk.js": "/Allgood-Designs/static/js/453.9217d0dd.chunk.js",
     "static/media/rounded_headshot.png": "/Allgood-Designs/static/media/rounded_headshot.8abd62021c46562e15d8.png",
     "static/media/home_clouds.png": "/Allgood-Designs/static/media/home_clouds.c9988e4897094a59a698.png",
@@ -15,22 +15,28 @@
     "static/media/revolution-trifold_grey.png": "/Allgood-Designs/static/media/revolution-trifold_grey.7842664e83848ce378ec.png",
     "static/media/colorization_coverphoto.png": "/Allgood-Designs/static/media/colorization_coverphoto.b9b83f0a675847b03350.png",
     "static/media/merchmate_inhand_mockup.png": "/Allgood-Designs/static/media/merchmate_inhand_mockup.79107c4739b44963fb07.png",
+    "static/media/TSS_lofi_mockup.png": "/Allgood-Designs/static/media/TSS_lofi_mockup.2857317b0695eab08470.png",
     "static/media/TSS_hifi_mockup.png": "/Allgood-Designs/static/media/TSS_hifi_mockup.669514febe36856080a8.png",
     "static/media/logo_LA_transparent.png": "/Allgood-Designs/static/media/logo_LA_transparent.11f73d6ccdeb8edefa14.png",
+    "static/media/TSS_mockup_web_updates.png": "/Allgood-Designs/static/media/TSS_mockup_web_updates.dcc35327ae8f588628d9.png",
     "static/media/Montserrat-Medium.ttf": "/Allgood-Designs/static/media/Montserrat-Medium.598141984583bec97122.ttf",
     "static/media/Montserrat-Regular.ttf": "/Allgood-Designs/static/media/Montserrat-Regular.7c8ccfe4b8a1b8ea2327.ttf",
     "static/media/Zetafonts - Lovelace Text Bold Italic.otf": "/Allgood-Designs/static/media/Zetafonts - Lovelace Text Bold Italic.23b0765ceec0e5be2288.otf",
     "static/media/Zetafonts - Lovelace Text Regular.otf": "/Allgood-Designs/static/media/Zetafonts - Lovelace Text Regular.13f9fe62b251e0244a9e.otf",
     "static/media/lightblue.svg": "/Allgood-Designs/static/media/lightblue.f27dbd95ddc168b2966e94b08a8cb7a6.svg",
+    "static/media/react.svg": "/Allgood-Designs/static/media/react.b7a1f2234cf6936dc2cac6c753b9210a.svg",
+    "static/media/node.svg": "/Allgood-Designs/static/media/node.6091b2fde2ce8dd593ae95dc6d6731c8.svg",
+    "static/media/express.svg": "/Allgood-Designs/static/media/express.3402bff03d8d1ebad9b5a0d2eda717ec.svg",
+    "static/media/mongoDB.svg": "/Allgood-Designs/static/media/mongoDB.356b456405df06ce6d1970c2974d12ce.svg",
     "static/media/icons8-github.svg": "/Allgood-Designs/static/media/icons8-github.b887cf3873e820cf246bd038839e662f.svg",
     "static/media/icons8-linkedin-50.svg": "/Allgood-Designs/static/media/icons8-linkedin-50.9c15bbe76ac648bf77614acc775192b9.svg",
     "index.html": "/Allgood-Designs/index.html",
-    "main.42d61f49.css.map": "/Allgood-Designs/static/css/main.42d61f49.css.map",
-    "main.a58b4c5b.js.map": "/Allgood-Designs/static/js/main.a58b4c5b.js.map",
+    "main.44651219.css.map": "/Allgood-Designs/static/css/main.44651219.css.map",
+    "main.6d87a0cf.js.map": "/Allgood-Designs/static/js/main.6d87a0cf.js.map",
     "453.9217d0dd.chunk.js.map": "/Allgood-Designs/static/js/453.9217d0dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42d61f49.css",
-    "static/js/main.a58b4c5b.js"
+    "static/css/main.44651219.css",
+    "static/js/main.6d87a0cf.js"
   ]
 }
