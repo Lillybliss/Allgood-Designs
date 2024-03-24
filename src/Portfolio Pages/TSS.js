@@ -2,6 +2,9 @@ import React from "react";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import { Link } from "react-router-dom";
+import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
+import mainTSSMock from "../Assets/Portfolio/TSS_mockup_web_updates.png";
+import lowfiTSSmock from "../Assets/Portfolio/TSS_lofi_mockup.png";
 
 const TSS = () => {
   return (
@@ -16,7 +19,7 @@ const TSS = () => {
             <button className="portfolio-btn">View Website</button>
           </div>
           <div className="mockup-image">
-            <img src="https://via.placeholder.com/500" alt="Mockup" />
+            <img src={mainTSSMock} alt="Mockup" />
           </div>
         </div>
       </div>
@@ -53,13 +56,13 @@ const TSS = () => {
           <img src={tag} alt="tag"></img>
           <p>Web Design</p>
           <img src={tag} alt="tag"></img>
-          <p>Web Development</p>
+          <p>Development</p>
         </div>
       </div>
 
       <div className="row-1">
         <div className="left-image">
-          <img src="https://via.placeholder.com/500" alt="Mockup" />
+          <img src={lowfiTSSmock} alt="Mockup" />
         </div>
         <div className="right-text">
           <h2 className="right-title">The Design Phase</h2>
@@ -86,7 +89,7 @@ const TSS = () => {
 
       <div className="row-1">
         <div className="left-image">
-          <img src="https://via.placeholder.com/500" alt="Mockup" />
+          <img src={TSSmock} alt="Mockup" />
         </div>
         <div className="right-text">
           <h2 className="right-title">The Development Phase</h2>

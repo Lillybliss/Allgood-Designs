@@ -218,11 +218,14 @@
     .left-image {
         flex: 0 0 auto; /* Don't grow or shrink, maintain initial width */
         margin-right: 0px; /* Adjust margin as needed */
+        margin-top: auto;
+        margin-bottom: auto;
       }
 
     .left-image img {
-        margin-left: 45px;
-        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 93%;
         height: auto;
       }
       
@@ -230,7 +233,7 @@
         flex: 1; /* Take up remaining space */
         display: flex;
         flex-direction: column; /* Stack items vertically */
-        margin-right: 40px;
+        margin-right: 35px;
       }
       
       /* Optional styling */
