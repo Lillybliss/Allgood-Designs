@@ -136,6 +136,10 @@
 
 /* Tablet Styles */
 @media screen and (min-width: 900px) {
+
+    .mockup-image {
+        margin-right: 0px;
+    }
     .container {
         padding: 20px;
         align-items: center;
@@ -149,13 +153,13 @@
     .together-top {
         display: flex;
         flex-wrap: wrap;
-        background-color: red;
         align-items: center;
         width: 90%;
-        max-width: 900px;
+        min-width: 700px;
+        max-width: 800px;
         margin-left: auto;
         margin-right: auto;  
-    }
+        }
     
     .row h1, .row h2{
         text-align: left; 
@@ -170,6 +174,75 @@
         width: 200px;
         height: 40px;
     }
+
+    .row-3 {
+        width: 80%;
+        max-width: 810px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+        padding-top: 30px;
+    }
+
+    .row-3 img {
+        width: 23.6%;
+        height: auto;
+        
+    }
+
+    .port-about-container, .port-about-text, .port-about-title, .row-4, .row-1, .row-2, .project-tags, .row-4-title, .row-4-text {
+        width: 90%;
+        min-width: 700px;
+        max-width: 850px;
+        padding: 0;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .port-about-container, .row-4 {
+        margin-top: 50px;
+    }
+
+    .row-1, .row-3 {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .left-image {
+        flex: 0 0 auto; /* Don't grow or shrink, maintain initial width */
+        margin-right: 0px; /* Adjust margin as needed */
+      }
+
+    .left-image img {
+        margin-left: 45px;
+        width: 75%;
+        height: auto;
+      }
+      
+      .right-text {
+        flex: 1; /* Take up remaining space */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        margin-right: 40px;
+      }
+      
+      /* Optional styling */
+      .right-title {
+        margin-top: 20px; 
+        margin-bottom: 0;
+      }
+
+    .port-about-text, .right-text, .row-4-text {
+        margin-top: 20px;
+    }
+
+    .project-tags, .row-3 {
+        margin-top: 50px;    
+    }
+
     
     
     
