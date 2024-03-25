@@ -39,9 +39,8 @@ const Contact = () => {
         <div className="contact-header-container">
           <h1 className="header-title">Contact Me</h1>
           <h2 className="contact-h2">
-            If you're interested in learning more about my work or would like to
-            discuss potential opportunities, please don't hesitate to contact
-            me.
+            Please contact me if you're interested in learning more about my
+            work or would like to discuss potential opportunities.
           </h2>
           <div className="contact-email">
             <img src={email} alt="Email" className="contact-email-icon" />

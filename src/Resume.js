@@ -78,7 +78,7 @@ const Resume = () => {
           </div>
           <hr className="horizontal-line" />
           <div className="skills">
-            <h2 className="underline">What Can I Do?</h2>
+            <h2 className="underline">What I Can Do:</h2>
             <ul>
               <li>Responsive Web Design</li>
               <li>Front-End Development</li>
@@ -140,14 +140,13 @@ const Resume = () => {
           <div className="prof-summary">
             <h2 className="underline">Professional Summary</h2>
             <p className="resume-p">
-              Digital Media student with a strong passion for user-centric
+              Digital Media graduate with a strong passion for user-centric
               design and creative problem-solving. Skilled in designing and
               developing responsive user interfaces, combining aesthetics and
               functionality seamlessly. Proficient in various design tools and
-              techniques, adept at creating impactful solutions in today's
-              digital landscape. Passionate contributor to local galleries and
-              markets, showcasing artistic talents and fostering self-expression
-              through art. 
+              techniques. Adept at creating impactful solutions in today's
+              digital landscape. Passionate contributor to local art galleries
+              and markets, where personal projects are showcased. 
             </p>
           </div>
 
