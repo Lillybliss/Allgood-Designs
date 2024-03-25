@@ -68,7 +68,7 @@ const Resume = () => {
 
             <div className="email">
               <img src={email} alt="Email" className="email-icon" />
-              <p className="resume-p">lillyallgood@ucf.edu</p>
+              <p className="resume-p"><a href="mailto:lillyallgood@ucf.edu" className="resume-email-a">lillyallgood@ucf.edu</a></p>
             </div>
 
             <div className="phone">

@@ -44,7 +44,7 @@ const Contact = () => {
           </h2>
           <div className="contact-email">
             <img src={email} alt="Email" className="contact-email-icon" />
-            <p className="resume-p">lillyallgood@ucf.edu</p>
+            <p className="resume-p"><a href="mailto:lillyallgood@ucf.edu" className="cont-email-a">lillyallgood@ucf.edu</a></p>
           </div>
         </div>
 

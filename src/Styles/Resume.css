@@ -1,5 +1,7 @@
 /* mobile styles */
-
+.resume-email-a {
+    color: black;
+}
 
 .underline {
     display: inline-block;
