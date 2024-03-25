@@ -250,13 +250,15 @@
     .transparent-header {
         max-width: 200px;
         min-width: 290px;
-        margin-top: -78px;
+        margin-top: -79px;
         padding-right: 10px;
     }
 
     .white-header {
-        font-size: 1em;
-        margin-left: 25px;
+        font-size: 1.2em;
+        margin-left: 10px;
+        padding-right: 0px;
+        width: 130px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -264,9 +266,10 @@
 
     .resume-btn {        
         min-width: 120px; 
-        padding: 0px 5px;
-        margin-right: 5px;
-        margin-left: 18px;
+        height: 35px;
+        padding: 0px 0px;
+        margin-right: 0px;
+        margin-left: 0px;
         width: 140px;
         font-size: 12px;
         display: flex;
@@ -289,6 +292,7 @@
 
     .white-header {
         font-size: 1.3em;
+        margin-left: 25px;
     }
 
     .resume-btn {
