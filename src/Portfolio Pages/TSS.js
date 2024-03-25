@@ -85,7 +85,7 @@ const TSS = () => {
               <li>Real-World Use Cases</li>
               <li>A Rigorous Testing Plan</li>
               <li>Wireframe Sketches</li>
-              <li>And More!</li>
+              <li>Low Fidelity Prototypes</li>
             </ul>
           </p>
         </div>
@@ -112,7 +112,7 @@ const TSS = () => {
               <li>High Fidelity Prototypes</li>
               <li>User Testing & Feedback</li>
               <li>Test Mitigation Report</li>
-              <li>And More!</li>
+              <li>Final Strategy Guide</li>
             </ul>
           </p>
         </div>
@@ -144,7 +144,7 @@ const TSS = () => {
           comprehensive back-end development work establishes a sturdy
           foundation for a scalable, efficient, and user-friendly website,
           setting the stage for future enhancements and features in our
-          React.js-based platform. View our Github Repository here!
+          React.js-based platform. View our Github Repository here.
         </p>
       </div>
     </div>

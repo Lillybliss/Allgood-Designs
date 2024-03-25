@@ -128,7 +128,7 @@ const Resume = () => {
             <ul>
               <li>Customer Service</li>
               <li>Organization</li>
-              <li>Teamwork</li>
+              <li>Collaboration</li>
               <li>Time Management</li>
               <li>Creativity</li>
             </ul>
