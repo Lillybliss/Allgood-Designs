@@ -142,6 +142,74 @@
     width: 17%;
 }
 
+/* For smallest mobile phones: */
+@media (max-width: 400px) {
+    .resume-header {
+        align-items: center;
+    }
+
+    .white-header {
+        color: white;
+        font-size: 1.3em;
+        font-weight: normal;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .resume-btn {
+        margin-right: 0;
+        height: 40px;
+        width: 180px;
+        padding: 5px 0px;
+        font-size: 14px;
+    }
+    
+    .transparent-header {
+        position: absolute;
+        display: block;
+        width: 92.9%;
+        margin-top: -100px;
+        padding: 10px 0;
+        text-align: center;}
+        
+    
+}
+
+/* For larger mobile phones: */
+@media (min-width: 400px) {
+    .resume-header {
+        align-items: center;
+    }
+
+    .white-header {
+        margin-top: 5px;
+        width: 100%;
+        margin-left: 15px;
+        text-align: left;
+    }
+    
+    .resume-btn {
+        margin-right: 15px;
+        height: 40px;
+        width: 300px;
+        padding: 5px 0px;
+        font-size: 14px;
+    }
+    
+    .transparent-header {
+        position: absolute;
+        display: flex;
+        width: 92.9%;
+        margin-top: -84px;
+        padding: 20px 0;
+        text-align: center;
+    }
+        
+    
+}
+
 
 
 /* For tablets */
