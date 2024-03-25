@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import logo from "./Assets/lightblue.svg";
-import headshot from "./Assets/headshot_circle.png";
+import headshot from "./Assets/headshot_circle_2.png";
 import roundHeadshot from "./Assets/rounded_headshot.png";
 import "./Styles/Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
