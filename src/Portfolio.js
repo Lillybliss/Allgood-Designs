@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./Styles/Portfolio.css";
 import { Link } from "react-router-dom";
-import portfolioData from "./Data/portfolioData";
+import portfolioData from "./Data/orderedPortData.json";
 
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("All");
   const [isVisible, setIsVisible] = useState(false);
-  const [filteredPortfolioData, setFilteredPortfolioData] = useState(portfolioData);
+  const [filteredPortfolioData, setFilteredPortfolioData] =
+    useState(portfolioData);
 
   const handleCategoryClick = (category) => {
     setActiveCategory(category);
@@ -15,7 +16,9 @@ const Portfolio = () => {
       setFilteredPortfolioData(portfolioData);
     } else {
       const lowercaseCategory = category.toLowerCase();
-      const filteredData = portfolioData.filter(piece => piece.categories.includes(lowercaseCategory));
+      const filteredData = portfolioData.filter((piece) =>
+        piece.categories.includes(lowercaseCategory)
+      );
       setFilteredPortfolioData(filteredData);
     }
   };
