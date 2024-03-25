@@ -103,6 +103,10 @@ const Portfolio = () => {
         ))}
         <div className="portfolio-piece"></div>{" "}
         {/* Empty div to fill the last row */}
+        <div className="portfolio-piece"></div>{" "}
+        {/* Empty div to fill the last row */}
+        <div className="portfolio-piece"></div>{" "}
+        {/* Empty div to fill the last row */}
       </div>
     </div>
   );

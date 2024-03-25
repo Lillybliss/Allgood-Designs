@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Styles/Resume.css";
-import resumeHeadshot from "./Assets/newone.png";
+import resumeHeadshot from "./Assets/newone_smaller.png";
+import biggerHeadshot from "./Assets/newone.png";
+
 import location from "./Assets/icons/icons8-location-96.png";
 import email from "./Assets/icons/icons8-email-100.png";
 import phone from "./Assets/icons/icons8-phone-100.png";
@@ -46,7 +48,7 @@ const Resume = () => {
             <PopUpPicture
               isOpen={isPopupOpen}
               closePopup={closePopup}
-              image={resumeHeadshot}
+              image={biggerHeadshot}
             />
             <div className="transparent-header">
               <h1 className="white-header">Lilly Allgood</h1>
