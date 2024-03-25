@@ -102,14 +102,15 @@
 
 
 .project-tags img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;;
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
 }
 
 .project-tags p {
-    margin-right: 40px;
+    margin-right: 12px;
     margin-top: 5px;
+    font-size: 14px;
 }
 
 .row-1, .row-2, .row-3, .row-4 {
