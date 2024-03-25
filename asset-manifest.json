@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Allgood-Designs/static/css/main.44651219.css",
-    "main.js": "/Allgood-Designs/static/js/main.6d87a0cf.js",
+    "main.css": "/Allgood-Designs/static/css/main.a5b40618.css",
+    "main.js": "/Allgood-Designs/static/js/main.bc7472a2.js",
     "static/js/453.9217d0dd.chunk.js": "/Allgood-Designs/static/js/453.9217d0dd.chunk.js",
     "static/media/rounded_headshot.png": "/Allgood-Designs/static/media/rounded_headshot.8abd62021c46562e15d8.png",
     "static/media/home_clouds.png": "/Allgood-Designs/static/media/home_clouds.c9988e4897094a59a698.png",
@@ -11,9 +11,9 @@
     "static/media/newone.png": "/Allgood-Designs/static/media/newone.35b0f996cc3523b9b9e2.png",
     "static/media/floral_moth.png": "/Allgood-Designs/static/media/floral_moth.f56ad91b70f70dca49dc.png",
     "static/media/Allgood_Designs_Mockup_transparent.png": "/Allgood-Designs/static/media/Allgood_Designs_Mockup_transparent.71d483311eb57bf7e412.png",
-    "static/media/headshot_circle.png": "/Allgood-Designs/static/media/headshot_circle.c35f1a771fe26e7fe098.png",
     "static/media/revolution-trifold_grey.png": "/Allgood-Designs/static/media/revolution-trifold_grey.7842664e83848ce378ec.png",
     "static/media/colorization_coverphoto.png": "/Allgood-Designs/static/media/colorization_coverphoto.b9b83f0a675847b03350.png",
+    "static/media/headshot_circle_2.png": "/Allgood-Designs/static/media/headshot_circle_2.e20c8549878415a44851.png",
     "static/media/merchmate_inhand_mockup.png": "/Allgood-Designs/static/media/merchmate_inhand_mockup.79107c4739b44963fb07.png",
     "static/media/TSS_lofi_mockup.png": "/Allgood-Designs/static/media/TSS_lofi_mockup.2857317b0695eab08470.png",
     "static/media/TSS_hifi_mockup.png": "/Allgood-Designs/static/media/TSS_hifi_mockup.669514febe36856080a8.png",
@@ -31,12 +31,12 @@
     "static/media/icons8-github.svg": "/Allgood-Designs/static/media/icons8-github.b887cf3873e820cf246bd038839e662f.svg",
     "static/media/icons8-linkedin-50.svg": "/Allgood-Designs/static/media/icons8-linkedin-50.9c15bbe76ac648bf77614acc775192b9.svg",
     "index.html": "/Allgood-Designs/index.html",
-    "main.44651219.css.map": "/Allgood-Designs/static/css/main.44651219.css.map",
-    "main.6d87a0cf.js.map": "/Allgood-Designs/static/js/main.6d87a0cf.js.map",
+    "main.a5b40618.css.map": "/Allgood-Designs/static/css/main.a5b40618.css.map",
+    "main.bc7472a2.js.map": "/Allgood-Designs/static/js/main.bc7472a2.js.map",
     "453.9217d0dd.chunk.js.map": "/Allgood-Designs/static/js/453.9217d0dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44651219.css",
-    "static/js/main.6d87a0cf.js"
+    "static/css/main.a5b40618.css",
+    "static/js/main.bc7472a2.js"
   ]
 }
