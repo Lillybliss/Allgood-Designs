@@ -91,7 +91,7 @@
   }
 
   .about-text h1, .about-text p, .about-text h2 {
-    text-align: justify; 
+    text-align: left; 
   }
 
   .about-text h1 {
@@ -157,7 +157,7 @@
   margin: 0;
   min-height: 140px;
   min-width: 100%;
-  text-align: center;
+  
 }
 
 .services-3 { /* view more button */
@@ -319,7 +319,7 @@
       .about-text p {
         font-size: 0.9em;
         margin-bottom: 10px; 
-        text-align: justify; 
+        text-align: left; 
       }
   
 
@@ -403,7 +403,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
-        width: 50%;
+        width: 45%;
         text-align: left;
 
       }
@@ -546,7 +546,7 @@
       }
 
       .working-together h2 {
-        font-size: 2em;
+        font-size: 1.9em;
       }
 
       .working-together p {
@@ -554,7 +554,7 @@
       }
 
       .working-together-text {
-        width: 50%;
+        width: 40%;
       }
 
   }
