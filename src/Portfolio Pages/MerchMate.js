@@ -4,7 +4,8 @@ import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
-import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
+import MMmock from "../Assets/Portfolio/merchmate_inhand_mockup.png";
+import hifiMock from "../Assets/Portfolio/merchmate_mockup_transparent.png";
 
 const MerchMate = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -42,7 +43,7 @@ const MerchMate = () => {
             </a>
           </div>
           <div className="mockup-image">
-            <img src="https://via.placeholder.com/500" alt="Mockup" />
+            <img src={MMmock} alt="Mockup" />
           </div>
         </div>
       </div>
@@ -63,21 +64,19 @@ const MerchMate = () => {
         </p>
         <div className="project-tags">
           <img src={tag} alt="tag"></img>
-          <p>Tag 1</p>
+          <p>Branding</p>
           <img src={tag} alt="tag"></img>
-          <p>Tag 2</p>
-          <img src={tag} alt="tag"></img>
-          <p>Tag 3</p>
+          <p>Wireframe & Prototyping</p>
         </div>
       </div>
 
       <div className="row-1">
         <div className="left-image">
           <img
-            src="https://via.placeholder.com/500"
+            src={hifiMock}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
+            onClick={() => openPopup(MMmock)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
@@ -108,7 +107,7 @@ const MerchMate = () => {
             src="https://via.placeholder.com/500"
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
+            onClick={() => openPopup(MMmock)}
           />
         </div>
         <div className="right-text">
