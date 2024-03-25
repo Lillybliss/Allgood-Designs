@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
+import portfolioData from "../Data/portfolioData";
 import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
 
 const HorizontalTemplate = () => {
@@ -14,6 +16,15 @@ const HorizontalTemplate = () => {
   };
 
   const closePopup = () => setIsPopupOpen(false);
+
+  const getRandomPortfolioPieces = () => {
+    // Shuffle the portfolioData array
+    const shuffledData = portfolioData.sort(() => Math.random() - 0.5);
+    // Select the first three items from the shuffled array
+    return shuffledData.slice(0, 3);
+  };
+
+  const randomPortfolioPieces = getRandomPortfolioPieces();
 
   return (
     <div className="portfolio-background">
@@ -134,6 +145,33 @@ const HorizontalTemplate = () => {
           ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
           ipsum
         </p>
+      </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">You May Also Like:</h2>
+        <div className="row-4-text">
+          <div className="portfolio">
+            {randomPortfolioPieces.map((piece) => (
+              <div key={piece.id} className="you-may">
+                <Link to={piece.route} className="portfolio-link">
+                  <div className="portfolio-content">
+                    <div className="portfolio-image">
+                      <img
+                        src={require(`../Assets/Portfolio/CoverPhotos/${piece.imageUrl}`)}
+                        alt={piece.title}
+                        className="portfolio-img"
+                      />
+                    </div>
+                    <div className="portfolio-info">
+                      <h2 className="piece-title">{piece.title}</h2>
+                      <p>{piece.subtitle}</p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

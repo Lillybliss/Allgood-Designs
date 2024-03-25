@@ -5,6 +5,9 @@
 
 }
 
+.you-may {
+    width: 90%; /* Display one piece per row on mobile */}
+
 .container {
     padding: 20px;
     display: block;
@@ -138,8 +141,101 @@
     margin-bottom: auto;
 }
 
-/* Tablet Styles */
+
+
+
+/*Tablet Styles*/
+@media screen and (min-width: 700px) {
+    .you-may {
+        width: calc((100% / 3) - 20px); /* 3 pieces per row within 90% of the page width */}
+
+    .you-may h2 {
+        font-size: 17px;
+    }
+
+        .row-3 {
+            width: 80%;
+            max-width: 810px;
+            padding: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 70px;
+            padding-top: 30px;
+        }
+    
+        .row-3 img {
+            width: 20%;
+            height: auto;
+            margin-right: 16px;
+            margin-left: 16px;
+            
+        }
+    
+        .port-about-container, .port-about-text, .port-about-title, .row-4, .row-1, .row-2, .project-tags, .row-4-title, .row-4-text {
+            width: 95%;
+            min-width: 700px;
+            max-width: 850px;
+            padding: 0;
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .port-about-container, .row-4 {
+            margin-top: 50px;
+        }
+        
+        
+
+
+
+        .row-1, .row-3 {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 30px;
+        }
+    
+        .left-image {
+            flex: 0 0 auto; /* Don't grow or shrink, maintain initial width */
+            margin-right: 0px; /* Adjust margin as needed */
+            margin-top: auto;
+            margin-bottom: auto;
+          }
+    
+        .left-image img {
+            margin-left: auto;
+            margin-right: auto;
+            width: 93%;
+            height: auto;
+          }
+          
+          .right-text {
+            flex: 1; /* Take up remaining space */
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            margin-right: 35px;
+          }
+          
+          /* Optional styling */
+          .right-title {
+            margin-top: 20px; 
+            margin-bottom: 0;
+          }
+    
+        .port-about-text, .right-text, .row-4-text {
+            margin-top: 20px;
+        }
+    
+        .project-tags, .row-3 {
+            margin-top: 50px;    
+        }
+    
+}
+
+
+/* Web Styles */
 @media screen and (min-width: 975px) {
+
 
     .mockup-image {
         margin-right: 0px;
