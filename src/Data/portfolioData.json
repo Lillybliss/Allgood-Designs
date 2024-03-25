@@ -35,10 +35,19 @@
         "route": "/Allgood-Designs/portfolio/Revolution-Lash-Studio",
         "categories": ["projects", "graphic design", "digital marketing"],
       "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
+      },
+      {
+        "id": 5,
+        "imageUrl": "plannify.png",
+        "title": "Plannify Project",
+        "subtitle": "Mobile App Prototype",
+        "route": "/Allgood-Designs/portfolio/plannify",
+        "categories": ["projects", "ui design"],
+      "tags": ["Branding", "WireFrame & Prototyping"]
       }
       ,
     {
-        "id": 5,
+        "id": 6,
         "imageUrl": "logo_LA_transparent.png",
         "title": "L.A.",
         "subtitle": "Logo Design",
@@ -48,7 +57,7 @@
       }
       ,
     {
-        "id": 6,
+        "id": 7,
         "imageUrl": "colorization_coverphoto.png",
         "title": "Image Retouching",
         "subtitle": "Adobe Photoshop",
@@ -57,7 +66,7 @@
       "tags": ["Graphic Design"]
       } ,
       {
-          "id": 7,
+          "id": 8,
           "imageUrl": "lilly-allgood-fungi-skull-sm.png",
           "title": "Fungi Skull",
           "subtitle": "Acrylic on Canvas",
@@ -66,7 +75,7 @@
           "tags": ["Art"]
     } ,
         {
-            "id": 8,
+            "id": 9,
             "imageUrl": "bubble_dragon.png",
             "title": "Bubble Dragon",
             "subtitle": "Acrylic on Canvas",
@@ -75,7 +84,7 @@
           "tags": ["Art"]
     } ,
     {
-        "id": 9,
+        "id": 10,
         "imageUrl": "floral_moth.png",
         "title": "Floral Moth",
         "subtitle": "Ink on Paper",

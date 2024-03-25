@@ -68,7 +68,14 @@ const Resume = () => {
 
             <div className="email">
               <img src={email} alt="Email" className="email-icon" />
-              <p className="resume-p"><a href="mailto:lillyallgood@ucf.edu" className="resume-email-a">lillyallgood@ucf.edu</a></p>
+              <p className="resume-p">
+                <a
+                  href="mailto:lillyallgood@ucf.edu"
+                  className="resume-email-a"
+                >
+                  lillyallgood@ucf.edu
+                </a>
+              </p>
             </div>
 
             <div className="phone">
@@ -78,7 +85,7 @@ const Resume = () => {
           </div>
           <hr className="horizontal-line" />
           <div className="skills">
-            <h2 className="underline">What I Can Do:</h2>
+            <h2 className="underline">What I Can Do</h2>
             <ul>
               <li>Responsive Web Design</li>
               <li>Front-End Development</li>

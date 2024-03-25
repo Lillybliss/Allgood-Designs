@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
@@ -8,8 +8,18 @@ import react from "../Assets/icons/react.svg";
 import node from "../Assets/icons/node.svg";
 import mongo from "../Assets/icons/mongoDB.svg";
 import express from "../Assets/icons/express.svg";
+import PopUpPicture from "../Components/PopUpPicture";
 
 const TSS = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => setIsPopupOpen(true);
+  const closePopup = () => setIsPopupOpen(false);
+
+  const handleImageClick = () => {
+    openPopup();
+  };
+
   return (
     <div className="portfolio-background">
       <div className="container">
@@ -65,7 +75,17 @@ const TSS = () => {
 
       <div className="row-1">
         <div className="left-image">
-          <img src={lowfiTSSmock} alt="Mockup" />
+          <img
+            src={lowfiTSSmock}
+            alt="Mockup"
+            style={{ cursor: "pointer" }}
+            onClick={handleImageClick}
+          />
+          <PopUpPicture
+            isOpen={isPopupOpen}
+            closePopup={closePopup}
+            image={lowfiTSSmock}
+          />
         </div>
         <div className="right-text">
           <h2 className="right-title">The Design Phase</h2>
@@ -77,7 +97,9 @@ const TSS = () => {
             element.
           </p>
           <p className="right-text">
-          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f">View the PDF</a> to explore:
+            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f">
+              View the PDF to explore:
+            </a>
             <ul>
               <li>Our Visual Design Guide</li>
               <li>Guidelines for Accessibility and Responsiveness</li>
@@ -92,7 +114,17 @@ const TSS = () => {
 
       <div className="row-1">
         <div className="left-image">
-          <img src={TSSmock} alt="Mockup" />
+          <img
+            src={TSSmock}
+            alt="Mockup"
+            style={{ cursor: "pointer" }}
+            onClick={handleImageClick}
+          />
+          <PopUpPicture
+            isOpen={isPopupOpen}
+            closePopup={closePopup}
+            image={TSSmock}
+          />
         </div>
         <div className="right-text">
           <h2 className="right-title">The Development Phase</h2>
@@ -106,7 +138,9 @@ const TSS = () => {
             program.
           </p>
           <p className="right-text">
-          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:20f44273-1525-450b-ac1b-bb0d2663ed7d">View the PDF</a> to explore:
+            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:20f44273-1525-450b-ac1b-bb0d2663ed7d">
+              View the PDF to explore:
+            </a>
             <ul>
               <li>High Fidelity Prototypes</li>
               <li>User Testing & Feedback</li>
@@ -143,7 +177,10 @@ const TSS = () => {
           comprehensive back-end development work establishes a sturdy
           foundation for a scalable, efficient, and user-friendly website,
           setting the stage for future enhancements and features in our
-          React.js-based platform. <a href="https://github.com/lwolbrink23/group8">View our Github Repository here.</a>
+          React.js-based platform.{" "}
+          <a href="https://github.com/lwolbrink23/group8">
+            View our Github Repository here.
+          </a>
         </p>
       </div>
     </div>

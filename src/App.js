@@ -8,6 +8,8 @@ import Contact from "./Contact.js";
 import Resume from "./Resume.js";
 import Portfolio from "./Portfolio.js";
 import TSS from "./Portfolio Pages/TSS.js";
+import MerchMate from "./Portfolio Pages/MerchMate.js";
+import AllgoodDesigns from "./Portfolio Pages/AllgoodDesigns.js";
 
 const App = () => {
   return (
@@ -23,6 +25,14 @@ const App = () => {
           <Route
             path="/Allgood-Designs/portfolio/The-Suite-Spot-Project"
             element={<TSS />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/MerchMate"
+            element={<MerchMate />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/Allgood-Designs"
+            element={<AllgoodDesigns />}
           />
         </Routes>
 
