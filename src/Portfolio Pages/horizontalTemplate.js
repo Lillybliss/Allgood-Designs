@@ -22,7 +22,13 @@ const HorizontalTemplate = () => {
           <div className="row">
             <h1 className="portfolio-title">The Title</h1>
             <h2 className="header-subtitle">The Subtitle</h2>
-            <button className="portfolio-btn">The Button</button>
+            <a
+              href="https://github.com/Lillybliss"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="portfolio-btn">The Button</button>
+            </a>
           </div>
           <div className="mockup-image">
             <img src="https://via.placeholder.com/500" alt="Mockup" />

@@ -30,7 +30,13 @@ const TSS = () => {
             <h2 className="header-subtitle">
               Branding, Web Design, & Responsive Development
             </h2>
-            <button className="portfolio-btn">View Website</button>
+            <a
+              href="https://github.com/Lillybliss"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="portfolio-btn">View Website</button>
+            </a>
           </div>
           <div className="mockup-image">
             <img src={mainTSSMock} alt="Mockup" />
