@@ -12,13 +12,14 @@ import PopUpPicture from "../Components/PopUpPicture";
 
 const TSS = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [popupImage, setPopupImage] = useState(null);
 
-  const openPopup = () => setIsPopupOpen(true);
-  const closePopup = () => setIsPopupOpen(false);
-
-  const handleImageClick = () => {
-    openPopup();
+  const openPopup = (image) => {
+    setIsPopupOpen(true);
+    setPopupImage(image);
   };
+
+  const closePopup = () => setIsPopupOpen(false);
 
   return (
     <div className="portfolio-background">
@@ -79,12 +80,12 @@ const TSS = () => {
             src={lowfiTSSmock}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={handleImageClick}
+            onClick={() => openPopup(lowfiTSSmock)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
             closePopup={closePopup}
-            image={lowfiTSSmock}
+            image={popupImage}
           />
         </div>
         <div className="right-text">
@@ -118,12 +119,7 @@ const TSS = () => {
             src={TSSmock}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={handleImageClick}
-          />
-          <PopUpPicture
-            isOpen={isPopupOpen}
-            closePopup={closePopup}
-            image={TSSmock}
+            onClick={() => openPopup(TSSmock)}
           />
         </div>
         <div className="right-text">

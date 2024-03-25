@@ -2,16 +2,18 @@ import React, { useState } from "react";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
+import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
 
 const HorizontalTemplate = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [popupImage, setPopupImage] = useState(null);
 
-  const openPopup = () => setIsPopupOpen(true);
-  const closePopup = () => setIsPopupOpen(false);
-
-  const handleImageClick = () => {
-    openPopup();
+  const openPopup = (image) => {
+    setIsPopupOpen(true);
+    setPopupImage(image);
   };
+
+  const closePopup = () => setIsPopupOpen(false);
 
   return (
     <div className="portfolio-background">
@@ -58,12 +60,12 @@ const HorizontalTemplate = () => {
             src="https://via.placeholder.com/500"
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={handleImageClick}
+            onClick={() => openPopup(TSSmock)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
             closePopup={closePopup}
-            image="https://via.placeholder.com/500"
+            image={popupImage}
           />
         </div>
         <div className="right-text">
@@ -89,12 +91,7 @@ const HorizontalTemplate = () => {
             src="https://via.placeholder.com/500"
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={handleImageClick}
-          />
-          <PopUpPicture
-            isOpen={isPopupOpen}
-            closePopup={closePopup}
-            image="https://via.placeholder.com/500"
+            onClick={() => openPopup(TSSmock)}
           />
         </div>
         <div className="right-text">

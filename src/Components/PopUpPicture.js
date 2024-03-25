@@ -5,7 +5,7 @@ const PopupPicture = ({ isOpen, closePopup, image }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="popup-background">
+    <div className="popup-background" onClick={closePopup}>
       <div className="popup-container">
         <img
           src={image}
