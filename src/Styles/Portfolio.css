@@ -37,14 +37,17 @@
     background-color: white; 
     font-size: 0.75em;
     cursor: pointer;
-    width: max-content;
-    min-width: 80px; 
-    margin: auto 5px;
+    margin: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .category-btn:active {
   background: #F6BBBC;
-  min-width: 80px; 
+  font-size: 0.75em;
 
 }
 

@@ -59,7 +59,7 @@ const Portfolio = () => {
         {[
           "All",
           "Projects",
-          "Web",
+          "UI Design",
           "Graphic Design",
           "Digital Marketing",
           "Art",

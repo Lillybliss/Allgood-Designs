@@ -5,7 +5,7 @@
       "title": "The Suite Spot Project",
       "subtitle": "Branding, Web Design, and Responsive Development",
       "route": "/Allgood-Designs/portfolio/The-Suite-Spot-Project",
-      "categories": ["projects", "web"],
+      "categories": ["projects", "ui design"],
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
@@ -14,7 +14,7 @@
       "title": "Allgood Designs",
       "subtitle": "Branding, Web Design, and Responsive Development",
       "route": "/Allgood-Designs/portfolio/Allgood-Designs",
-      "categories": ["projects", "web"],
+      "categories": ["projects", "ui design"],
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
@@ -23,7 +23,7 @@
         "title": "MerchMate Project",
         "subtitle": "Mobile App Prototype",
         "route": "/Allgood-Designs/portfolio/MerchMate",
-        "categories": ["projects", "web"],
+        "categories": ["projects", "ui design"],
       "tags": ["Branding", "WireFrame & Prototyping"]
       }
       ,
