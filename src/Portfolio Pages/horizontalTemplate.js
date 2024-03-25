@@ -62,12 +62,18 @@ const HorizontalTemplate = () => {
           ipsum
         </p>
         <div className="project-tags">
-          <img src={tag} alt="tag"></img>
-          <p>Tag 1</p>
-          <img src={tag} alt="tag"></img>
-          <p>Tag 2</p>
-          <img src={tag} alt="tag"></img>
-          <p>Tag 3</p>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Tag 1</p>
+          </div>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Tag 2</p>
+          </div>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Tag 3</p>
+          </div>
         </div>
       </div>
 

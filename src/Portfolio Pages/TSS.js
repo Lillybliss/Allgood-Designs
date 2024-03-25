@@ -82,12 +82,18 @@ const TSS = () => {
           cultivated a positive working atmosphere.
         </p>
         <div className="project-tags">
-          <img src={tag} alt="tag"></img>
-          <p>Branding</p>
-          <img src={tag} alt="tag"></img>
-          <p>Web Design</p>
-          <img src={tag} alt="tag"></img>
-          <p>Development</p>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Branding</p>
+          </div>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Web Design</p>
+          </div>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Development</p>
+          </div>
         </div>
       </div>
 

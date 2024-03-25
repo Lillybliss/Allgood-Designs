@@ -81,7 +81,7 @@
 }
 
 .right-title, .right-text, .row-4-title, .row-4-text {
-    text-align: justify; 
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     width: 98%;
@@ -96,11 +96,18 @@
     justify-content: left;
     width: 90%;
     max-width: 500px;
-
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
 }
 
 
@@ -132,11 +139,11 @@
 }
 
 .row-3 img {
-    width: 19%;
+    width: 21%;
     height: auto;
     margin-bottom: 0px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -154,7 +161,7 @@
     }
 
         .row-3 {
-            width: 80%;
+            width: 100%;
             max-width: 810px;
             padding: 0;
             margin-left: auto;
