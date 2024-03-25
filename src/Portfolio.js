@@ -86,7 +86,7 @@ const Portfolio = () => {
                   />
                 </div>
                 <div className="portfolio-info">
-                  <h2>{piece.title}</h2>
+                  <h2 className="piece-title">{piece.title}</h2>
                   <p>{piece.subtitle}</p>
                 </div>
               </div>
