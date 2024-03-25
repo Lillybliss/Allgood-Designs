@@ -17,7 +17,7 @@
     text-align: center; 
     margin-left: auto;
     margin-right: auto;   
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     max-width: 450px;
 }
 
@@ -25,24 +25,13 @@
     color: #fff;
     margin: 0;
     margin-top: 30px;
-    font-size: 1.35em;
+    font-size: 1.1em;
     margin-bottom: 35px;
     text-align: center; 
     margin-left: auto;
     margin-right: auto;
 }
 
-.contact-form-container {
-    padding: 20px;
-    display: block;
-    align-items: center;
-    height: 185px; 
-    text-align: center; 
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    border-radius: 30px;
-}
 
 .contact-email {
     display: flex;
@@ -63,12 +52,17 @@
 }
 
 .contact-form-container {
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
     align-items: center;
-    justify-content: center;
+    height: 185px; 
+    text-align: center; 
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -79,13 +73,14 @@
 
 .contact-form-container h2 {
     color: #394c56;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
 input, textarea {
-    width: 350px;
-    max-width: 400px;
+    width: 100%;
+    min-width: 270px;
+    max-width: 450px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     border-radius: 10px;
@@ -108,7 +103,9 @@ textarea::placeholder {
   }
 
 .contact-btn {
-    width: 350px;
+    width: 85%;
+    min-width: 270px;
+    max-width: 450px;
     height: 45px;
     margin-top: 20px;
 }
@@ -205,16 +202,15 @@ textarea::placeholder {
     .contact-form-container {
         min-width: 400px;
         width: 40%;
-        max-width: 500px;
+        max-width: 430px;
     }
 
     input, textarea {
-        min-width: 400px;
-        
+        min-width: 370px;        
     }    
 
     .contact-btn {
-        width: 400px;
+        width: 370px;
         height: 45px;
         margin-top: 20px;
     }
