@@ -78,7 +78,7 @@ const TSS = () => {
             element.
           </p>
           <p className="right-text">
-            View the PDF to explore:
+          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f">View the PDF</a> to explore:
             <ul>
               <li>Our Visual Design Guide</li>
               <li>Guidelines for Accessibility and Responsiveness</li>
@@ -107,7 +107,7 @@ const TSS = () => {
             program.
           </p>
           <p className="right-text">
-            View the PDF to explore:
+          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:20f44273-1525-450b-ac1b-bb0d2663ed7d">View the PDF</a> to explore:
             <ul>
               <li>High Fidelity Prototypes</li>
               <li>User Testing & Feedback</li>
@@ -144,7 +144,7 @@ const TSS = () => {
           comprehensive back-end development work establishes a sturdy
           foundation for a scalable, efficient, and user-friendly website,
           setting the stage for future enhancements and features in our
-          React.js-based platform. View our Github Repository here.
+          React.js-based platform. <a href="https://github.com/lwolbrink23/group8">View our Github Repository here.</a>
         </p>
       </div>
     </div>
