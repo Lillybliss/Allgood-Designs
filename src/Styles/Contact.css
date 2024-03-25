@@ -52,7 +52,6 @@
 
 .contact-email p {
     color: white;
-    font-weight: bold;
 }
 
 .contact-email-icon {
@@ -82,7 +81,8 @@
 }
 
 input, textarea {
-    width: 400px;
+    width: 350px;
+    max-width: 400px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     border-radius: 10px;
@@ -105,7 +105,7 @@ textarea::placeholder {
   }
 
 .contact-btn {
-    width: 400px;
+    width: 350px;
     height: 45px;
     margin-top: 20px;
 }
@@ -142,7 +142,7 @@ textarea::placeholder {
         color: #fff;
         margin: 0;
         margin-top: 30px;
-        font-size: 1.3em;
+        font-size: 17px;
         margin-bottom: 35px;
         text-align: left; 
         margin-left: auto;
@@ -195,7 +195,7 @@ textarea::placeholder {
     }
 
     .contact-h2 { 
-        font-size: 1.4em;
+        font-size: 18px;
     }
 
 
