@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi"; // installed react-icons
 import "../Styles/HamburgerMenu.css";
+import github from "../Assets/icons/icons8-github.svg";
+import linkedin from "../Assets/icons/icons8-linkedin-50.svg";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,6 +61,26 @@ const HamburgerMenu = () => {
                 >
                   Contact
                 </Link>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Lillybliss"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mobile-nav-link"
+                >
+                  Github
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/lillian-allgood-39213a127/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mobile-nav-link"
+                >
+                  Linkedin
+                </a>
               </li>
             </ul>
           </nav>
