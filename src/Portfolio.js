@@ -6,13 +6,18 @@ import portfolioData from "./Data/portfolioData";
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("All");
   const [isVisible, setIsVisible] = useState(false);
+  const [filteredPortfolioData, setFilteredPortfolioData] = useState(portfolioData);
 
   const handleCategoryClick = (category) => {
     setActiveCategory(category);
-    // Logic to filter content based on category
-    // You can use this filtered content to render portfolio pieces accordingly
-    // For now, let's just log the selected category
     console.log("Selected category:", category);
+    if (category === "All") {
+      setFilteredPortfolioData(portfolioData);
+    } else {
+      const lowercaseCategory = category.toLowerCase();
+      const filteredData = portfolioData.filter(piece => piece.categories.includes(lowercaseCategory));
+      setFilteredPortfolioData(filteredData);
+    }
   };
 
   useEffect(() => {
@@ -73,7 +78,7 @@ const Portfolio = () => {
 
       {/* This is the Portfolio Pieces section */}
       <div className="portfolio">
-        {portfolioData.map((piece) => (
+        {filteredPortfolioData.map((piece) => (
           <div key={piece.id} className="portfolio-piece">
             <Link to={piece.route} className="portfolio-link">
               <div className="portfolio-content">
