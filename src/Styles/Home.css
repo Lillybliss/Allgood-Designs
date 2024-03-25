@@ -43,9 +43,8 @@
 
   .tagline {
     color: white;
-    text-shadow: 2px 4px 5px #324b56;
+    text-shadow: 2px 4px 5px #182429;
     width: 90%;
-    font-weight: bolder;
     margin-top: 10%;
     margin-left: 5%;
     padding-top: 10px;
@@ -71,7 +70,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1em;
+    font-size: 0.9em;
+    color: #182429;
   }
 
   .round-div {
@@ -157,6 +157,7 @@
   margin: 0;
   min-height: 140px;
   min-width: 100%;
+  color: #182429;
   
 }
 
@@ -242,6 +243,7 @@
   .working-together button {
     width: 100%;
     height: 50px;
+    color: #182429;
   }
 
 
