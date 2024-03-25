@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
-import { Link } from "react-router-dom";
 import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
 import mainTSSMock from "../Assets/Portfolio/TSS_mockup_web_updates.png";
 import lowfiTSSmock from "../Assets/Portfolio/TSS_lofi_mockup.png";

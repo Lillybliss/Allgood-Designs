@@ -131,6 +131,7 @@
 
   .services  h2 {
     font-size: 0.9em;
+    text-align: center;
   }
 
   .topRow {
@@ -156,6 +157,7 @@
   margin: 0;
   min-height: 140px;
   min-width: 100%;
+  text-align: center;
 }
 
 .services-3 { /* view more button */

@@ -9,7 +9,7 @@ const PopupPicture = ({ isOpen, closePopup, image }) => {
       <div className="popup-container">
         <img
           src={image}
-          alt="pop up image"
+          alt="pop up"
           className="popup-image"
           style={{ width: "100%", height: "100%" }}
         />
