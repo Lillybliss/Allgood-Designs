@@ -3,6 +3,9 @@ header {
     padding: 20px;
     display: flex;
   align-items: center;
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000;
 }
 
 .logo {
