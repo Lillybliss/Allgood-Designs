@@ -36,21 +36,20 @@ const Home = () => {
             <h1>About Me</h1>
             <h2>Hello and welcome to my online portfolio!</h2>
             <p>
-              My name is Lilly Allgood, and I'm a visual designer and web
-              developer based in Orlando, Florida. I'm deeply passionate about
-              crafting exceptional user experiences and leveraging my creativity
-              to enhance the digital world. Currently pursuing a BA in Digital
-              Media at UCF, I have immersed myself in various coding languages
-              and design software.{" "}
+              My name is Lilly Allgood. I'm a visual designer and web developer
+              based in Orlando, Florida. I'm deeply passionate about crafting
+              exceptional user experiences and leveraging my creativity to
+              enhance the digital world. While obtaining my BA in Digital Media
+              at the University of Central Florida, I have immersed myself in
+              industry standard coding languages and design software.{" "}
             </p>{" "}
             <p>
-              Throughout my academic journey, I've earned a place on the Honor's
-              List, Dean's List, and President's Honor Roll, maintaining a
-              stellar 4.0 GPA. Outside of academia, I enjoy painting and
-              showcasing my art in local galleries and markets. I believe in the
-              power of art as a form of self-expression, and I'm committed to
-              using my diverse skills to make a meaningful impact in today's
-              digital landscape.
+              I have maintained a place on the Honor's List, Dean's List, and
+              President's Honor Roll, maintaining a 4.0 GPA throughout my
+              academic career. Outside of academia I enjoy painting and
+              showcasing my art in local markets. I believe in art as a powerful
+              form of self-expression, and I'm committed to using my diverse
+              skills to make a meaningful impact in today's digital landscape.
             </p>
           </div>
 
