@@ -15,9 +15,9 @@ const Home = () => {
         <img src={logo} alt="Lilly Allgood Logo" className="homeLogo" />
         <div className="home-content">
           <h2 className="tagline">
-            Elevating Digital Experiences Through Design, Development, and
-            More...
+            Elevating Digital Experiences Through Design, Development, & More...
           </h2>
+
           <div className="home-buttons">
             <Link to="/Allgood-Designs/resume" className="Link">
               <Button className="home-btn">View Resume</Button>
@@ -103,8 +103,7 @@ const Home = () => {
             <h2>Curious about working together?</h2>
             <p>
               If you're interested in learning more about my work or would like
-              to discuss potential opportunities, please don't hesitate
-              to contact me. 
+              to discuss potential opportunities, please contact me. 
             </p>
             <Link to="/Allgood-Designs/contact" className="Link">
               <Button>Contact Me</Button>
