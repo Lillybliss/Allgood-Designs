@@ -9,6 +9,7 @@ import hifiMock from "../Assets/Portfolio/merchmate_mockup_transparent.png";
 import MMad from "../Assets/Portfolio/MMad.png";
 import MMLogo from "../Assets/Portfolio/MMLogo.png";
 import MMcolors from "../Assets/Portfolio/MMcolors.png";
+import MMtypography from "../Assets/Portfolio/Frame 3.png";
 
 const MerchMate = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -54,20 +55,16 @@ const MerchMate = () => {
       <div className="port-about-container">
         <h2 className="port-about-title">About</h2>
         <p className="port-about-text">
-          MerchMate is a mobile app designed to revolutionize the way fans
-          engage with concert merchandise, transforming a traditionally
-          time-consuming process into a quick and enjoyable experience. By
-          embracing technology and user-centric design, MerchMate ensures that
-          every concertgoer can effortlessly access and enjoy their favorite
-          artist's merchandise without compromising on the live event
-          experience. This revolutionary platform is meticulously crafted to
-          empower users with real-time information, convenience, and a seamless
-          interface.
-        </p>
-        <p className="port-about-text">
-          In essence, MerchMate is more than just an app; it's a game-changer
-          for concert enthusiasts, bringing together the excitement of live
-          events with the ease of modern technology.
+          As the designer of MerchMate, a hypothetical mobile app concept, I
+          initiated the project with thorough research and user feedback.
+          Utilizing Figma, I progressed from wireframes to low-fidelity
+          prototypes, refining features along the way. The high-fidelity
+          prototype, guided by a visual design guide, ensured a visually
+          appealing interface. Although the concept is hypothetical,
+          considerations such as project management, scope, and budget were
+          carefully addressed. The focus remained on user experience throughout,
+          resulting in a seamless and enjoyable mobile app concept aimed at
+          revolutionizing event experiences.
         </p>
         <div className="project-tags">
           <div className="tag">
@@ -96,21 +93,40 @@ const MerchMate = () => {
           />
         </div>
         <div className="right-text">
-          <h2 className="right-title">The Title</h2>
+          <h2 className="right-title">The Concept</h2>
           <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
-          </p>
-          <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
+            MerchMate is a mobile app designed to revolutionize the way fans
+            engage with concert merchandise, transforming a traditionally
+            time-consuming process into a quick and enjoyable experience. By
+            embracing technology and user-centric design, MerchMate ensures that
+            every concertgoer can purchase merchandise without compromising on
+            the live event experience. The app is made to empower users with
+            real-time information, convenience, and a seamless interface.
           </p>
         </div>
       </div>
+
+      <div className="row-3-three">
+        <img src={MMLogo} alt="Mockup" />
+        <img src={MMcolors} alt="MerchMate Logo" />
+        <img src={MMtypography} alt="Mockup" />
+      </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">Visual Design Guide</h2>
+        <p className="row-4-text">
+          The visual design guide for the app details key features such as logo
+          usage, brand colors, button styling, fonts, and more. The MerchMate
+          logo features a distinctive clothing hanger, elegantly rendered in the
+          brand's signature blue hue. This carefully chosen design embodies the
+          essence of MerchMate, seamlessly blending functionality and style. The
+          hanger symbolizes the app's primary focus on providing users with a
+          convenient and efficient platform to access live concert merchandise.
+          This guide served as the cornerstone for crafting a distinct brand
+          identity, ensuring consistency across the app's interface.
+        </p>
+      </div>
+      <div className="padding"></div>
 
       <div className="row-1">
         <div className="left-image">
@@ -122,48 +138,26 @@ const MerchMate = () => {
           />
         </div>
         <div className="right-text">
-          <h2 className="right-title">The Title</h2>
+          <h2 className="right-title">Interactive Prototype</h2>
           <p className="right-text">
-            Experience the pinnacle of our design ingenuity through the
-            high-fidelity prototype of MerchMate, our revolutionary mobile app.
-            Meticulously crafted using the collaborative power of Figma, this
-            prototype is the embodiment of our vision, showcasing a thoughtfully
-            designed layout. It encompasses an array of features including user
-            profiles, favorites, vendor search, online store, real-time stock
-            levels, order tracking, and a streamlined checkout process. This
-            sophisticated prototype not only reflects our commitment to
-            excellence but also serves as the guiding blueprint for creating a
-            seamless and responsive mobile experience, ensuring users can
-            effortlessly navigate the app and enjoy their favorite concerts
-            without missing a beat.
+            Carefully designed with Figma, this interactive prototype serves as
+            the foundational blueprint for developing a smooth and adaptable
+            mobile experience.
           </p>
           <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
+            Key features include:
+            <ul>
+              <li>Real-time updates on merchandise availability</li>
+              <li>Vendor search</li>
+              <li>Easy-to-use online store</li>
+              <li>Order tracking</li>
+              <li>Personalized user profiles</li>
+            </ul>
           </p>
         </div>
       </div>
 
-      <div className="row-3">
-        <img src={MMLogo} alt="Mockup" />
-        <img src={MMcolors} alt="MerchMate Logo" />
-        <img src="https://via.placeholder.com/500" alt="Mockup" />
-        <img src="https://via.placeholder.com/500" alt="Mockup" />
-      </div>
-
-      <div className="row-4">
-        <h2 className="row-4-title">The Title</h2>
-        <p className="row-4-text">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum
-        </p>
-      </div>
+      <div className="padding"> </div>
 
       <div className="row-4">
         <h2 className="row-4-title">You May Also Like:</h2>

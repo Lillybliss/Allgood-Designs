@@ -140,6 +140,16 @@ const HorizontalTemplate = () => {
         <img src="https://via.placeholder.com/500" alt="Mockup" />
         <img src="https://via.placeholder.com/500" alt="Mockup" />
       </div>
+      {/*three images instead of 4*/}
+      <div className="row-3-three">
+        <img src="https://via.placeholder.com/500" alt="Mockup" alt="Mockup" />
+        <img
+          src="https://via.placeholder.com/500"
+          alt="Mockup"
+          alt="MerchMate Logo"
+        />
+        <img src="https://via.placeholder.com/500" alt="Mockup" alt="Mockup" />
+      </div>
 
       <div className="row-4">
         <h2 className="row-4-title">The Title</h2>
