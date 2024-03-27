@@ -138,13 +138,16 @@ const Revolution = () => {
       {/*two images instead*/}
       <div className="row-3-two">
         <div className="servicemenu">
-        <img src={Menu1} alt="Menu" />
+        <img src={Menu1} alt="Menu" style={{ cursor: "pointer" }}
+            onClick={() => openPopup(Menu1)}/>
         <p>Service menu.</p>
         </div>
         <div className="asign">
         <img
           src={Asign}
           alt="Asign"
+          style={{ cursor: "pointer" }}
+            onClick={() => openPopup(Asign)}
         />
         <p>A frame sign.</p>
         </div>

@@ -11,9 +11,7 @@ const PopupPicture = ({ isOpen, closePopup, image }) => {
           src={image}
           alt="pop up"
           className="popup-image"
-          style={{ width: "100%", height: "100%" }}
         />
-        <button onClick={closePopup}>Close</button>
       </div>
     </div>
   );
