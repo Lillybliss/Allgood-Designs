@@ -49,17 +49,20 @@ const Revolution = () => {
       </div>
 
       <div className="noImage-main">
+            
+            <a href="https://www.canva.com/design/DAGAuTwJe2A/2EqBaCg-8C8qbu8DjhhLrQ/view?utm_content=DAGAuTwJe2A&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
             <img src={trifold} alt="Trifold brochure"          />
+            </a>
           </div>
 
       <div className="port-about-container">
         <h2 className="port-about-title">About</h2>
         <p className="port-about-text">
-        In 2021, Revolution Lash Studio underwent a complete rebrand, necessitating a comprehensive overhaul to capture its new brand identity. 
-        This required crafting a new company name, logo design, and refining its online presence with an updated website and social media strategy. 
+        In 2021, Revolution Lash Studio underwent a complete rebrand, necessitating a comprehensive overhaul to capture their new brand identity. 
+        This required crafting a new company name, logo design, and refining their online presence with an updated website and social media strategy. 
         Central to the rebrand was the creation of updated marketing collateral. Collaborating closely with the studio, I conceptualized and designed digital 
-        assets for email campaigns and social media. Additionally, I designed impactful print materials, ranging from attention-grabbing A-frame signs to 
-        service menus and look books. These efforts culminated in a unified brand identity that resonates with both existing and potential clients. 
+        assets for email campaigns and social media. Additionally, I designed impactful print materials, ranging from A-frame signs to 
+        service menus and operations manuals. These efforts culminated in a unified brand identity that resonates with both existing and potential clients. 
         </p>
         <div className="project-tags">
           <div className="tag">
@@ -101,12 +104,49 @@ const Revolution = () => {
             incentivizing additional services while also promoting the company's social media presence.
           </p>
           <p className="right-text">
-          <a href="https://www.canva.com/design/DAEi_Hq38AQ/Fm-eLly0_CmWJ8X-R-ruwg/view?utm_content=DAEi_Hq38AQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+          <a href="https://www.canva.com/design/DAGAudG4tuw/U3tVX3eOrGZL4i6U3tQYPw/view?utm_content=DAGAudG4tuw&utm_campaign=designshare&utm_medium=link&utm_source=editor"  target="_blank">
               View the digital version here.
             </a>
           </p>
         </div>
       </div>
+
+      <div className="row-1">
+        <div className="left-image">
+          <img
+            src={Revsocial}
+            alt="Mockup"
+            style={{ cursor: "pointer" }}
+            onClick={() => openPopup(Revsocial)}
+          />
+        </div>
+        <div className="right-text">
+        <h2 className="right-title">Manuals</h2>
+          <p className="right-text">
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+            ipsum
+          </p>
+          <p className="right-text">
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+            ipsum
+          </p>
+          <p className="right-text">
+          <a href="https://www.canva.com/design/DAGAuYY9hqM/2F06lxqZCXeF-Y1rXfSiEQ/view?utm_content=DAGAuYY9hqM&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
+              View the digital Operations Manual here.
+            </a>
+          </p>
+          <p className="right-text">
+          <a href="https://www.canva.com/design/DAGAuWEdViQ/ESC7q7MPvuyIjg87r-fgmw/view?utm_content=DAGAuWEdViQ&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
+              View the digital Training Manual here.
+            </a>
+          </p>
+        </div>
+      </div>
+
 
       <div className="row-1">
         <div className="left-image">
@@ -133,7 +173,6 @@ const Revolution = () => {
           </p>
         </div>
       </div>
-
       
       {/*two images instead*/}
       <div className="row-3-two">
@@ -152,18 +191,6 @@ const Revolution = () => {
         <p>A frame sign.</p>
         </div>
         
-      </div>
-
-      <div className="row-4">
-        <h2 className="row-4-title">Print Marketing</h2>
-        <p className="row-4-text">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum
-        </p>
       </div>
 
 

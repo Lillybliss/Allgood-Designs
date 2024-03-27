@@ -371,8 +371,11 @@
         max-width: 850px;
         margin-left: auto;
         margin-right: auto;  
-        }
+    }
     
+
+
+
     .row h1, .row h2{
         text-align: left; 
         margin-left: 5px;
@@ -461,14 +464,11 @@
         margin-top: 50px;    
     }
 
-    
+    .project-tags{
+        margin-bottom: 50px;    
+    }
     
     
     
 }
 
-/* Desktop Styles */
-@media screen and (min-width: 1000px) {
-    
-    
-}
