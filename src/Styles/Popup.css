@@ -10,10 +10,23 @@
     z-index: 1000;
 }
 
+.close-button-contact {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #707070;
+}
 
-.popup-container button {
-    margin: 10px;
-    width: 150px;
+.close-button-contact:hover {
+    background: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
 }
 
 
@@ -27,6 +40,7 @@
 }
 
 .popup-contact {
+    position: relative;
     width: 300px;
     background-color: white;
     padding: 40px;
@@ -40,7 +54,8 @@
 
 .popup-contact p {
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 
 }
 

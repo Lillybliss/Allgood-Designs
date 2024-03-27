@@ -1,5 +1,6 @@
 .popup-container {
     width: 100%;
+    position: relative;
     max-width: 1000px; /* Set a maximum width for the popup */
     background-color: white;
     padding: 10px;
@@ -10,6 +11,26 @@
     place-items: center;
     overflow: hidden; /* Hide overflow content */
 }
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: -35px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-button:hover {
+    background: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
 
 @media screen and (min-width: 708px) {
     .popup-container {
