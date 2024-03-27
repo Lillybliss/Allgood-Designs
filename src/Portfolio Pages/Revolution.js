@@ -4,15 +4,15 @@ import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
-import MMmock from "../Assets/Portfolio/merchmate_inhand_mockup.png";
-import hifiMock from "../Assets/Portfolio/merchmate_mockup_transparent.png";
-import MMad from "../Assets/Portfolio/MMad.png";
-import MMLogo from "../Assets/Portfolio/MMLogo.png";
-import MMcolors from "../Assets/Portfolio/MMcolors.png";
-import MMtypography from "../Assets/Portfolio/Frame 3.png";
+import trifold from "../Assets/Portfolio/CoverPhotos/revolution-trifold-small.png";
+import trifoldExpanded from "../Assets/Portfolio/trifold-expanded.png";
+import lookbook from "../Assets/Portfolio/Lookbook1.png";
+import Menu1 from "../Assets/Portfolio/Menu1.png";
+import Asign from "../Assets/Portfolio/Asign.png";
+import Revsocial from "../Assets/Portfolio/Insta1.png";
 
 const Revolution = () => {
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [popupImage, setPopupImage] = useState(null);
 
   const openPopup = (image) => {
@@ -33,28 +33,33 @@ const Revolution = () => {
 
   return (
     <div className="portfolio-background">
-      <div className="container">
-        <div className="together-top">
-          <div className="row">
+      <div className="container-noImage">
+        <div className="together-top-noImage">
+          <div className="row-noImage">
             <h1 className="portfolio-title">Revolution Lash Studio</h1>
             <h2 className="header-subtitle">Rebrand Marketing Collateral</h2>
+            <a
+              href="https://github.com/Lillybliss"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
           </div>
         </div>
       </div>
 
+      <div className="noImage-main">
+            <img src={trifold} alt="Trifold brochure"          />
+          </div>
+
       <div className="port-about-container">
         <h2 className="port-about-title">About</h2>
         <p className="port-about-text">
-          As the designer of MerchMate, a hypothetical mobile app concept, I
-          initiated the project with thorough research and user feedback.
-          Utilizing Figma, I progressed from wireframes to low-fidelity
-          prototypes, refining features along the way. The high-fidelity
-          prototype, guided by a visual design guide, ensured a visually
-          appealing interface. Although the concept is hypothetical,
-          considerations such as project management, scope, and budget were
-          carefully addressed. The focus remained on user experience throughout,
-          resulting in a seamless and enjoyable mobile app concept aimed at
-          revolutionizing event experiences.
+        In 2021, Revolution Lash Studio underwent a complete rebrand, necessitating a comprehensive overhaul to capture its new brand identity. 
+        This required crafting a new company name, logo design, and refining its online presence with an updated website and social media strategy. 
+        Central to the rebrand was the creation of updated marketing collateral. Collaborating closely with the studio, I conceptualized and designed digital 
+        assets for email campaigns and social media. Additionally, I designed impactful print materials, ranging from attention-grabbing A-frame signs to 
+        service menus and look books. These efforts culminated in a unified brand identity that resonates with both existing and potential clients. 
         </p>
         <div className="project-tags">
           <div className="tag">
@@ -63,7 +68,11 @@ const Revolution = () => {
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Wireframe & Prototyping</p>
+            <p>Graphic Design</p>
+          </div>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Digital Marketing</p>
           </div>
         </div>
       </div>
@@ -71,10 +80,10 @@ const Revolution = () => {
       <div className="row-1">
         <div className="left-image">
           <img
-            src={MMad}
+            src={lookbook}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(MMmock)}
+            onClick={() => openPopup(lookbook)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
@@ -83,71 +92,79 @@ const Revolution = () => {
           />
         </div>
         <div className="right-text">
-          <h2 className="right-title">The Concept</h2>
+          <h2 className="right-title">The "Look Book"</h2>
           <p className="right-text">
-            MerchMate is a mobile app designed to revolutionize the way fans
-            engage with concert merchandise, transforming a traditionally
-            time-consuming process into a quick and enjoyable experience. By
-            embracing technology and user-centric design, MerchMate ensures that
-            every concertgoer can purchase merchandise without compromising on
-            the live event experience. The app is made to empower users with
-            real-time information, convenience, and a seamless interface.
+          The 'Look Book' serves as a versatile tool catering to both clients and service providers alike. Positioned strategically in the salon's
+           waiting area, it offers clients a visual journey through various services, 
+           serving as a source of inspiration for their preferred styles. Particularly beneficial for first-time visitors, 
+           it simplifies service terminology for easy comprehension. The Look Book also doubles as a sales booster,
+            incentivizing additional services while also promoting the company's social media presence.
+          </p>
+          <p className="right-text">
+          <a href="https://www.canva.com/design/DAEi_Hq38AQ/Fm-eLly0_CmWJ8X-R-ruwg/view?utm_content=DAEi_Hq38AQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+              View the digital version here.
+            </a>
           </p>
         </div>
       </div>
-
-      <div className="row-3-three">
-        <img src={MMLogo} alt="Mockup" />
-        <img src={MMcolors} alt="MerchMate Logo" />
-        <img src={MMtypography} alt="Mockup" />
-      </div>
-
-      <div className="row-4">
-        <h2 className="row-4-title">Visual Design Guide</h2>
-        <p className="row-4-text">
-          The visual design guide for the app details key features such as logo
-          usage, brand colors, button styling, fonts, and more. The MerchMate
-          logo features a distinctive clothing hanger, elegantly rendered in the
-          brand's signature blue hue. This carefully chosen design embodies the
-          essence of MerchMate, seamlessly blending functionality and style. The
-          hanger symbolizes the app's primary focus on providing users with a
-          convenient and efficient platform to access live concert merchandise.
-          This guide served as the cornerstone for crafting a distinct brand
-          identity, ensuring consistency across the app's interface.
-        </p>
-      </div>
-      <div className="padding"></div>
 
       <div className="row-1">
         <div className="left-image">
           <img
-            src={hifiMock}
+            src={Revsocial}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup({hifiMock})}
+            onClick={() => openPopup(Revsocial)}
           />
         </div>
         <div className="right-text">
-          <h2 className="right-title">Interactive Prototype</h2>
+        <h2 className="right-title">Marketing Campaigns</h2>
           <p className="right-text">
-            Carefully designed with Figma, this interactive prototype serves as
-            the foundational blueprint for developing a smooth and adaptable
-            mobile experience.
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+            ipsum
           </p>
           <p className="right-text">
-            Key features include:
-            <ul>
-              <li>Real-time updates on merchandise availability</li>
-              <li>Vendor search</li>
-              <li>Easy-to-use online store</li>
-              <li>Order tracking</li>
-              <li>Personalized user profiles</li>
-            </ul>
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+            ipsum
           </p>
         </div>
       </div>
 
-      <div className="padding"> </div>
+      
+      {/*two images instead*/}
+      <div className="row-3-two">
+        <div className="servicemenu">
+        <img src={Menu1} alt="Menu" />
+        <p>Service menu.</p>
+        </div>
+        <div className="asign">
+        <img
+          src={Asign}
+          alt="Asign"
+        />
+        <p>A frame sign.</p>
+        </div>
+        
+      </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">Print Marketing</h2>
+        <p className="row-4-text">
+          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+          ipsum
+        </p>
+      </div>
+
+
+      <div className="padding"></div>
 
       <div className="row-4">
         <h2 className="row-4-title">You May Also Like:</h2>

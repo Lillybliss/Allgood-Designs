@@ -11,22 +11,23 @@
 
 }
 
-.noImage-main {
+.noImage-main img {
     display: block;
     align-items: center;
-    text-align: center; 
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;
     padding-bottom: 0px;
     padding-top: 40px;
-    width: 90%;
-    max-width: 500px;
+    width: 98%;
+    max-width: 850px;
 }
+
+
 
 .you-may {
     width: 90%; /* Display one piece per row on mobile */}
 
-.container, .container-noImage {
+.container {
     padding: 20px;
     display: block;
     align-items: center;
@@ -34,6 +35,18 @@
     margin-left: auto;
     margin-right: auto;   
     padding-bottom: 0px;
+    padding-top: 50px;
+    background-color: aliceblue;
+}
+
+.container-noImage {
+    padding: 20px;
+    display: block;
+    align-items: center;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 50px;
     padding-top: 50px;
     background-color: aliceblue;
 }
@@ -175,6 +188,40 @@
     margin-top: auto;
     margin-bottom: auto;
 
+}
+
+.row-3-two {
+    margin-top: 40px;
+    max-width: 850px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding:0;
+    width: 90%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .servicemenu, .asign {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .servicemenu p, .asign p {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+
+
+.row-3-two img {
+    width: 100%;
+    height: auto;
 }
 
 .left-pic, .right-pic {

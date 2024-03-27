@@ -38,7 +38,7 @@ const App = () => {
           />
           <Route
             path="/Allgood-Designs/portfolio/Revolution-Lash-Studio"
-            element={<HorizontalNoImage />}
+            element={<Revolution />}
           />
         </Routes>
 
