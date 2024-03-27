@@ -36,18 +36,8 @@ const Revolution = () => {
       <div className="container">
         <div className="together-top">
           <div className="row">
-            <h1 className="portfolio-title">MerchMate Project</h1>
-            <h2 className="header-subtitle">Mobile App Prototype</h2>
-            <a
-              href="https://www.figma.com/proto/T8VR19INyceYt6xXxw1XWa/MerchMate-Mobile-Prototype-(Copy)?type=design&node-id=1-2&t=J7FynIHyF4GWKb0t-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="portfolio-btn">View Prototype</button>
-            </a>
-          </div>
-          <div className="mockup-image">
-            <img src={MMmock} alt="Mockup" />
+            <h1 className="portfolio-title">Revolution Lash Studio</h1>
+            <h2 className="header-subtitle">Rebrand Marketing Collateral</h2>
           </div>
         </div>
       </div>
@@ -134,7 +124,7 @@ const Revolution = () => {
             src={hifiMock}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup({ hifiMock })}
+            onClick={() => openPopup({hifiMock})}
           />
         </div>
         <div className="right-text">

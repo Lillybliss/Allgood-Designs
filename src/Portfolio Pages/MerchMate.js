@@ -84,7 +84,7 @@ const MerchMate = () => {
             src={MMad}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(MMmock)}
+            onClick={() => openPopup(MMad)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
@@ -134,7 +134,7 @@ const MerchMate = () => {
             src={hifiMock}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup({ hifiMock })}
+            onClick={() => openPopup(hifiMock)}
           />
         </div>
         <div className="right-text">
