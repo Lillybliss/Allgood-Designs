@@ -10,6 +10,7 @@ import lookbook from "../Assets/Portfolio/Lookbook1.png";
 import Menu1 from "../Assets/Portfolio/Menu1.png";
 import Asign from "../Assets/Portfolio/Asign.png";
 import Revsocial from "../Assets/Portfolio/Insta1.png";
+import manual from "../Assets/Portfolio/manual.png";
 
 const Revolution = () => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -114,26 +115,19 @@ const Revolution = () => {
       <div className="row-1">
         <div className="left-image">
           <img
-            src={Revsocial}
+            src={manual}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(Revsocial)}
+            onClick={() => openPopup(manual)}
           />
         </div>
         <div className="right-text">
         <h2 className="right-title">Manuals</h2>
           <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
+          I composed copy and designed educational materials tailored for internal use within the company. These materials include the Training Manual, which covers everything from common allergies and infections to the proper execution of services and sanitation practices. Additionally, I
+           developed the Operations Manual, a vital resource for front-of-house employees, offering clear guidance on studio management and interaction with the booking system.
           </p>
-          <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
-          </p>
+          
           <p className="right-text">
           <a href="https://www.canva.com/design/DAGAuYY9hqM/2F06lxqZCXeF-Y1rXfSiEQ/view?utm_content=DAGAuYY9hqM&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
               View the digital Operations Manual here.
@@ -160,16 +154,12 @@ const Revolution = () => {
         <div className="right-text">
         <h2 className="right-title">Marketing Campaigns</h2>
           <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
+          I created targeted email marketing campaigns in MailChimp, composing copy that resonated with their clients. Utilizing lead capture techniques, I optimized the campaigns to attract and retain clients.
+
+
           </p>
           <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
+          Additionally, I designed engaging assets for their social media platforms by showcasing their services, products, and monthly specials. Through strategic posting schedules and compelling visuals, I helped to increase brand visibility and engagement. 
           </p>
         </div>
       </div>

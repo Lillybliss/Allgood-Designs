@@ -19,22 +19,21 @@
     },
     {
         "id": 3,
-        "imageUrl": "merchmate_inhand_mockup.png",
-        "title": "MerchMate Project",
-        "subtitle": "Mobile App Prototype",
-        "route": "/Allgood-Designs/portfolio/MerchMate",
-        "categories": ["projects", "ui design"],
-      "tags": ["Branding", "WireFrame & Prototyping"]
-      }
-      ,
-    {
-        "id": 4,
         "imageUrl": "revolution-trifold_grey.png",
         "title": "Revolution Lash Studio",
         "subtitle": "Rebrand Marketing Collateral",
         "route": "/Allgood-Designs/portfolio/Revolution-Lash-Studio",
         "categories": ["projects", "graphic design", "digital marketing"],
       "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
+      },
+      {
+        "id": 4,
+        "imageUrl": "merchmate_inhand_mockup.png",
+        "title": "MerchMate Project",
+        "subtitle": "Mobile App Prototype",
+        "route": "/Allgood-Designs/portfolio/MerchMate",
+        "categories": ["projects", "ui design"],
+      "tags": ["Branding", "WireFrame & Prototyping"]
       },
       {
         "id": 5,

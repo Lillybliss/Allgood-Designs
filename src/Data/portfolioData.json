@@ -18,7 +18,7 @@
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
-        "id": 3,
+        "id": 4,
         "imageUrl": "merchmate_inhand_mockup.png",
         "title": "MerchMate Project",
         "subtitle": "Mobile App Prototype",
@@ -28,7 +28,7 @@
       }
       ,
     {
-        "id": 4,
+        "id": 3,
         "imageUrl": "revolution-trifold-small.png",
         "title": "Revolution Lash Studio",
         "subtitle": "Rebrand Marketing Collateral",
