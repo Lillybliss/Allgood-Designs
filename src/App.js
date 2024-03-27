@@ -10,6 +10,7 @@ import Portfolio from "./Portfolio.js";
 import TSS from "./Portfolio Pages/TSS.js";
 import MerchMate from "./Portfolio Pages/MerchMate.js";
 import AllgoodDesigns from "./Portfolio Pages/AllgoodDesigns.js";
+import Revolution from "./Portfolio Pages/Revolution.js";
 
 const App = () => {
   return (
@@ -33,6 +34,10 @@ const App = () => {
           <Route
             path="/Allgood-Designs/portfolio/Allgood-Designs"
             element={<AllgoodDesigns />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/Revolution-Lash-Studio"
+            element={<Revolution />}
           />
         </Routes>
 
