@@ -12,6 +12,8 @@ import MerchMate from "./Portfolio Pages/MerchMate.js";
 import AllgoodDesigns from "./Portfolio Pages/AllgoodDesigns.js";
 import Revolution from "./Portfolio Pages/Revolution.js";
 import HorizontalNoImage from "./Portfolio Pages/horizontalNoImage.js";
+import Martin from "./Portfolio Pages/Martin.js";
+import VerticalTemplate from "./Portfolio Pages/VerticalTemplate.js";
 
 const App = () => {
   return (
@@ -39,6 +41,14 @@ const App = () => {
           <Route
             path="/Allgood-Designs/portfolio/Revolution-Lash-Studio"
             element={<Revolution />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/image-retouching"
+            element={<Martin />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/Fungi-Skull"
+            element={<VerticalTemplate />}
           />
         </Routes>
 

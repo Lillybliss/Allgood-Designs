@@ -1,0 +1,314 @@
+.portfolio-background {
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 0px;
+
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.you-may {
+    width: 90%; /* Display one piece per row on mobile */}
+
+.container {
+    padding: 20px;
+    display: block;
+    align-items: center;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 0px;
+    padding-top: 50px;
+    background-color: aliceblue;
+}
+
+.container-noImage {
+    padding: 20px;
+    display: block;
+    align-items: center;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: aliceblue;
+}
+
+.vertical-row h1, .vertical-row h2, .row-noImage h1, .row-noImage h2 {
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.portfolio-btn, .portfolio-btn-noImage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.vertical-left-image {
+    width: 90%;  
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+
+}
+
+
+.vertical-left-image img img {
+    width: 100%;
+    height: auto;
+}
+
+.vertical-row-1 {
+    display: block;
+    align-items: center;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 90%;
+    background-color: blue;
+
+}
+
+
+
+.vertical-right-title, .vertical-right-text {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    max-width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.vertical-project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertical-tag {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.vertical-project-tags img {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
+
+.vertical-project-tags p {
+    margin-right: 12px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.vertical-row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Tablet Styles*/
+@media screen and (min-width: 700px) {
+    .you-may {
+        width: calc((100% / 3) - 20px); /* 3 pieces per row within 90% of the page width */}
+
+    .you-may h2 {
+        font-size: 17px;
+    }
+
+    
+    .vertical-row-1, .vertical-project-tags {
+            width: 95%;
+            min-width: 700px;
+            max-width: 850px;
+            padding: 0;
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+ 
+
+        .vertical-row-1 {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 30px;
+        }
+    
+        .vertical-left-image {
+            flex: 0 0 auto; /* Don't grow or shrink, maintain initial width */
+            margin-right: 0px; /* Adjust margin as needed */
+            margin-top: auto;
+            margin-bottom: auto;
+          }
+    
+        .vertical-left-image img {
+            margin-left: auto;
+            margin-right: auto;
+            width: 93%;
+            height: auto;
+          }
+          
+          .vertical-right-text {
+            flex: 1; /* Take up remaining space */
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            margin-right: 0px;
+          }
+          
+          /* Optional styling */
+          .vertical-right-title {
+            margin-top: 20px; 
+            margin-bottom: 0;
+          }
+    
+         .vertical-right-text, .row-4-text {
+            margin-top: 20px;
+        }
+    
+        .vertical-project-tags {
+            margin-top: 50px;    
+        }
+    
+}
+
+
+/* Web Styles */
+@media screen and (min-width: 975px) {
+
+
+    .container {
+        padding: 20px;
+        align-items: center;
+        text-align: center; 
+        margin-left: auto;
+        margin-right: auto;   
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+
+    .together-top {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 90%;
+        min-width: 800px;
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    
+
+
+
+    .vertical-row h1, .vertical-row h2{
+        text-align: left; 
+        margin-left: 5px;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 340px;    }
+    
+    .portfolio-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: -135px;
+        width: 200px;
+        height: 40px;
+    }
+
+
+
+    .vertical-row-1, .vertical-project-tags {
+        width: 95%;
+        min-width: 700px;
+        max-width: 850px;
+        padding: 0;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .vertical-row-1 {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .vertical-left-image {
+        flex: 0 0 auto; /* Don't grow or shrink, maintain initial width */
+        margin-right: 0px; /* Adjust margin as needed */
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+    .vertical-left-image img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 93%;
+        height: auto;
+      }
+      
+      .vertical-right-text {
+        flex: 1; /* Take up remaining space */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        margin-right: 35px;
+      }
+      
+      /* Optional styling */
+      .vertical-right-title {
+        margin-top: 20px; 
+        margin-bottom: 0;
+      }
+
+     .vertical-right-text {
+        margin-top: 20px;
+    }
+
+    .vertical-project-tags {
+        margin-top: 50px;    
+    }
+
+    .vertical-project-tags{
+        margin-bottom: 50px;    
+    }
+    
+    
+    
+}
+
