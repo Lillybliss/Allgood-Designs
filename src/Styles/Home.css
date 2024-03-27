@@ -90,7 +90,11 @@
     margin-top: 15%;
   }
 
-  .about-text h1, .about-text p, .about-text h2 {
+ .about-text p {
+    text-align: justify; 
+  }
+
+  .about-text h1, .about-text h2 {
     text-align: left; 
   }
 

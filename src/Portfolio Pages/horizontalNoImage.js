@@ -164,6 +164,9 @@ const HorizontalNoImage = () => {
         </p>
       </div>
 
+
+      <div className="padding"></div>
+
       <div className="row-4">
         <h2 className="row-4-title">You May Also Like:</h2>
         <div className="row-4-text">

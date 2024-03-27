@@ -107,9 +107,9 @@ const MerchMate = () => {
       </div>
 
       <div className="row-3-three">
-        <img src={MMLogo} alt="Mockup" />
-        <img src={MMcolors} alt="MerchMate Logo" />
-        <img src={MMtypography} alt="Mockup" />
+        <img src={MMLogo} alt="Mockup" className="left-pic"/>
+        <img src={MMcolors} alt="MerchMate Logo" className="middle-pic"/>
+        <img src={MMtypography} alt="Mockup" className="right-pic"/>
       </div>
 
       <div className="row-4">

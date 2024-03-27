@@ -177,6 +177,16 @@
 
 }
 
+.left-pic, .right-pic {
+    padding-right: 0px;
+    padding-left: 0px;  
+}
+
+.middle-pic {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
 
 
 /*Tablet Styles*/
@@ -199,19 +209,26 @@
         }
     
         .row-3 img {
-            width: 20%;
+            width: 22%;
             height: auto;
-            margin-right: 16px;
-            margin-left: 16px;
+            margin-right: 8px;
+            margin-left: 8px;
             
         }
 
         .row-3-three img {
-            width: 27%;
-            height: auto;
-            margin-right: 20px;
-            margin-left: 20px;
-        
+            width: 30%;
+            height: auto;      
+        }
+
+        .left-pic, .right-pic {
+            padding-right: 0px;
+            padding-left: 0px;  
+        }
+
+        .middle-pic {
+            padding-right: 15px;
+            padding-left: 15px;
         }
     
         .port-about-container, .port-about-text, .port-about-title, .row-4, .row-1, .row-2, .project-tags, .row-4-title, .row-4-text {
@@ -278,6 +295,10 @@
 
 /* Web Styles */
 @media screen and (min-width: 975px) {
+    .middle-pic {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 
 
     .mockup-image {
