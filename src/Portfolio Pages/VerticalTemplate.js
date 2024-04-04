@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/VerticalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
@@ -9,6 +9,7 @@ import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
 const VerticalTemplate = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [popupImage, setPopupImage] = useState(null);
+  const [isVisible, setIsVisible] = useState(false);
 
   const openPopup = (image) => {
     setIsPopupOpen(true);
@@ -26,8 +27,37 @@ const VerticalTemplate = () => {
 
   const randomPortfolioPieces = getRandomPortfolioPieces();
 
+  useEffect(() => {
+    // Function to handle scroll event
+    const handleScroll = () => {
+      // Check if the user has scrolled down a certain distance
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+      setIsVisible(scrollTop > 200);
+    };
+
+    // Add scroll event listener when component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove scroll event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="portfolio-background">
+      {/* Back-to-top button */}
+      {isVisible && (
+        <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
+      )}
       <div className="container-noImage">
         <div className="together-top-noImage">
           <div className="row-noImage">
@@ -73,19 +103,19 @@ const VerticalTemplate = () => {
             ipsum
           </p>
           <div className="vertical-project-tags">
-          <div className="vertical-tag">
-            <img src={tag} alt="tag"></img>
-            <p>Tag 1</p>
+            <div className="vertical-tag">
+              <img src={tag} alt="tag"></img>
+              <p>Tag 1</p>
+            </div>
+            <div className="vertical-tag">
+              <img src={tag} alt="tag"></img>
+              <p>Tag 2</p>
+            </div>
+            <div className="vertical-tag">
+              <img src={tag} alt="tag"></img>
+              <p>Tag 3</p>
+            </div>
           </div>
-          <div className="vertical-tag">
-            <img src={tag} alt="tag"></img>
-            <p>Tag 2</p>
-          </div>
-          <div className="vertical-tag">
-            <img src={tag} alt="tag"></img>
-            <p>Tag 3</p>
-          </div>
-        </div>
         </div>
       </div>
 

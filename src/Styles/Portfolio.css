@@ -131,6 +131,7 @@
     font-weight: bolder;
     text-decoration: none;
     z-index: 9999; /* Ensure it appears above other elements */
+    border: 3px solid #dfdfdf;
   }
   
   .back-to-top:before {

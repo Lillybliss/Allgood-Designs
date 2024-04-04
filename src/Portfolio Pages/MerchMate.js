@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
@@ -14,6 +14,7 @@ import MMtypography from "../Assets/Portfolio/Frame 3.png";
 const MerchMate = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [popupImage, setPopupImage] = useState(null);
+  const [isVisible, setIsVisible] = useState(false);
 
   const openPopup = (image) => {
     setIsPopupOpen(true);
@@ -31,8 +32,37 @@ const MerchMate = () => {
 
   const randomPortfolioPieces = getRandomPortfolioPieces();
 
+  useEffect(() => {
+    // Function to handle scroll event
+    const handleScroll = () => {
+      // Check if the user has scrolled down a certain distance
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+      setIsVisible(scrollTop > 200);
+    };
+
+    // Add scroll event listener when component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove scroll event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="portfolio-background">
+      {/* Back-to-top button */}
+      {isVisible && (
+        <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
+      )}
       <div className="container">
         <div className="together-top">
           <div className="row">
@@ -107,9 +137,9 @@ const MerchMate = () => {
       </div>
 
       <div className="row-3-three">
-        <img src={MMLogo} alt="Mockup" className="left-pic"/>
-        <img src={MMcolors} alt="MerchMate Logo" className="middle-pic"/>
-        <img src={MMtypography} alt="Mockup" className="right-pic"/>
+        <img src={MMLogo} alt="Mockup" className="left-pic" />
+        <img src={MMcolors} alt="MerchMate Logo" className="middle-pic" />
+        <img src={MMtypography} alt="Mockup" className="right-pic" />
       </div>
 
       <div className="row-4">
