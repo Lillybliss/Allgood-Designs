@@ -205,18 +205,20 @@ const AllgoodDesigns = () => {
         <div className="right-text">
           <h2 className="right-title">The Deployment Phase</h2>
           <p className="right-text">
-            In the Development Phase, I applied my visual design guide to create
-            a high-fidelity prototype. For the color scheme, I curated a palette
-            comprised of soft, complementary tones, punctuated by a vibrant pink
-            accent. Drawing inspiration from dawn clouds and beach sunrises, my
-            design mood board informed this selection.
+            My programming language of choice for my portfolio is React.js. I
+            utilized React to create an application that showcases my work in a
+            visually appealing manner. React’s component-based architecture
+            allowed me to create reusable elements, streamlining the development
+            process. I also employed React Router to manage the application’s
+            navigation.
           </p>
           <p className="right-text">
-            Embracing the cloud motif as a unifying element, I ensured coherence
-            throughout the website. The chosen pink hue, both subdued and
-            eye-catching, serves as a distinct accent, aiding in highlighting
-            key calls to action. Additionally, I opted for a modern, easily
-            legible font to enhance user experience.
+            As of today, my site is deployed to Gitub pages while I get my
+            personal domain set up. Github pages comes with a lot of
+            limitations, but it's a great way to showcase my work to potential
+            employers. I look forward to deploying my site to a more robust
+            platform in the future at{" "}
+            <a href="https://allgoodesigns.com">allgoodesigns.com</a>.
           </p>
           <p className="right-text">
             <a href="https://github.com/Lillybliss/Allgood-Designs">
