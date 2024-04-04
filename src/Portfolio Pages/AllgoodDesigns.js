@@ -121,7 +121,7 @@ const AllgoodDesigns = () => {
             src={ADlofi}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
+            onClick={() => openPopup(ADlofi)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
@@ -157,7 +157,7 @@ const AllgoodDesigns = () => {
             src={AllgoodSmall}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
+            onClick={() => openPopup(AllgoodSmall)}
           />
         </div>
         <div className="right-text">
@@ -197,12 +197,7 @@ const AllgoodDesigns = () => {
 
       <div className="row-1">
         <div className="left-image">
-          <img
-            src={react}
-            alt="Mockup"
-            style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
-          />
+          <img src={react} alt="React logo" />
         </div>
         <div className="right-text">
           <h2 className="right-title">The Deployment Phase</h2>
@@ -220,8 +215,19 @@ const AllgoodDesigns = () => {
             limitations, but it's a great way to showcase my work to potential
             employers. I look forward to deploying my site to a more robust
             platform in the future at{" "}
-            <a href="https://allgoodesigns.com">allgoodesigns.com.</a>
-            <a href="https://github.com/Lillybliss/Allgood-Designs">
+            <a
+              href="https://allgoodesigns.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              allgoodesigns.com.
+            </a>{" "}
+            <br />
+            <a
+              href="https://github.com/Lillybliss/Allgood-Designs"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View my Github Repository here.
             </a>
           </p>

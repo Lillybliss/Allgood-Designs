@@ -6,10 +6,7 @@ import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
 import Planmock from "../Assets/Portfolio/plannify_inhand_mockup.png";
 import PlanlowfiMock from "../Assets/Portfolio/lofitogether.png";
-import MMad from "../Assets/Portfolio/MMad.png";
-import MMLogo from "../Assets/Portfolio/MMLogo.png";
-import MMcolors from "../Assets/Portfolio/MMcolors.png";
-import MMtypography from "../Assets/Portfolio/Frame 3.png";
+import PlannifyConcept from "../Assets/Portfolio/plannerstock.png";
 
 const Plannify = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -108,10 +105,10 @@ const Plannify = () => {
       <div className="row-1">
         <div className="left-image">
           <img
-            src={MMad}
+            src={PlannifyConcept}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(MMad)}
+            onClick={() => openPopup(PlannifyConcept)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}

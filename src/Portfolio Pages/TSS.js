@@ -71,12 +71,13 @@ const TSS = () => {
             <h2 className="header-subtitle">
               Branding, Web Design, & Responsive Development
             </h2>
+
             <a
-              href="https://github.com/Lillybliss"
+              href="https://github.com/lwolbrink23/group8"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="portfolio-btn">View Website</button>
+              <button className="portfolio-btn">View Code</button>
             </a>
           </div>
           <div className="mockup-image">
@@ -110,6 +111,11 @@ const TSS = () => {
           and seamlessly integrated everyone's contributions. This collaborative
           effort not only elevated the quality of our deliverables but also
           cultivated a positive working atmosphere.
+        </p>
+        <p className="port-about-text">
+          My team members include Lindsey Wolbrink, Brianna Lattimore, Callie
+          Vaughn, and Quynh Vo <br />
+          <strong>Check back soon to see the final deployed website!</strong>
         </p>
         <div className="project-tags">
           <div className="tag">
@@ -151,7 +157,11 @@ const TSS = () => {
             element.
           </p>
           <p className="right-text">
-            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f">
+            <a
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View the PDF to explore:
             </a>
             <ul>
@@ -187,7 +197,11 @@ const TSS = () => {
             program.
           </p>
           <p className="right-text">
-            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:20f44273-1525-450b-ac1b-bb0d2663ed7d">
+            <a
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:20f44273-1525-450b-ac1b-bb0d2663ed7d"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View the PDF to explore:
             </a>
             <ul>
@@ -227,7 +241,11 @@ const TSS = () => {
           foundation for a scalable, efficient, and user-friendly website,
           setting the stage for future enhancements and features in our
           React.js-based platform.{" "}
-          <a href="https://github.com/lwolbrink23/group8">
+          <a
+            href="https://github.com/lwolbrink23/group8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             View our Github Repository here.
           </a>
         </p>
