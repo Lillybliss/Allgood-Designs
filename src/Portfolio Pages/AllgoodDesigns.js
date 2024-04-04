@@ -9,12 +9,8 @@ import AllgoodSmall from "../Assets/Portfolio/CoverPhotos/Allgood_Designs_Mockup
 import ADlofi from "../Assets/Portfolio/AllgoodDesigns_lofi.png";
 import brand1 from "../Assets/Portfolio/ADbranding1.png";
 import brand2 from "../Assets/Portfolio/ADbranding2.png";
-import brand3 from "../Assets/Portfolio/ADbranding3.png";
 import brand4 from "../Assets/Portfolio/ADbranding4.png";
 import react from "../Assets/icons/react.svg";
-import node from "../Assets/icons/node.svg";
-import mongo from "../Assets/icons/mongoDB.svg";
-import express from "../Assets/icons/express.svg";
 
 const AllgoodDesigns = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -92,16 +88,12 @@ const AllgoodDesigns = () => {
       <div className="port-about-container">
         <h2 className="port-about-title">About</h2>
         <p className="port-about-text">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum
-        </p>
-        <p className="port-about-text">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum
+          Allgood Designs is a personal project that showcases my skills in web
+          design and development. I created Allgood Designs to demonstrate my
+          capabilities to potential employers and clients. The site is a
+          testament to my passion for design and my commitment to excellence.
+          The project is divided into three phases: Design, Development, and
+          Deployment. Continue reading below to learn more about each phase.
         </p>
         <div className="project-tags">
           <div className="tag">
@@ -140,13 +132,19 @@ const AllgoodDesigns = () => {
         <div className="right-text">
           <h2 className="right-title">The Design Phase</h2>
           <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
+            In the Design Phase, I utilized my information architecture to craft
+            a preliminary vision for the Allgood Designs website through a
+            low-fidelity prototype. I began by sketching wireframes on paper,
+            which I then translated into digital form using Figma. This process
+            allowed me to visualize the site’s layout, ensuring a user-friendly
+            experience.
           </p>
           <p className="right-text">
-            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f">
+            <a
+              href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=19-345&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=19%3A345"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View the Low Fidelity Prototype here.
             </a>
           </p>
@@ -179,7 +177,11 @@ const AllgoodDesigns = () => {
             legible font to enhance user experience.
           </p>
           <p className="right-text">
-            <a href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=97-2893&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=97%3A2893&show-proto-sidebar=1">
+            <a
+              href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=97-2893&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=97%3A2893&show-proto-sidebar=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View the High Fidelity Prototype here.
             </a>
           </p>
@@ -205,12 +207,12 @@ const AllgoodDesigns = () => {
         <div className="right-text">
           <h2 className="right-title">The Deployment Phase</h2>
           <p className="right-text">
-            My programming language of choice for my portfolio is React.js. I
-            utilized React to create an application that showcases my work in a
-            visually appealing manner. React’s component-based architecture
-            allowed me to create reusable elements, streamlining the development
-            process. I also employed React Router to manage the application’s
-            navigation.
+            My programming language of choice for my portfolio is React.js.
+            React’s component-based architecture allowed me to create reusable
+            elements, streamlining the development process. I also employed
+            React Router to manage the application’s navigation. For now, my
+            site is only operating on the front end using React and Node.js. I
+            plan to add a back end connection using a MERN Stack in the future.
           </p>
           <p className="right-text">
             As of today, my site is deployed to Gitub pages while I get my
@@ -218,9 +220,7 @@ const AllgoodDesigns = () => {
             limitations, but it's a great way to showcase my work to potential
             employers. I look forward to deploying my site to a more robust
             platform in the future at{" "}
-            <a href="https://allgoodesigns.com">allgoodesigns.com</a>.
-          </p>
-          <p className="right-text">
+            <a href="https://allgoodesigns.com">allgoodesigns.com.</a>
             <a href="https://github.com/Lillybliss/Allgood-Designs">
               View my Github Repository here.
             </a>
