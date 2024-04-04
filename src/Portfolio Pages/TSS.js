@@ -122,7 +122,7 @@ const TSS = () => {
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Development</p>
+            <p>Responsive Development</p>
           </div>
         </div>
       </div>

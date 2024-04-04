@@ -4,7 +4,7 @@ import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
-import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
+import martin from "../Assets/Portfolio/CoverPhotos/colorization_coverphoto.png";
 
 const Martin = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -64,31 +64,26 @@ const Martin = () => {
           <div className="row-noImage">
             <h1 className="portfolio-title">Image Retouching</h1>
             <h2 className="header-subtitle">Adobe Photoshop</h2>
-            <a
-              href="https://github.com/Lillybliss"
-              target="_blank"
-              rel="noopener noreferrer"
-            ></a>
           </div>
         </div>
       </div>
 
       <div className="noImage-main">
-        <img src="https://via.placeholder.com/500" alt="Mockup" />
+        <img src={martin} alt="Mockup" />
       </div>
 
       <div className="port-about-container">
         <h2 className="port-about-title">About</h2>
         <p className="port-about-text">
-          A transformation from black and white to vibrant color. With advanced
-          knowledge of color theory and Photoshop tools, this restoration and
-          retouching project brings an old photo to life.
-        </p>
-        <p className="port-about-text">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum
+          Leveraging expertise in color theory and Photoshop skills, this
+          restoration project breathes new life into an aged photograph.
+          Meticulously removing a prominent watermark, the image is imbued with
+          vivid hues through precise masking techniques. The removal of the
+          watermark is seamlessly executed using essential Photoshop tools such
+          as the clone stamp and healing brush, preserving the original image
+          integrity. The colorization process ensures that the hues are
+          accurately applied to the image, resulting in a realistic and vibrant
+          transformation.
         </p>
         <div className="project-tags">
           <div className="tag">
