@@ -11,12 +11,11 @@ import TSS from "./Portfolio Pages/TSS.js";
 import MerchMate from "./Portfolio Pages/MerchMate.js";
 import AllgoodDesigns from "./Portfolio Pages/AllgoodDesigns.js";
 import Revolution from "./Portfolio Pages/Revolution.js";
-import HorizontalNoImage from "./Portfolio Pages/horizontalNoImage.js";
 import Martin from "./Portfolio Pages/Martin.js";
-import VerticalTemplate from "./Portfolio Pages/VerticalTemplate.js";
 import FungiSkull from "./Portfolio Pages/FungiSkull.js";
 import BubbleDragon from "./Portfolio Pages/BubbleDragon.js";
 import FloralMoth from "./Portfolio Pages/FloralMoth.js";
+import Plannify from "./Portfolio Pages/Plannify.js";
 
 const App = () => {
   return (
@@ -60,6 +59,10 @@ const App = () => {
           <Route
             path="/Allgood-Designs/portfolio/Floral-Moth-Ink"
             element={<FloralMoth />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/plannify"
+            element={<Plannify />}
           />
         </Routes>
 
