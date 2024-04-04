@@ -4,7 +4,6 @@ import "../Styles/VerticalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
-import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
 import Fungi from "../Assets/Portfolio/fungiSkull_edited.png";
 
 const FungiSkull = () => {
@@ -62,15 +61,8 @@ const FungiSkull = () => {
       <div className="container-noImage">
         <div className="together-top-noImage">
           <div className="row-noImage">
-            <h1 className="portfolio-title">Fungi Skull</h1>
+            <h1 className="portfolio-title">"Fungi Skull"</h1>
             <h2 className="header-subtitle">Acrylic on Canvas</h2>
-            <a
-              href="https://github.com/Lillybliss"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="portfolio-btn-noImage">The Button</button>
-            </a>
           </div>
         </div>
       </div>
@@ -81,7 +73,7 @@ const FungiSkull = () => {
             src={Fungi}
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
+            onClick={() => openPopup(Fungi)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
@@ -91,13 +83,8 @@ const FungiSkull = () => {
         </div>
         <div className="vertical-right-content">
           <div className="vertical-right-text">
-            <h2 className="vertical-right-title">The Title</h2>
-            <p className="vertical-right-text">
-              lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-              ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-              lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-              ipsum
-            </p>
+            <h2 className="vertical-right-title">About</h2>
+            <p className="vertical-right-text">11"x14" Acrylic on canvas</p>
             <p className="vertical-right-text">
               lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
               ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
@@ -107,15 +94,7 @@ const FungiSkull = () => {
             <div className="vertical-project-tags">
               <div className="vertical-tag">
                 <img src={tag} alt="tag"></img>
-                <p>Tag 1</p>
-              </div>
-              <div className="vertical-tag">
-                <img src={tag} alt="tag"></img>
-                <p>Tag 2</p>
-              </div>
-              <div className="vertical-tag">
-                <img src={tag} alt="tag"></img>
-                <p>Tag 3</p>
+                <p>Art</p>
               </div>
             </div>
           </div>
