@@ -111,11 +111,21 @@
     margin-bottom: 15px;
 }
 
-.right-title, .right-text, .row-4-title, .row-4-text {
+.right-title, .right-text, .row-4-text {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
     width: 98%;
+    max-width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row-4-title {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     max-width: 500px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -239,7 +249,10 @@
 /*Tablet Styles*/
 @media screen and (min-width: 700px) {
     .you-may {
-        width: calc((100% / 3) - 20px); /* 3 pieces per row within 90% of the page width */}
+        width: calc((100% / 3) - 20px); /* 3 pieces per row within 90% of the page width */
+    }
+
+
 
     .you-may h2 {
         font-size: 17px;

@@ -15,6 +15,8 @@ import HorizontalNoImage from "./Portfolio Pages/horizontalNoImage.js";
 import Martin from "./Portfolio Pages/Martin.js";
 import VerticalTemplate from "./Portfolio Pages/VerticalTemplate.js";
 import FungiSkull from "./Portfolio Pages/FungiSkull.js";
+import BubbleDragon from "./Portfolio Pages/BubbleDragon.js";
+import FloralMoth from "./Portfolio Pages/FloralMoth.js";
 
 const App = () => {
   return (
@@ -50,6 +52,14 @@ const App = () => {
           <Route
             path="/Allgood-Designs/portfolio/Fungi-Skull"
             element={<FungiSkull />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/Bubble-Dragon"
+            element={<BubbleDragon />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/Floral-Moth-Ink"
+            element={<FloralMoth />}
           />
         </Routes>
 

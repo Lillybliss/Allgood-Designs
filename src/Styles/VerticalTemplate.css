@@ -135,16 +135,17 @@
 }
 
 
-
 /*Tablet Styles*/
 @media screen and (min-width: 700px) {
+
     .you-may {
-        width: calc((100% / 3) - 20px); /* 3 pieces per row within 90% of the page width */}
+        width: calc((100% / 3) - 20px); /* 3 pieces per row within 90% of the page width */
+    }
 
     .you-may h2 {
         font-size: 17px;
     }
-    
+
     .vertical-row-1 {
       display: flex;
       flex-direction: row;
