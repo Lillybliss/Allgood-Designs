@@ -14,6 +14,7 @@ import Revolution from "./Portfolio Pages/Revolution.js";
 import HorizontalNoImage from "./Portfolio Pages/horizontalNoImage.js";
 import Martin from "./Portfolio Pages/Martin.js";
 import VerticalTemplate from "./Portfolio Pages/VerticalTemplate.js";
+import FungiSkull from "./Portfolio Pages/FungiSkull.js";
 
 const App = () => {
   return (
@@ -48,7 +49,7 @@ const App = () => {
           />
           <Route
             path="/Allgood-Designs/portfolio/Fungi-Skull"
-            element={<VerticalTemplate />}
+            element={<FungiSkull />}
           />
         </Routes>
 
