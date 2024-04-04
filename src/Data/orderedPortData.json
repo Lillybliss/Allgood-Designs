@@ -2,10 +2,10 @@
     {
       "id": 1,
       "imageUrl": "TSS_hifi_mockup.png",
-      "title": "The Suite Spot Project",
+      "title": "The Suite Spot",
       "subtitle": "Branding, Web Design, and Responsive Development",
       "route": "/Allgood-Designs/portfolio/The-Suite-Spot-Project",
-      "categories": ["projects", "ui design"],
+      "categories": ["development", "ui design"],
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
@@ -14,7 +14,7 @@
       "title": "Allgood Designs",
       "subtitle": "Branding, Web Design, and Responsive Development",
       "route": "/Allgood-Designs/portfolio/Allgood-Designs",
-      "categories": ["projects", "ui design"],
+      "categories": ["development", "ui design"],
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
@@ -23,25 +23,25 @@
         "title": "Revolution Lash Studio",
         "subtitle": "Rebrand Marketing Collateral",
         "route": "/Allgood-Designs/portfolio/Revolution-Lash-Studio",
-        "categories": ["projects", "graphic design", "digital marketing"],
+        "categories": [ "graphic design", "digital marketing"],
       "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
       },
       {
         "id": 4,
         "imageUrl": "merchmate_inhand_mockup.png",
-        "title": "MerchMate Project",
+        "title": "MerchMate",
         "subtitle": "Mobile App Prototype",
         "route": "/Allgood-Designs/portfolio/MerchMate",
-        "categories": ["projects", "ui design"],
+        "categories": [ "ui design"],
       "tags": ["Branding", "WireFrame & Prototyping"]
       },
       {
         "id": 5,
-        "imageUrl": "plannify.png",
-        "title": "Plannify Project",
+        "imageUrl": "Plannify_lowCover.png",
+        "title": "Plannify",
         "subtitle": "Mobile App Prototype",
         "route": "/Allgood-Designs/portfolio/plannify",
-        "categories": ["projects", "ui design"],
+        "categories": [ "ui design"],
       "tags": ["Branding", "WireFrame & Prototyping"]
       }
       ,

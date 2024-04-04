@@ -61,8 +61,8 @@ const Portfolio = () => {
       <div className="category-bts">
         {[
           "All",
-          "Projects",
           "UI Design",
+          "Development",
           "Graphic Design",
           "Digital Marketing",
           "Art",
