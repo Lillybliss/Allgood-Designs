@@ -11,6 +11,10 @@ import brand1 from "../Assets/Portfolio/ADbranding1.png";
 import brand2 from "../Assets/Portfolio/ADbranding2.png";
 import brand3 from "../Assets/Portfolio/ADbranding3.png";
 import brand4 from "../Assets/Portfolio/ADbranding4.png";
+import react from "../Assets/icons/react.svg";
+import node from "../Assets/icons/node.svg";
+import mongo from "../Assets/icons/mongoDB.svg";
+import express from "../Assets/icons/express.svg";
 
 const AllgoodDesigns = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -118,7 +122,7 @@ const AllgoodDesigns = () => {
           </div>
         </div>
       </div>
-
+      <div className="padding"></div>
       <div className="row-1">
         <div className="left-image">
           <img
@@ -136,33 +140,23 @@ const AllgoodDesigns = () => {
         <div className="right-text">
           <h2 className="right-title">The Design Phase</h2>
           <p className="right-text">
-            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f">
-              Access the Low Fidelity Prototype here.
-            </a>
-            <a href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=97-2893&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=97%3A2893&show-proto-sidebar=1">
-              Access the High Fidelity Prototype here.
-            </a>
-          </p>
-          <p className="right-text">
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
             ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
             ipsum
           </p>
+          <p className="right-text">
+            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f">
+              View the Low Fidelity Prototype here.
+            </a>
+          </p>
         </div>
-      </div>
-
-      <div className="row-3">
-        <img src={brand4} alt="Mockup" />
-        <img src={brand2} alt="Mockup" />
-        <img src={brand1} alt="Mockup" />
-        <img src={brand3} alt="Mockup" />
       </div>
 
       <div className="row-1">
         <div className="left-image">
           <img
-            src="https://via.placeholder.com/500"
+            src={AllgoodSmall}
             alt="Mockup"
             style={{ cursor: "pointer" }}
             onClick={() => openPopup(TSSmock)}
@@ -171,45 +165,68 @@ const AllgoodDesigns = () => {
         <div className="right-text">
           <h2 className="right-title">The Development Phase</h2>
           <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
+            In the Development Phase, I applied my visual design guide to create
+            a high-fidelity prototype. For the color scheme, I curated a palette
+            comprised of soft, complementary tones, punctuated by a vibrant pink
+            accent. Drawing inspiration from dawn clouds and beach sunrises, my
+            design mood board informed this selection.
           </p>
           <p className="right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
+            Embracing the cloud motif as a unifying element, I ensured coherence
+            throughout the website. The chosen pink hue, both subdued and
+            eye-catching, serves as a distinct accent, aiding in highlighting
+            key calls to action. Additionally, I opted for a modern, easily
+            legible font to enhance user experience.
+          </p>
+          <p className="right-text">
+            <a href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=97-2893&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=97%3A2893&show-proto-sidebar=1">
+              View the High Fidelity Prototype here.
+            </a>
           </p>
         </div>
       </div>
 
       {/*three images instead of 4*/}
       <div className="row-3-three">
-        <img src="https://via.placeholder.com/500" alt="Mockup" alt="Mockup" />
-        <img
-          src="https://via.placeholder.com/500"
-          alt="Mockup"
-          alt="MerchMate Logo"
-        />
-        <img src="https://via.placeholder.com/500" alt="Mockup" alt="Mockup" />
+        <img src={brand4} alt="Mockup" />
+        <img src={brand2} alt="Mockup" />
+        <img src={brand1} alt="Mockup" />
       </div>
 
-      <div className="row-4">
-        <h2 className="row-4-title">The Deployment Phase</h2>
-        <p className="row-4-text">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum.{" "}
-          <a href="https://github.com/Lillybliss/Allgood-Designs">
-            View my Github Repository here.
-          </a>
-        </p>
+      <div className="row-1">
+        <div className="left-image">
+          <img
+            src={react}
+            alt="Mockup"
+            style={{ cursor: "pointer" }}
+            onClick={() => openPopup(TSSmock)}
+          />
+        </div>
+        <div className="right-text">
+          <h2 className="right-title">The Deployment Phase</h2>
+          <p className="right-text">
+            In the Development Phase, I applied my visual design guide to create
+            a high-fidelity prototype. For the color scheme, I curated a palette
+            comprised of soft, complementary tones, punctuated by a vibrant pink
+            accent. Drawing inspiration from dawn clouds and beach sunrises, my
+            design mood board informed this selection.
+          </p>
+          <p className="right-text">
+            Embracing the cloud motif as a unifying element, I ensured coherence
+            throughout the website. The chosen pink hue, both subdued and
+            eye-catching, serves as a distinct accent, aiding in highlighting
+            key calls to action. Additionally, I opted for a modern, easily
+            legible font to enhance user experience.
+          </p>
+          <p className="right-text">
+            <a href="https://github.com/Lillybliss/Allgood-Designs">
+              View my Github Repository here.
+            </a>
+          </p>
+        </div>
       </div>
+
+      <div className="padding"></div>
 
       <div className="row-4">
         <h2 className="row-4-title">You May Also Like:</h2>
