@@ -142,8 +142,12 @@
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: center; /* Center content horizontally */
       margin-top: 30px;
       background-color: blue;
+      margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
 
     }
   
@@ -162,12 +166,11 @@
       flex: 1; /* Take up remaining space */
       display: flex;
       flex-direction: column; /* Stack items vertically */
-      max-width: 400px;
     }
   
     /* Optional styling */
     .vertical-right-title {
-      margin-top: 20px;
+      margin-top: 0;
       margin-bottom: 0;
     }
   
@@ -176,7 +179,7 @@
     }
   
     .vertical-project-tags {
-      margin-top: 20px;
+      margin-top: 40px;
     }
   }
 
