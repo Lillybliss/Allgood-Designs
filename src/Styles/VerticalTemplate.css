@@ -143,11 +143,14 @@
       flex-direction: row;
       align-items: center;
       margin-top: 30px;
+      background-color: blue;
+
     }
   
     .vertical-left-image {
       flex: 0 0 auto; /* Don't grow or shrink, maintain initial width */
       margin-right: 20px; /* Adjust margin as needed */
+      width: 50%;
     }
   
     .vertical-left-image img {
@@ -159,6 +162,7 @@
       flex: 1; /* Take up remaining space */
       display: flex;
       flex-direction: column; /* Stack items vertically */
+      max-width: 400px;
     }
   
     /* Optional styling */
@@ -175,111 +179,4 @@
       margin-top: 20px;
     }
   }
-
-
-/* Web Styles */
-@media screen and (min-width: 975px) {
-
-
-    .container {
-        padding: 20px;
-        align-items: center;
-        text-align: center; 
-        margin-left: auto;
-        margin-right: auto;   
-        padding-bottom: 0px;
-        padding-top: 50px;
-    }
-
-    .together-top {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 90%;
-        min-width: 800px;
-        max-width: 850px;
-        margin-left: auto;
-        margin-right: auto;  
-    }
-    
-
-
-
-    .vertical-row h1, .vertical-row h2{
-        text-align: left; 
-        margin-left: 5px;
-        margin-right: auto;
-        margin-bottom: 20px;
-        width: 340px;    }
-    
-    .portfolio-btn {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: -135px;
-        width: 200px;
-        height: 40px;
-    }
-
-
-
-    .vertical-row-1, .vertical-project-tags {
-        width: 95%;
-        min-width: 700px;
-        max-width: 850px;
-        padding: 0;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
-
-    .vertical-row-1 {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 30px;
-    }
-
-    .vertical-left-image {
-        flex: 0 0 auto; /* Don't grow or shrink, maintain initial width */
-        margin-right: 0px; /* Adjust margin as needed */
-        margin-top: auto;
-        margin-bottom: auto;
-      }
-
-    .vertical-left-image img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 93%;
-        height: auto;
-      }
-      
-      .vertical-right-text {
-        flex: 1; /* Take up remaining space */
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        margin-right: 35px;
-      }
-      
-      /* Optional styling */
-      .vertical-right-title {
-        margin-top: 20px; 
-        margin-bottom: 0;
-      }
-
-     .vertical-right-text {
-        margin-top: 20px;
-    }
-
-    .vertical-project-tags {
-        margin-top: 50px;    
-    }
-
-    .vertical-project-tags{
-        margin-bottom: 50px;    
-    }
-    
-    
-    
-}
 
