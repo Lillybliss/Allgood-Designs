@@ -88,32 +88,34 @@ const VerticalTemplate = () => {
             image={popupImage}
           />
         </div>
-        <div className="vertical-right-text">
-          <h2 className="vertical-right-title">The Title</h2>
-          <p className="vertical-right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
-          </p>
-          <p className="vertical-right-text">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum
-          </p>
-          <div className="vertical-project-tags">
-            <div className="vertical-tag">
-              <img src={tag} alt="tag"></img>
-              <p>Tag 1</p>
-            </div>
-            <div className="vertical-tag">
-              <img src={tag} alt="tag"></img>
-              <p>Tag 2</p>
-            </div>
-            <div className="vertical-tag">
-              <img src={tag} alt="tag"></img>
-              <p>Tag 3</p>
+        <div className="vertical-right-content">
+          <div className="vertical-right-text">
+            <h2 className="vertical-right-title">The Title</h2>
+            <p className="vertical-right-text">
+              lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+              ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+              lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+              ipsum
+            </p>
+            <p className="vertical-right-text">
+              lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+              ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+              lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+              ipsum
+            </p>
+            <div className="vertical-project-tags">
+              <div className="vertical-tag">
+                <img src={tag} alt="tag"></img>
+                <p>Tag 1</p>
+              </div>
+              <div className="vertical-tag">
+                <img src={tag} alt="tag"></img>
+                <p>Tag 2</p>
+              </div>
+              <div className="vertical-tag">
+                <img src={tag} alt="tag"></img>
+                <p>Tag 3</p>
+              </div>
             </div>
           </div>
         </div>
