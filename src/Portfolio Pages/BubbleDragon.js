@@ -85,6 +85,11 @@ const BubbleDragon = () => {
           <div className="vertical-right-text">
             <h2 className="vertical-right-title">About</h2>
             <p className="vertical-right-text">16"x20" Acrylic on canvas</p>
+            <p className="vertical-right-text">
+              This painting was inspired by the idea of a feminine dragon
+              surrounded by bubble gum pink bubbles. My goal was to create a
+              whimsical and colorful piece.
+            </p>
             <div className="vertical-project-tags">
               <div className="vertical-tag">
                 <img src={tag} alt="tag"></img>
