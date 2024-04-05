@@ -17,6 +17,7 @@ import BubbleDragon from "./Portfolio Pages/BubbleDragon.js";
 import FloralMoth from "./Portfolio Pages/FloralMoth.js";
 import Plannify from "./Portfolio Pages/Plannify.js";
 import LAlogo from "./Portfolio Pages/LAlogo.js";
+import ToDo from "./Portfolio Pages/ToDo.js";
 
 const App = () => {
   return (
@@ -68,6 +69,10 @@ const App = () => {
           <Route
             path="/Allgood-Designs/portfolio/LA-logo"
             element={<LAlogo />}
+          />
+          <Route
+            path="/Allgood-Designs/portfolio/ToDo-App"
+            element={<ToDo />}
           />
         </Routes>
 
