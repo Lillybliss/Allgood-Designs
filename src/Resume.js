@@ -108,14 +108,14 @@ const Resume = () => {
               <li>ReactJS</li>
               <li>Node.js</li>
               <li>Visual Studio Code</li>
-              <li>Database Management: MongoDB & MySQL </li>
+              <li>Database Management: MongoDB </li>
               <li>Version Control: Git</li>
               <li>Figma</li>
               <li>Adobe Illustrator</li>
               <li>Adobe Photoshop</li>
               <li>Adobe InDesign</li>
               <li>WordPress</li>
-              <li>Digital Marketing Analytics: DashThis </li>
+              <li>MailChimp</li>
               <li>Problem Solving & Debugging</li>
               <li>Microsoft Office</li>
             </ul>
@@ -183,8 +183,8 @@ const Resume = () => {
                     campaigns, enhancing customer outreach.
                   </li>
                   <li>
-                    Utilized marketing analytics tools to gather insights and
-                    improve campaign performance.
+                    Performed website maintenance for clients using WordPress,
+                    ensuring optimal performance and user experience.
                   </li>
                   <li>
                     Produced digital assets for social media platforms,
@@ -197,8 +197,11 @@ const Resume = () => {
                   </li>
                   <li>
                     Developed aesthetically pleasing and user-friendly web page
-                    designs, focusing on optimal user experience and brand
-                    consistency.
+                    designs, focusing on user experience and brand consistency.
+                  </li>
+                  <li>
+                    Developed blog page designs in WordPress, focusing on
+                    optimal SEO and brand consistency.
                   </li>
                 </ul>
               </div>

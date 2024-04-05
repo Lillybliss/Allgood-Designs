@@ -86,8 +86,13 @@ const FloralMoth = () => {
             <h2 className="vertical-right-title">About</h2>
             <p className="vertical-right-text">11"x13" Ink on paper.</p>
             <p className="vertical-right-text">
-              This ink drawing was made entirely of dots and dashes, no contour
-              lines.
+              This ink drawing was created as a part of UCF's Graphic Design
+              Program. The challenge was to create an image made entirely of
+              dots and dashes, completely lacking contour lines.
+            </p>
+            <p className="vertical-right-text">
+              Varying the size of the dots and dashes, as well as the density of
+              the marks, creates the illusion of depth and form.
             </p>
             <div className="vertical-project-tags">
               <div className="vertical-tag">

@@ -42,8 +42,8 @@ const Home = () => {
               enhance the digital world. While obtaining my BA in Digital Media
               at the University of Central Florida, I have immersed myself in
               industry standard coding languages and design software. In fact, I
-              designed and developed this portfolio website from scratch,
-              employing the MERN stack.{" "}
+              designed and developed this portfolio website from scratch using
+              Node and React.js.{" "}
             </p>{" "}
             <p>
               I have maintained a place on the Honor's List, Dean's List, and

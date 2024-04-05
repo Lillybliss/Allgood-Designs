@@ -85,6 +85,15 @@ const FungiSkull = () => {
           <div className="vertical-right-text">
             <h2 className="vertical-right-title">About</h2>
             <p className="vertical-right-text">11"x14" Acrylic on canvas</p>
+            <p className="vertical-right-text">
+              This painting was inspired by the dichotomy of mortality and
+              rebirth. The skull embodies themes of death and decay, while the
+              fungi and butterflies symbolize transformation and renewal. The
+              contrast between these elements creates a striking composition.
+              The painting is meant to evoke surreal imagery, exploring themes
+              of altered states of consciousness and the interplay between life
+              and death.
+            </p>
             <div className="vertical-project-tags">
               <div className="vertical-tag">
                 <img src={tag} alt="tag"></img>
