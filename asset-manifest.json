@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Allgood-Designs/static/css/main.0ba890eb.css",
-    "main.js": "/Allgood-Designs/static/js/main.08176b68.js",
+    "main.css": "/Allgood-Designs/static/css/main.621830e0.css",
+    "main.js": "/Allgood-Designs/static/js/main.73b51e3b.js",
     "static/js/453.8a547ffd.chunk.js": "/Allgood-Designs/static/js/453.8a547ffd.chunk.js",
     "static/media/fungiSkull_edited.png": "/Allgood-Designs/static/media/fungiSkull_edited.845b3753e5b4c9bf416a.png",
     "static/media/bubble_dragon_EDITED.png": "/Allgood-Designs/static/media/bubble_dragon_EDITED.2bce83d70229a179d5a8.png",
@@ -33,11 +33,13 @@
     "static/media/newone_smaller.png": "/Allgood-Designs/static/media/newone_smaller.f3dc2d4919d54c98ed9c.png",
     "static/media/Insta1.png": "/Allgood-Designs/static/media/Insta1.f37aa8d7c5e18487144c.png",
     "static/media/Plannify_lowCover.png": "/Allgood-Designs/static/media/Plannify_lowCover.98303fd93b7ba7a42d8e.png",
+    "static/media/todo_inhand_mockup.png": "/Allgood-Designs/static/media/todo_inhand_mockup.d1a3725c3aea35238885.png",
     "static/media/Allgood_Designs_Mockup_smaller.png": "/Allgood-Designs/static/media/Allgood_Designs_Mockup_smaller.3f44900d4318634e17a9.png",
     "static/media/TSS_lofi_mockup.png": "/Allgood-Designs/static/media/TSS_lofi_mockup.f33750e53ee5d8553c0a.png",
     "static/media/Lookbook1.png": "/Allgood-Designs/static/media/Lookbook1.ace55e5693a813e1ed75.png",
     "static/media/ADbranding4.png": "/Allgood-Designs/static/media/ADbranding4.c64c1d60b6995fb392f0.png",
     "static/media/TSS_mockup_web_updates.png": "/Allgood-Designs/static/media/TSS_mockup_web_updates.dcc35327ae8f588628d9.png",
+    "static/media/todo_cover.png": "/Allgood-Designs/static/media/todo_cover.9472d34dc1457805f58e.png",
     "static/media/Montserrat-Medium.ttf": "/Allgood-Designs/static/media/Montserrat-Medium.598141984583bec97122.ttf",
     "static/media/Montserrat-Regular.ttf": "/Allgood-Designs/static/media/Montserrat-Regular.7c8ccfe4b8a1b8ea2327.ttf",
     "static/media/Zetafonts - Lovelace Text Bold Italic.otf": "/Allgood-Designs/static/media/Zetafonts - Lovelace Text Bold Italic.23b0765ceec0e5be2288.otf",
@@ -55,12 +57,12 @@
     "static/media/icons8-github.svg": "/Allgood-Designs/static/media/icons8-github.b887cf3873e820cf246bd038839e662f.svg",
     "static/media/icons8-linkedin-50.svg": "/Allgood-Designs/static/media/icons8-linkedin-50.9c15bbe76ac648bf77614acc775192b9.svg",
     "index.html": "/Allgood-Designs/index.html",
-    "main.0ba890eb.css.map": "/Allgood-Designs/static/css/main.0ba890eb.css.map",
-    "main.08176b68.js.map": "/Allgood-Designs/static/js/main.08176b68.js.map",
+    "main.621830e0.css.map": "/Allgood-Designs/static/css/main.621830e0.css.map",
+    "main.73b51e3b.js.map": "/Allgood-Designs/static/js/main.73b51e3b.js.map",
     "453.8a547ffd.chunk.js.map": "/Allgood-Designs/static/js/453.8a547ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ba890eb.css",
-    "static/js/main.08176b68.js"
+    "static/css/main.621830e0.css",
+    "static/js/main.73b51e3b.js"
   ]
 }
