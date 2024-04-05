@@ -93,7 +93,7 @@
       },
       {
         "id": 11,
-        "imageUrl": "todo_inhand_mockup.png",
+        "imageUrl": "todo_cover.png",
         "title": "To-Do App",
         "subtitle": "React Native App",
         "route": "/Allgood-Designs/portfolio/ToDo-App",

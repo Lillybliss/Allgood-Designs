@@ -58,9 +58,9 @@ const ToDo = () => {
       {isVisible && (
         <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
       )}
-      <div className="container-noImage">
-        <div className="together-top-noImage">
-          <div className="row-noImage">
+      <div className="container">
+        <div className="together-top">
+          <div className="row">
             <h1 className="portfolio-title">To-Do App</h1>
             <h2 className="header-subtitle">React Native Mobile App</h2>
             <a
@@ -71,73 +71,61 @@ const ToDo = () => {
               <button className="portfolio-btn">View App</button>
             </a>
           </div>
-        </div>
-      </div>
-
-      <div className="vertical-row-1">
-        <div className="vertical-left-image">
-          <img src={todopic} alt="Mockup" />
-          <PopUpPicture
-            isOpen={isPopupOpen}
-            closePopup={closePopup}
-            image={popupImage}
-          />
-        </div>
-        <div className="vertical-right-content">
-          <div className="vertical-right-text">
-            <h2 className="vertical-right-title">About</h2>
-            <p className="vertical-right-text">
-              The To-Do App is a React Native application designed for efficient
-              task management and organization. Users can effortlessly create
-              and remove tasks while also filtering them based on completion
-              status. Additionally, the app offers user registration
-              functionality, securely storing login credentials locally and
-              establishing personalized user profiles.
-            </p>
-            <p className="vertical-right-text">
-              As the sole contributor to this project, I set up the structure of
-              the application through multiple stack navigators/screens. This
-              involved implementing each screen and integrating robust form
-              validation mechanisms for user login and registration screens.
-              Furthermore, I engineered the logic responsible for storing
-              personal data locally, seamlessly transmitting it to user profiles
-              via navigation parameters.
-            </p>
-            <p className="vertical-right-text">
-              In terms of task management, I engineered the functionality
-              enabling users to seamlessly add and delete tasks. The code also
-              displays task search functionality, allowing users to effortlessly
-              sift through tasks based on completion status and presenting the
-              filtered results. Additionally, I performed comprehensive testing
-              and debugging, ensuring the app's seamless functionality.
-            </p>
-            <p className="vertical-right-text">
-              Key features include:
-              <ul>
-                <li>Create and delete tasks</li>
-                <li>Filter tasks by completion</li>
-                <li>Account registration & login</li>
-                <li>User profile</li>
-              </ul>
-              <a
-                href="https://lillybliss.github.io/Todo-App/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View the Github repository here.
-              </a>
-            </p>
-            <div className="vertical-project-tags">
-              <div className="vertical-tag">
-                <img src={tag} alt="tag"></img>
-                <p>Development</p>
-              </div>
-            </div>
+          <div className="mockup-image">
+            <img src={todopic} alt="Mockup" />
           </div>
         </div>
       </div>
 
-      <div className="padding"></div>
+      <div className="port-about-container">
+        <h2 className="port-about-title">About</h2>
+        <p className="port-about-text">
+          The To-Do App is a React Native application designed for efficient
+          task management and organization. Users can effortlessly create and
+          remove tasks while also filtering them based on completion status.
+          Additionally, the app offers user registration functionality, securely
+          storing login credentials locally and establishing personalized user
+          profiles.
+        </p>
+        <p className="port-about-text">
+          As the sole contributor to this project, I set up the structure of the
+          application through multiple stack navigators/screens. This involved
+          implementing each screen and integrating robust form validation
+          mechanisms for user login and registration screens. Furthermore, I
+          engineered the logic responsible for storing personal data locally,
+          seamlessly transmitting it to user profiles via navigation parameters.
+        </p>
+        <p className="port-about-text">
+          In terms of task management, I engineered the functionality enabling
+          users to seamlessly add and delete tasks. The code also displays task
+          search functionality, allowing users to effortlessly sift through
+          tasks based on completion status and presenting the filtered results.
+          Additionally, I performed comprehensive testing and debugging,
+          ensuring the app's seamless functionality.
+        </p>
+        <p className="port-about-text">
+          Key features include:
+          <ul>
+            <li>Create and delete tasks</li>
+            <li>Filter tasks by completion</li>
+            <li>Account registration & login</li>
+            <li>User profile</li>
+          </ul>
+          <a
+            href="https://lillybliss.github.io/Todo-App/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View the Github repository here.
+          </a>
+        </p>
+        <div className="project-tags">
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Development</p>
+          </div>
+        </div>
+      </div>
 
       <div className="row-4">
         <h2 className="row-4-title">You May Also Like:</h2>
