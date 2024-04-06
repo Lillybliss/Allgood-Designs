@@ -4,7 +4,7 @@ import "../Styles/VerticalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
-import Fungi from "../Assets/Portfolio/fungiSkull_edited.png";
+import Fungi from "../Assets/Portfolio/fungiSkull_edited.jpg";
 
 const FungiSkull = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);

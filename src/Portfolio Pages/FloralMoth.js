@@ -4,7 +4,7 @@ import "../Styles/VerticalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
-import moth from "../Assets/Portfolio/floral_moth.jpeg";
+import moth from "../Assets/Portfolio/floral_moth.png";
 
 const FloralMoth = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import logo from "./Assets/lightblue.svg";
-import headshot from "./Assets/headshot_circle_2.png";
+import headshot from "./Assets/headshot_circle_2.jpg";
 import roundHeadshot from "./Assets/rounded_headshot.png";
 import "./Styles/Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,11 +19,11 @@ const Home = () => {
           </h2>
 
           <div className="home-buttons">
-            <Link to="/Allgood-Designs/resume" className="Link">
+            <Link to="/resume" className="Link">
               <Button className="home-btn">View Resume</Button>
             </Link>
 
-            <Link to="/Allgood-Designs/portfolio" className="Link">
+            <Link to="/portfolio" className="Link">
               <Button className="home-btn">View Portfolio</Button>
             </Link>
           </div>
@@ -70,7 +70,7 @@ const Home = () => {
           </div>
 
           <div className="services-3">
-            <Link to="/Allgood-Designs/resume" className="viewMore Link">
+            <Link to="/resume" className="viewMore Link">
               <Button className="viewMore">
                 View More <FontAwesomeIcon icon={faArrowRightLong} />
               </Button>
@@ -105,7 +105,7 @@ const Home = () => {
               If you're interested in learning more about my work or would like
               to discuss potential opportunities, please contact me. 
             </p>
-            <Link to="/Allgood-Designs/contact" className="Link">
+            <Link to="/contact" className="Link">
               <Button>Contact Me</Button>
             </Link>
           </div>

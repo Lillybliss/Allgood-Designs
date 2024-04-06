@@ -4,12 +4,12 @@ import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
-import trifold from "../Assets/Portfolio/CoverPhotos/revolution-trifold-small.png";
+import trifold from "../Assets/Portfolio/CoverPhotos/revolution_trifold_expanded.jpg";
 import lookbook from "../Assets/Portfolio/Lookbook1.png";
 import Menu1 from "../Assets/Portfolio/Menu1.png";
 import Asign from "../Assets/Portfolio/Asign.png";
 import Revsocial from "../Assets/Portfolio/Insta1.png";
-import manual from "../Assets/Portfolio/manual.png";
+import manual from "../Assets/Portfolio/manual.jpg";
 
 const Revolution = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);

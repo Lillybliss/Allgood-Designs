@@ -19,7 +19,7 @@
     },
     {
         "id": 4,
-        "imageUrl": "merchmate_inhand_mockup.png",
+        "imageUrl": "merchmate_inhand_small.png",
         "title": "MerchMate",
         "subtitle": "Mobile App Prototype",
         "route": "/portfolio/MerchMate",
@@ -48,7 +48,7 @@
       ,
     {
         "id": 6,
-        "imageUrl": "logo_LA_transparent.png",
+        "imageUrl": "logo_LA_transparent.jpg",
         "title": "L.A.",
         "subtitle": "Logo Design",
         "route": "/portfolio/LA-logo",
@@ -58,7 +58,7 @@
       ,
     {
         "id": 7,
-        "imageUrl": "colorization_coverphoto.png",
+        "imageUrl": "colorization_smaller.jpg",
         "title": "Image Retouching",
         "subtitle": "Adobe Photoshop",
         "route": "/portfolio/image-retouching",
