@@ -26,54 +26,27 @@ const App = () => {
         <Header />
 
         <Routes>
-          <Route path="/Allgood-Designs" element={<Home />} />
-          <Route path="/Allgood-Designs/contact" element={<Contact />} />
-          <Route path="/Allgood-Designs/resume" element={<Resume />} />
-          <Route path="/Allgood-Designs/portfolio" element={<Portfolio />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio/The-Suite-Spot-Project" element={<TSS />} />
+          <Route path="/portfolio/MerchMate" element={<MerchMate />} />
           <Route
-            path="/Allgood-Designs/portfolio/The-Suite-Spot-Project"
-            element={<TSS />}
-          />
-          <Route
-            path="/Allgood-Designs/portfolio/MerchMate"
-            element={<MerchMate />}
-          />
-          <Route
-            path="/Allgood-Designs/portfolio/Allgood-Designs"
+            path="/portfolio/Allgood-Designs"
             element={<AllgoodDesigns />}
           />
           <Route
-            path="/Allgood-Designs/portfolio/Revolution-Lash-Studio"
+            path="/portfolio/Revolution-Lash-Studio"
             element={<Revolution />}
           />
-          <Route
-            path="/Allgood-Designs/portfolio/image-retouching"
-            element={<Martin />}
-          />
-          <Route
-            path="/Allgood-Designs/portfolio/Fungi-Skull"
-            element={<FungiSkull />}
-          />
-          <Route
-            path="/Allgood-Designs/portfolio/Bubble-Dragon"
-            element={<BubbleDragon />}
-          />
-          <Route
-            path="/Allgood-Designs/portfolio/Floral-Moth-Ink"
-            element={<FloralMoth />}
-          />
-          <Route
-            path="/Allgood-Designs/portfolio/plannify"
-            element={<Plannify />}
-          />
-          <Route
-            path="/Allgood-Designs/portfolio/LA-logo"
-            element={<LAlogo />}
-          />
-          <Route
-            path="/Allgood-Designs/portfolio/ToDo-App"
-            element={<ToDo />}
-          />
+          <Route path="/portfolio/image-retouching" element={<Martin />} />
+          <Route path="/portfolio/Fungi-Skull" element={<FungiSkull />} />
+          <Route path="/portfolio/Bubble-Dragon" element={<BubbleDragon />} />
+          <Route path="/portfolio/Floral-Moth-Ink" element={<FloralMoth />} />
+          <Route path="/portfolio/plannify" element={<Plannify />} />
+          <Route path="/portfolio/LA-logo" element={<LAlogo />} />
+          <Route path="/portfolio/ToDo-App" element={<ToDo />} />
         </Routes>
 
         <Footer />

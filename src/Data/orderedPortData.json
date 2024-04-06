@@ -4,7 +4,7 @@
       "imageUrl": "TSS_hifi_mockup.png",
       "title": "The Suite Spot",
       "subtitle": "Branding, Web Design, and Responsive Development",
-      "route": "/Allgood-Designs/portfolio/The-Suite-Spot-Project",
+      "route": "/portfolio/The-Suite-Spot-Project",
       "categories": ["development", "ui design"],
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
@@ -13,7 +13,7 @@
       "imageUrl": "Allgood_Designs_Mockup_smaller.png",
       "title": "Allgood Designs",
       "subtitle": "Branding, Web Design, and Responsive Development",
-      "route": "/Allgood-Designs/portfolio/Allgood-Designs",
+      "route": "/portfolio/Allgood-Designs",
       "categories": ["development", "ui design"],
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
@@ -22,7 +22,7 @@
         "imageUrl": "revolution-trifold_grey.png",
         "title": "Revolution Lash Studio",
         "subtitle": "Rebrand Marketing Collateral",
-        "route": "/Allgood-Designs/portfolio/Revolution-Lash-Studio",
+        "route": "/portfolio/Revolution-Lash-Studio",
         "categories": [ "graphic design", "digital marketing"],
       "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
       },
@@ -31,7 +31,7 @@
         "imageUrl": "merchmate_inhand_mockup.png",
         "title": "MerchMate",
         "subtitle": "Mobile App Prototype",
-        "route": "/Allgood-Designs/portfolio/MerchMate",
+        "route": "/portfolio/MerchMate",
         "categories": [ "ui design"],
       "tags": ["Branding", "WireFrame & Prototyping"]
       },
@@ -40,7 +40,7 @@
         "imageUrl": "Plannify_lowCover.png",
         "title": "Plannify",
         "subtitle": "Mobile App Prototype",
-        "route": "/Allgood-Designs/portfolio/plannify",
+        "route": "/portfolio/plannify",
         "categories": [ "ui design"],
       "tags": ["Branding", "WireFrame & Prototyping"]
       }
@@ -50,7 +50,7 @@
         "imageUrl": "logo_LA_transparent.png",
         "title": "L.A.",
         "subtitle": "Logo Design",
-        "route": "/Allgood-Designs/portfolio/LA-logo",
+        "route": "/portfolio/LA-logo",
         "categories": [ "graphic design"],
       "tags": ["Graphic Design"]
       }
@@ -60,7 +60,7 @@
         "imageUrl": "colorization_coverphoto.png",
         "title": "Image Retouching",
         "subtitle": "Adobe Photoshop",
-        "route": "/Allgood-Designs/portfolio/image-retouching",
+        "route": "/portfolio/image-retouching",
         "categories": ["graphic design"],
       "tags": ["Graphic Design"]
       } ,
@@ -69,7 +69,7 @@
           "imageUrl": "lilly-allgood-fungi-skull-sm.png",
           "title": "Fungi Skull",
           "subtitle": "Acrylic on Canvas",
-          "route": "/Allgood-Designs/portfolio/Fungi-Skull",
+          "route": "/portfolio/Fungi-Skull",
           "categories": ["art"],
           "tags": ["Art"]
     } ,
@@ -78,7 +78,7 @@
             "imageUrl": "bubble_dragon.png",
             "title": "Bubble Dragon",
             "subtitle": "Acrylic on Canvas",
-            "route": "/Allgood-Designs/portfolio/Bubble-Dragon",
+            "route": "/portfolio/Bubble-Dragon",
             "categories": ["art"],
           "tags": ["Art"]
     } ,
@@ -87,7 +87,7 @@
         "imageUrl": "floral_moth.png",
         "title": "Floral Moth",
         "subtitle": "Ink on Paper",
-        "route": "/Allgood-Designs/portfolio/Floral-Moth-Ink",
+        "route": "/portfolio/Floral-Moth-Ink",
         "categories": ["art"],
           "tags": ["Art"]
       },
@@ -96,7 +96,7 @@
         "imageUrl": "todo_cover.png",
         "title": "To-Do App",
         "subtitle": "React Native App",
-        "route": "/Allgood-Designs/portfolio/ToDo-App",
+        "route": "/portfolio/ToDo-App",
         "categories": ["development"],
         "tags": ["Mobile App Development"]
       }

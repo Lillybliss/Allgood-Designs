@@ -9,28 +9,28 @@ import HamburgerMenu from "./HamburgerMenu";
 const Header = () => {
   return (
     <header>
-      <Link to="/Allgood-Designs" className="logo">
+      <Link to="/" className="logo">
         <img src={logo} alt="Logo" className="logo-img" />
       </Link>
       <nav>
         <ul className="nav-links">
           <li>
-            <Link to="/Allgood-Designs" className="nav-link">
+            <Link to="/" className="nav-link">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/Allgood-Designs/resume" className="nav-link">
+            <Link to="/resume" className="nav-link">
               Resume
             </Link>
           </li>
           <li>
-            <Link to="/Allgood-Designs/portfolio" className="nav-link">
+            <Link to="/portfolio" className="nav-link">
               Portfolio
             </Link>
           </li>
           <li>
-            <Link to="/Allgood-Designs/contact" className="nav-link">
+            <Link to="/contact" className="nav-link">
               Contact
             </Link>
           </li>
