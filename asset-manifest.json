@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.99dd6e70.css",
-    "main.js": "/static/js/main.cb668e52.js",
+    "main.js": "/static/js/main.38a69416.js",
     "static/js/453.8a547ffd.chunk.js": "/static/js/453.8a547ffd.chunk.js",
     "static/media/blue-water2.gif": "/static/media/blue-water2.c3454e5619e16c6c005f.gif",
     "static/media/fungiSkull_edited.jpg": "/static/media/fungiSkull_edited.23a2d425633f4c6d6be9.jpg",
@@ -57,11 +57,11 @@
     "static/media/icons8-linkedin-50.svg": "/static/media/icons8-linkedin-50.9c15bbe76ac648bf77614acc775192b9.svg",
     "index.html": "/index.html",
     "main.99dd6e70.css.map": "/static/css/main.99dd6e70.css.map",
-    "main.cb668e52.js.map": "/static/js/main.cb668e52.js.map",
+    "main.38a69416.js.map": "/static/js/main.38a69416.js.map",
     "453.8a547ffd.chunk.js.map": "/static/js/453.8a547ffd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99dd6e70.css",
-    "static/js/main.cb668e52.js"
+    "static/js/main.38a69416.js"
   ]
 }
