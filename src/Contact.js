@@ -95,19 +95,6 @@ const Contact = () => {
   };
 
 
-  const buttonStyle = {
-    color:
-      nameValue &&
-      emailValue &&
-      messageValue &&
-      !nameError &&
-      !messageError &&
-      !emailError
-        ? "black"
-        : "#646464",
-  };
- 
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -202,8 +189,26 @@ const Contact = () => {
             </div>
             <button
             type="submit"
-              style={buttonStyle}
-              onClick={handleSubmit}
+            style={{
+              color:
+                nameValue &&
+                emailValue &&
+                messageValue &&
+                !nameError &&
+                !messageError &&
+                !emailError
+                  ? "black"
+                  : "#646464",
+              cursor:
+                nameValue &&
+                emailValue &&
+                messageValue &&
+                !nameError &&
+                !messageError &&
+                !emailError
+                  ? "pointer"
+                  : "not-allowed",
+            }}
               className="contact-btn"
               disabled={
                 !nameValue ||
