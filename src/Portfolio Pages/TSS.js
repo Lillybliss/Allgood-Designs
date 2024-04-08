@@ -10,7 +10,7 @@ import node from "../Assets/icons/node.svg";
 import mongo from "../Assets/icons/mongoDB.svg";
 import express from "../Assets/icons/express.svg";
 import PopUpPicture from "../Components/PopUpPicture";
-import portfolioData from "../Data/portfolioData";
+import portfolioData from "../Data/portfolioData.json";
 
 const TSS = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -24,14 +24,20 @@ const TSS = () => {
 
   const closePopup = () => setIsPopupOpen(false);
 
-  const getRandomPortfolioPieces = () => {
-    // Shuffle the portfolioData array
-    const shuffledData = portfolioData.sort(() => Math.random() - 0.5);
+  const currentProjectId = 1;
+
+  const getRandomPortfolioPieces = (currentProjectId) => {
+    // Filter out the current project from the portfolioData
+    const filteredData = portfolioData.filter(
+      (piece) => piece.id !== currentProjectId
+    );
+    // Shuffle the filteredData array
+    const shuffledData = filteredData.sort(() => Math.random() - 0.5);
     // Select the first three items from the shuffled array
     return shuffledData.slice(0, 3);
   };
 
-  const randomPortfolioPieces = getRandomPortfolioPieces();
+  const randomPortfolioPieces = getRandomPortfolioPieces(currentProjectId);
 
   useEffect(() => {
     window.scrollTo(0, 0);

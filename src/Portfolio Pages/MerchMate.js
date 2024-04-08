@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
-import portfolioData from "../Data/portfolioData";
+import portfolioData from "../Data/portfolioData.json";
 import MMmock from "../Assets/Portfolio/merchmate_inhand_mockup.png";
 import hifiMock from "../Assets/Portfolio/merchmate_mockup_transparent.png";
 import MMad from "../Assets/Portfolio/MMad.png";
@@ -23,14 +23,20 @@ const MerchMate = () => {
 
   const closePopup = () => setIsPopupOpen(false);
 
-  const getRandomPortfolioPieces = () => {
-    // Shuffle the portfolioData array
-    const shuffledData = portfolioData.sort(() => Math.random() - 0.5);
+  const currentProjectId = 4;
+
+  const getRandomPortfolioPieces = (currentProjectId) => {
+    // Filter out the current project from the portfolioData
+    const filteredData = portfolioData.filter(
+      (piece) => piece.id !== currentProjectId
+    );
+    // Shuffle the filteredData array
+    const shuffledData = filteredData.sort(() => Math.random() - 0.5);
     // Select the first three items from the shuffled array
     return shuffledData.slice(0, 3);
   };
 
-  const randomPortfolioPieces = getRandomPortfolioPieces();
+  const randomPortfolioPieces = getRandomPortfolioPieces(currentProjectId);
 
   useEffect(() => {
     window.scrollTo(0, 0);

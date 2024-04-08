@@ -2,20 +2,26 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
-import portfolioData from "../Data/portfolioData";
+import portfolioData from "../Data/portfolioData.json";
 import logopic from "../Assets/Portfolio/CoverPhotos/logo_LA_transparent.jpg";
 
 const LAlogo = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  const getRandomPortfolioPieces = () => {
-    // Shuffle the portfolioData array
-    const shuffledData = portfolioData.sort(() => Math.random() - 0.5);
+  const currentProjectId = 6;
+
+  const getRandomPortfolioPieces = (currentProjectId) => {
+    // Filter out the current project from the portfolioData
+    const filteredData = portfolioData.filter(
+      (piece) => piece.id !== currentProjectId
+    );
+    // Shuffle the filteredData array
+    const shuffledData = filteredData.sort(() => Math.random() - 0.5);
     // Select the first three items from the shuffled array
     return shuffledData.slice(0, 3);
   };
 
-  const randomPortfolioPieces = getRandomPortfolioPieces();
+  const randomPortfolioPieces = getRandomPortfolioPieces(currentProjectId);
 
   useEffect(() => {
     window.scrollTo(0, 0);

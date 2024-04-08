@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../Styles/VerticalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
-import portfolioData from "../Data/portfolioData";
+import portfolioData from "../Data/portfolioData.json";
 import bubbD from "../Assets/Portfolio/bubble_dragon_EDITED.png";
 
 const BubbleDragon = () => {
@@ -18,14 +18,20 @@ const BubbleDragon = () => {
 
   const closePopup = () => setIsPopupOpen(false);
 
-  const getRandomPortfolioPieces = () => {
-    // Shuffle the portfolioData array
-    const shuffledData = portfolioData.sort(() => Math.random() - 0.5);
+  const currentProjectId = 9;
+
+  const getRandomPortfolioPieces = (currentProjectId) => {
+    // Filter out the current project from the portfolioData
+    const filteredData = portfolioData.filter(
+      (piece) => piece.id !== currentProjectId
+    );
+    // Shuffle the filteredData array
+    const shuffledData = filteredData.sort(() => Math.random() - 0.5);
     // Select the first three items from the shuffled array
     return shuffledData.slice(0, 3);
   };
 
-  const randomPortfolioPieces = getRandomPortfolioPieces();
+  const randomPortfolioPieces = getRandomPortfolioPieces(currentProjectId);
 
   useEffect(() => {
     // Function to handle scroll event
