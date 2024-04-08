@@ -5,31 +5,26 @@ import email from "./Assets/icons/contact-email.png";
 
 const Contact = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    message: "",
-  });
+  const openPopup = () => setIsPopupOpen(true);
+  const closePopup = () => setIsPopupOpen(false);
+
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
   const [companyValue, setCompanyValue] = useState("");
   const [messageValue, setMessageValue] = useState("");
+  
   const [nameError, setNameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [messageError, setMessageError] = useState(false);
 
-  const [formErrors, setFormErrors] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const openPopup = () => setIsPopupOpen(true);
-  const closePopup = () => setIsPopupOpen(false);
 
   const handleNameInputChange = (event) => {
     setNameValue(event.target.value);
+  };
+  
+  const handleNameInputBlur = () => {
+    const isValidName = nameValue.trim() !== '';;
+    setNameError(!isValidName);
   };
 
   const handleEmailInputChange = (event) => {
@@ -48,6 +43,12 @@ const Contact = () => {
   const handleMessageInputChange = (event) => {
     setMessageValue(event.target.value);
   };
+
+  const handleMessageInputBlur = () => {
+    const isValidName = messageValue.trim() !== '';;
+    setMessageError(!isValidName);
+  };
+
 
   const resetForm = () => {
     setNameValue("");
@@ -82,12 +83,6 @@ const Contact = () => {
       });
       if (response.ok) {
         alert('Message sent successfully!');
-        setFormData({
-          name: '',
-          email: '',
-          company: '',
-          message: ''
-        });
         resetForm();
         openPopup();
       } else {
@@ -148,11 +143,12 @@ const Contact = () => {
                 placeholder="Full Name *"
                 value={nameValue}
                 onChange={handleNameInputChange}
+                onBlur={handleNameInputBlur}
                 required
               />
               {nameError && (
                 <p style={{ color: "red" }}>
-                  Name cannot be blank.
+                 Please enter your name.
                 </p>
               )}
             </div>
@@ -177,6 +173,7 @@ const Contact = () => {
                 placeholder="Email *"
                 value={emailValue}
                 onChange={handleEmailInputChange}
+                onBlur={handleEmailInputBlur}
                 required
               />
               {emailError && (
@@ -193,6 +190,7 @@ const Contact = () => {
                 placeholder="Message *"
                 value={messageValue}
                 onChange={handleMessageInputChange}
+                onBlur={handleMessageInputBlur}
                 rows="4"
                 required
               ></textarea>
