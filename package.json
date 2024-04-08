@@ -2,7 +2,7 @@
   "name": "allgood-designs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lillybliss.github.io/Allgood-Designs/",
+  "homepage": "https://lillybliss.github.io/Allgood-Designs",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
