@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import PopUpContact from "./Components/PopUpContact";
 import "./Styles/Contact.css";
 import email from "./Assets/icons/contact-email.png";
+import FormSpree from "./Components/FormSpree";
 
 const Contact = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -60,7 +61,7 @@ const Contact = () => {
     setMessageError(false);
   };
 
-  const handleSubmit = async (e) => {
+  {/*const handleSubmit = async (e) => {
     e.preventDefault();
 
     const formData = {
@@ -92,7 +93,7 @@ const Contact = () => {
       console.error('Error submitting form:', error);
       alert('An error occurred while sending your message. Please try again later.');
     }
-  };
+  };*/}
 
 
   useEffect(() => {
@@ -118,8 +119,8 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="contact-form-container">
-          <h2>Let's get in touch!</h2>
+          <FormSpree></FormSpree>
+          {/*
           <form onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">{""}</label>
@@ -222,8 +223,7 @@ const Contact = () => {
               Send Message
             </button>
             <PopUpContact isOpen={isPopupOpen} closePopup={closePopup} />
-          </form>
-        </div>
+          </form> */}
       </div>
     </div>
   );
