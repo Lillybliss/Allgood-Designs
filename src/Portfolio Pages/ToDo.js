@@ -2,21 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/VerticalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
-import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
 import todopic from "../Assets/Portfolio/CoverPhotos/todo_inhand_mockup.png";
 
 const ToDo = () => {
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [popupImage, setPopupImage] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
-
-  const openPopup = (image) => {
-    setIsPopupOpen(true);
-    setPopupImage(image);
-  };
-
-  const closePopup = () => setIsPopupOpen(false);
 
   const getRandomPortfolioPieces = () => {
     // Shuffle the portfolioData array
@@ -57,7 +47,9 @@ const ToDo = () => {
     <div className="portfolio-background">
       {/* Back-to-top button */}
       {isVisible && (
-        <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
+        <a href="#top" className="back-to-top" onClick={scrollToTop}>
+          {""}
+        </a>
       )}
       <div className="container">
         <div className="together-top">

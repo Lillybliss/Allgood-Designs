@@ -56,7 +56,9 @@ const Portfolio = () => {
     <div className="gradient-body">
       {/* Back-to-top button */}
       {isVisible && (
-        <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
+        <a href="#top" className="back-to-top" onClick={scrollToTop}>
+          {""}
+        </a>
       )}
 
       <div className="header-container">

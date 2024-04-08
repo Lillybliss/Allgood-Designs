@@ -61,7 +61,9 @@ const HorizontalNoImage = () => {
       <div className="container-noImage">
         {/* Back-to-top button */}
         {isVisible && (
-          <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
+          <a href="#top" className="back-to-top" onClick={scrollToTop}>
+            {""}
+          </a>
         )}
         <div className="together-top-noImage">
           <div className="row-noImage">

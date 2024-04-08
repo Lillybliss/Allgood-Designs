@@ -60,7 +60,9 @@ const VerticalTemplate = () => {
     <div className="portfolio-background">
       {/* Back-to-top button */}
       {isVisible && (
-        <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
+        <a href="#top" className="back-to-top" onClick={scrollToTop}>
+          {""}
+        </a>
       )}
       <div className="container-noImage">
         <div className="together-top-noImage">

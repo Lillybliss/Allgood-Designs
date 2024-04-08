@@ -65,7 +65,9 @@ const Revolution = () => {
     <div className="portfolio-background">
       {/* Back-to-top button */}
       {isVisible && (
-        <a href="#top" className="back-to-top" onClick={scrollToTop}></a>
+        <a href="#top" className="back-to-top" onClick={scrollToTop}>
+          {""}
+        </a>
       )}
       <div className="container-noImage">
         <div className="together-top-noImage">
@@ -76,7 +78,9 @@ const Revolution = () => {
               href="https://github.com/Lillybliss"
               target="_blank"
               rel="noopener noreferrer"
-            ></a>
+            >
+              {""}
+            </a>
           </div>
         </div>
       </div>
@@ -85,6 +89,7 @@ const Revolution = () => {
         <a
           href="https://www.canva.com/design/DAGAuTwJe2A/2EqBaCg-8C8qbu8DjhhLrQ/view?utm_content=DAGAuTwJe2A&utm_campaign=designshare&utm_medium=link&utm_source=editor"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={trifold} alt="Trifold brochure" />
         </a>
@@ -151,6 +156,7 @@ const Revolution = () => {
             <a
               href="https://www.canva.com/design/DAGAudG4tuw/U3tVX3eOrGZL4i6U3tQYPw/view?utm_content=DAGAudG4tuw&utm_campaign=designshare&utm_medium=link&utm_source=editor"
               target="_blank"
+              rel="noreferrer"
             >
               View the digital version here.
             </a>
@@ -183,6 +189,7 @@ const Revolution = () => {
             <a
               href="https://www.canva.com/design/DAGAuYY9hqM/2F06lxqZCXeF-Y1rXfSiEQ/view?utm_content=DAGAuYY9hqM&utm_campaign=designshare&utm_medium=link&utm_source=editor"
               target="_blank"
+              rel="noreferrer"
             >
               View the digital Operations Manual here.
             </a>
@@ -191,6 +198,7 @@ const Revolution = () => {
             <a
               href="https://www.canva.com/design/DAGAuWEdViQ/ESC7q7MPvuyIjg87r-fgmw/view?utm_content=DAGAuWEdViQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"
               target="_blank"
+              rel="noreferrer"
             >
               View the digital Training Manual here.
             </a>
