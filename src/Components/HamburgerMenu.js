@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi"; // installed react-icons
 import "../Styles/HamburgerMenu.css";
-import github from "../Assets/icons/icons8-github.svg";
-import linkedin from "../Assets/icons/icons8-linkedin-50.svg";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
