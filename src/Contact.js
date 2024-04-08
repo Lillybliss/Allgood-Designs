@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PopUpContact from "./Components/PopUpContact";
 import "./Styles/Contact.css";
 import email from "./Assets/icons/contact-email.png";
@@ -32,6 +32,10 @@ const Contact = () => {
     // Handle form submission, e.g., send form data to server
     console.log(formData);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="home-background">

@@ -49,7 +49,6 @@ const App = () => {
           <Route path="/portfolio/LA-logo" element={<LAlogo />} />
           <Route path="/portfolio/ToDo-App" element={<ToDo />} />
         </Routes>
-
         <Footer />
       </div>
     </Router>

@@ -18,18 +18,18 @@ const LAlogo = () => {
   const randomPortfolioPieces = getRandomPortfolioPieces();
 
   useEffect(() => {
-    // Function to handle scroll event
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     const handleScroll = () => {
-      // Check if the user has scrolled down a certain distance
       const scrollTop =
         window.pageYOffset || document.documentElement.scrollTop;
       setIsVisible(scrollTop > 200);
     };
 
-    // Add scroll event listener when component mounts
     window.addEventListener("scroll", handleScroll);
 
-    // Remove scroll event listener when component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };

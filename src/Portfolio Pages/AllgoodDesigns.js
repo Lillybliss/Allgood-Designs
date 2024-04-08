@@ -33,6 +33,10 @@ const AllgoodDesigns = () => {
   const randomPortfolioPieces = getRandomPortfolioPieces();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     // Function to handle scroll event
     const handleScroll = () => {
       // Check if the user has scrolled down a certain distance

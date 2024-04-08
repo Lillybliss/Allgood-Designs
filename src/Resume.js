@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Styles/Resume.css";
 import resumeHeadshot from "./Assets/newone_smaller.png";
 import biggerHeadshot from "./Assets/newone.png";
@@ -32,6 +32,10 @@ const Resume = () => {
     // Remove the link from the DOM once the download is initiated
     document.body.removeChild(link);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="home-background">
