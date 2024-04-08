@@ -1,6 +1,7 @@
 import "./Styles/App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { FormspreeProvider } from '@formspree/react';
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Home";

@@ -11,27 +11,107 @@ const Contact = () => {
     company: "",
     message: "",
   });
+  const [nameValue, setNameValue] = useState("");
+  const [emailValue, setEmailValue] = useState("");
+  const [companyValue, setCompanyValue] = useState("");
+  const [messageValue, setMessageValue] = useState("");
+  const [nameError, setNameError] = useState(false);
+  const [emailError, setEmailError] = useState(false);
+  const [messageError, setMessageError] = useState(false);
+
+  const [formErrors, setFormErrors] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
   const openPopup = () => setIsPopupOpen(true);
   const closePopup = () => setIsPopupOpen(false);
 
-  const handleSubmitClick = () => {
-    openPopup();
+  const handleNameInputChange = (event) => {
+    setNameValue(event.target.value);
   };
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+  const handleEmailInputChange = (event) => {
+    setEmailValue(event.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleEmailInputBlur = () => {
+    const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue);
+    setEmailError(!isValidEmail);
+  };
+
+  const handleCompanyInputChange = (event) => {
+    setCompanyValue(event.target.value);
+  };
+
+  const handleMessageInputChange = (event) => {
+    setMessageValue(event.target.value);
+  };
+
+  const resetForm = () => {
+    setNameValue("");
+    setCompanyValue("");
+    setEmailValue("");
+    setMessageValue("");
+    setNameError(false);
+    setEmailError(false);
+    setMessageError(false);
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const formData = {
+      name: nameValue,
+      email: emailValue,
+      company: companyValue,
+      message: messageValue
+    }
     // Handle form submission, e.g., send form data to server
-    console.log(formData);
+    console.log("name: " + formData.name + " company: " + formData.company + " email: " + formData.email +" message: " + formData.message);
+
+
+    try {
+      const response = await fetch('https://formspree.io/f/mgegpagb', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+      if (response.ok) {
+        alert('Message sent successfully!');
+        setFormData({
+          name: '',
+          email: '',
+          company: '',
+          message: ''
+        });
+        resetForm();
+        openPopup();
+      } else {
+        alert('Failed to send message. Please try again later.');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('An error occurred while sending your message. Please try again later.');
+    }
   };
+
+
+  const buttonStyle = {
+    color:
+      nameValue &&
+      emailValue &&
+      messageValue &&
+      !nameError &&
+      !messageError &&
+      !emailError
+        ? "black"
+        : "#646464",
+  };
+ 
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -60,57 +140,81 @@ const Contact = () => {
           <h2>Let's get in touch!</h2>
           <form onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="name"></label>
+              <label htmlFor="name">{""}</label>
               <input
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Full Name *"
-                value={formData.name}
-                onChange={handleChange}
+                value={nameValue}
+                onChange={handleNameInputChange}
                 required
               />
+              {nameError && (
+                <p style={{ color: "red" }}>
+                  Name cannot be blank.
+                </p>
+              )}
             </div>
             <div>
-              <label htmlFor="company"></label>
+              <label htmlFor="company">{""}</label>
               <input
                 type="text"
                 id="company"
                 name="company"
                 placeholder="Company"
-                value={formData.company}
-                onChange={handleChange}
+                value={companyValue}
+                onChange={handleCompanyInputChange}
                 required
               />
             </div>
             <div>
-              <label htmlFor="email"></label>
+              <label htmlFor="email">{""}</label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 placeholder="Email *"
-                value={formData.email}
-                onChange={handleChange}
+                value={emailValue}
+                onChange={handleEmailInputChange}
                 required
               />
+              {emailError && (
+                <p style={{ color: "red" }}>
+                  Please enter a valid email address.
+                </p>
+              )}
             </div>
             <div>
-              <label htmlFor="message"></label>
+              <label htmlFor="message">{""}</label>
               <textarea
                 id="message"
                 name="message"
                 placeholder="Message *"
-                value={formData.message}
-                onChange={handleChange}
+                value={messageValue}
+                onChange={handleMessageInputChange}
                 rows="4"
                 required
               ></textarea>
+              {messageError && (
+                <p style={{ color: "red" }}>
+                  Message cannot be blank.
+                </p>
+              )}
             </div>
             <button
-              style={{ cursor: "pointer" }}
-              onClick={handleSubmitClick}
+            type="submit"
+              style={buttonStyle}
+              onClick={handleSubmit}
               className="contact-btn"
+              disabled={
+                !nameValue ||
+                !emailValue ||
+                !messageValue ||
+                nameError ||
+                messageError ||
+                emailError
+              }
             >
               Send Message
             </button>
