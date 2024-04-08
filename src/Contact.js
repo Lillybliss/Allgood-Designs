@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
-import PopUpContact from "./Components/PopUpContact";
+import React, { useEffect } from "react";
 import "./Styles/Contact.css";
 import email from "./Assets/icons/contact-email.png";
 import FormSpree from "./Components/FormSpree";
 
 const Contact = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -29,7 +27,7 @@ const Contact = () => {
           </div>
         </div>
 
-          <FormSpree></FormSpree>
+        <FormSpree></FormSpree>
       </div>
     </div>
   );
