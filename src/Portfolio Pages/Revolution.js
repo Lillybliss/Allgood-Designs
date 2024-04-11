@@ -6,7 +6,7 @@ import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData";
 import trifold from "../Assets/Portfolio/trifold-expanded.jpg";
 import lookbook from "../Assets/Portfolio/Lookbook1.jpg";
-import Menu1 from "../Assets/Portfolio/Menu1.png";
+import Menu1 from "../Assets/Portfolio/Menu1.jpg";
 import Asign from "../Assets/Portfolio/Asign.png";
 import Revsocial from "../Assets/Portfolio/Insta1.png";
 import manual from "../Assets/Portfolio/manual.jpg";
