@@ -6,7 +6,10 @@ import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData.json";
 import Planmock from "../Assets/Portfolio/plannify_inhand_mockup.png";
 import PlanlowfiMock from "../Assets/Portfolio/lofitogether.png";
-import PlannifyConcept from "../Assets/Portfolio/plannerstock.jpg";
+import PlanHifi from "../Assets/Portfolio/plannifyhifi.png";
+import themes from "../Assets/Portfolio/Frame 2.png";
+import popupPlannify from "../Assets/Portfolio/Popup.png";
+import dropdowns from "../Assets/Portfolio/dropdowns.png";
 
 const Plannify = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -78,7 +81,7 @@ const Plannify = () => {
             <h1 className="portfolio-title">Plannify</h1>
             <h2 className="header-subtitle">Mobile App Prototype</h2>
             <a
-              href="https://www.figma.com/proto/Tg7j924fNpBGgarUJoZEai/Pannify-Wireframe-Portfolio?type=design&t=J6i90oeweBBPNP4r-0&scaling=scale-down&page-id=0%3A1&node-id=37-2&starting-point-node-id=37%3A2&show-proto-sidebar=1"
+              href="https://www.figma.com/proto/Lr1NH2SpJ1A3VKEq1cNDfu/Pannify-Wireframes-Portfolio?type=design&node-id=2009-766&t=uahUYmMtfq42NfLG-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2009%3A766&show-proto-sidebar=1"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -94,13 +97,17 @@ const Plannify = () => {
       <div className="port-about-container">
         <h2 className="port-about-title">About</h2>
         <p className="port-about-text">
-          As the designer of Plannify, a hypothetical mobile app concept, I
+          Introducing Plannify, the ultimate all-in-one planner app designed to
+          simplify your daily routine. With Plannify, users can effortlessly
+          track daily activities, manage workout routines, and cultivate
+          positive habits—all in a single, intuitive interface. The app caters
+          to individuals with busy lifestyles, offering a "one stop shop" to
+          enhance productivity and organization. As the designer of Plannify, I
           initiated the project with thorough research and user feedback.
           Utilizing Figma, I progressed from wireframes to low-fidelity
           prototypes, refining features along the way. The high-fidelity
-          prototype, guided by a visual design guide, is currently being created
-          in order to ensure a visually appealing interface. Check back soon to
-          see the completed high fidelity prototype!
+          prototype, guided by a visual design guide, ensures a visually
+          appealing interface.
         </p>
         <div className="project-tags">
           <div className="tag">
@@ -116,30 +123,60 @@ const Plannify = () => {
 
       <div className="row-1">
         <div className="left-image">
-          <img src={PlannifyConcept} alt="Mockup" />
+          <img
+            src={PlanHifi}
+            alt="Mockup"
+            style={{ cursor: "pointer" }}
+            onClick={() => openPopup(PlanHifi)}
+          />
           <PopUpPicture
             isOpen={isPopupOpen}
             closePopup={closePopup}
             image={popupImage}
           />
         </div>
+
         <div className="right-text">
-          <h2 className="right-title">The Concept</h2>
+          <h2 className="right-title">Interactive Prototype</h2>
           <p className="right-text">
-            Introducing Plannify, the ultimate all-in-one planner app designed
-            to simplify your daily routine. With Plannify, users can
-            effortlessly track daily activities, manage workout routines, and
-            cultivate positive habits—all in a single, intuitive interface. The
-            app caters to individuals with busy lifestyles, offering a "one stop
-            shop" to enhance productivity and organization.
+            Carefully designed with Figma, this interactive prototype serves as
+            the foundational blueprint for developing a user-friendly mobile
+            experience.
+          </p>
+          <a
+            href="https://www.figma.com/proto/Lr1NH2SpJ1A3VKEq1cNDfu/Pannify-Wireframes-Portfolio?type=design&node-id=37-2&t=uahUYmMtfq42NfLG-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=37%3A2&show-proto-sidebar=1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View the mid fidelity prototype here.
+          </a>
+          <a
+            href="https://www.figma.com/proto/Lr1NH2SpJ1A3VKEq1cNDfu/Pannify-Wireframes-Portfolio?type=design&node-id=2009-766&t=uahUYmMtfq42NfLG-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2009%3A766&show-proto-sidebar=1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View the high fidelity prototype here.
+          </a>
+          <p className="right-text">
+            Key features include:
+            <ul>
+              <li>Customizable daily planner</li>
+              <li>Collaborative Entries</li>
+              <li>Workout tracker</li>
+              <li>Goal setting</li>
+              <li>Task management</li>
+              <li>Progress tracking</li>
+              <li>Habit Tracking</li>
+            </ul>
           </p>
         </div>
       </div>
-      {/* <div className="padding"></div> 
+
+      <div className="padding"></div>
       <div className="row-3-three">
-        <img src={MMLogo} alt="Mockup" className="left-pic" />
-        <img src={MMcolors} alt="MerchMate Logo" className="middle-pic" />
-        <img src={MMtypography} alt="Mockup" className="right-pic" />
+        <img src={themes} alt="Themes" className="left-pic" />
+        <img src={popupPlannify} alt="pop up example" className="middle-pic" />
+        <img src={dropdowns} alt="dropdown example" className="right-pic" />
       </div>
 
       <div className="row-4">
@@ -153,42 +190,15 @@ const Plannify = () => {
           hanger symbolizes the app's primary focus on providing users with a
           convenient and efficient platform to access live concert merchandise.
           This guide served as the cornerstone for crafting a distinct brand
-          identity, ensuring consistency across the app's interface.
+          identity, ensuring consistency across the app's interface.{" "}
+          <a
+            href="https://www.figma.com/proto/RkUoUIWyckCWJ4gaYe7MOf/Plannify-User-Feedback-%2F-Style-Guide-Portfolio?type=design&node-id=1-16&t=wnO5IFOFeYm3m5F8-1&scaling=scale-down&page-id=0%3A1&mode=design"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View the Visual Design Guide here.
+          </a>
         </p>
-      </div>*
-      <div className="padding"></div>
-      */}
-
-      <div className="row-1">
-        <div className="left-image">
-          <img
-            src={PlanlowfiMock}
-            alt="Mockup"
-            style={{ cursor: "pointer" }}
-            onClick={() => openPopup(PlanlowfiMock)}
-          />
-        </div>
-        <div className="right-text">
-          <h2 className="right-title">Interactive Prototype</h2>
-          <p className="right-text">
-            Carefully designed with Figma, this interactive prototype serves as
-            the foundational blueprint for developing a smooth and adaptable
-            mobile experience.
-          </p>
-          <p className="right-text">
-            Key features include:
-            <ul>
-              <li>Customizable daily planner</li>
-              <li>Collaborative Entries</li>
-              <li>Workout tracker</li>
-              <li>Goal setting</li>
-              <li>Task management</li>
-              <li>Progress tracking</li>
-              <li>Habit Tracking</li>
-              <li>Reminder notifications</li>
-            </ul>
-          </p>
-        </div>
       </div>
 
       <div className="padding"> </div>
