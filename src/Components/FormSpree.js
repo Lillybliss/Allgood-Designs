@@ -81,7 +81,7 @@ const FormSpree = () => {
           onChange={handleNameInputChange}
           onBlur={handleNameInputBlur}
         />
-        {nameError && <p style={{ color: "red" }}>Please enter your name.</p>}
+        {nameError && <p className="contact-error">Please enter your name.</p>}
 
         <label htmlFor="company"></label>
         <input
@@ -105,7 +105,7 @@ const FormSpree = () => {
           required
         />
         {emailError && (
-          <p style={{ color: "red" }}>Please enter a valid email address.</p>
+          <p className="contact-error">Please enter a valid email address.</p>
         )}
 
         <label htmlFor="message"></label>
@@ -120,7 +120,7 @@ const FormSpree = () => {
           required
         />
         {messageError && (
-          <p style={{ color: "red" }}>Message cannot be blank.</p>
+          <p className="contact-error">Message cannot be blank.</p>
         )}
 
         <button

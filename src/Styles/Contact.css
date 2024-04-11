@@ -71,6 +71,12 @@
     height: 450px;
 }
 
+.contact-error {
+    color: red;
+    margin-top: 5px;
+
+}
+
 .contact-form-container h2 {
     color: #394c56;
     font-size: 1.5em;
@@ -172,6 +178,11 @@ textarea::placeholder {
         border: 2px solid #b8b8b8; /* Set the border properties */
         box-sizing: border-box;
     }
+
+    .contact-error {
+        margin-left: 35px;
+        margin-top: 5px;
+    } 
     
     textarea {
         height: 150px;
@@ -185,9 +196,14 @@ textarea::placeholder {
 
 
 }
-
 /* For desktop */
 @media (min-width: 900px) {
+    .contact-error {
+        margin-left: 18px;
+        margin-top: 5px;
+        min-width: 370px;
+    } 
+
     .contact-background {   
         max-width: 1300px;
         margin-left: auto;
@@ -213,5 +229,16 @@ textarea::placeholder {
         width: 370px;
         height: 45px;
         margin-top: 20px;
-    }
+    }}
+
+/* For desktop */
+@media (min-width: 1050px) {
+    .contact-error {
+        margin-left: 33px;
+        margin-top: 5px;
+        min-width: 370px;
+    } 
+
+
+    
 }
