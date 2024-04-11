@@ -76,7 +76,7 @@ const Portfolio = () => {
           <button
             key={category}
             className={`category-btn${
-              category === activeCategory ? ":active" : ""
+              category === activeCategory ? "active" : ""
             }`}
             onClick={() => handleCategoryClick(category)}
           >
