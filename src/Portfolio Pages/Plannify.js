@@ -5,7 +5,6 @@ import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData.json";
 import Planmock from "../Assets/Portfolio/plannify_inhand_mockup.png";
-import PlanlowfiMock from "../Assets/Portfolio/lofitogether.png";
 import PlanHifi from "../Assets/Portfolio/plannifyhifi.png";
 import themes from "../Assets/Portfolio/Frame 2.png";
 import popupPlannify from "../Assets/Portfolio/Popup.png";
@@ -182,15 +181,15 @@ const Plannify = () => {
       <div className="row-4">
         <h2 className="row-4-title">Visual Design Guide</h2>
         <p className="row-4-text">
-          The visual design guide for the app details key features such as logo
-          usage, brand colors, button styling, fonts, and more. The MerchMate
-          logo features a distinctive clothing hanger, elegantly rendered in the
-          brand's signature blue hue. This carefully chosen design embodies the
-          essence of MerchMate, seamlessly blending functionality and style. The
-          hanger symbolizes the app's primary focus on providing users with a
-          convenient and efficient platform to access live concert merchandise.
-          This guide served as the cornerstone for crafting a distinct brand
-          identity, ensuring consistency across the app's interface.{" "}
+          The app's visual design guide outlines essential elements like brand
+          colors, button designs, and font choices. Several themes were
+          developed to accommodate diverse user tastes, with feedback guiding
+          the selection of the ultimate design. The app boasts a refreshing
+          aesthetic characterized by light and cool tones, featuring blue-grey
+          accents and subtle drop shadows on various elements. This
+          comprehensive guide forms the foundation for establishing a cohesive
+          brand identity, guaranteeing uniformity throughout the app's
+          interface.{" "}
           <a
             href="https://www.figma.com/proto/RkUoUIWyckCWJ4gaYe7MOf/Plannify-User-Feedback-%2F-Style-Guide-Portfolio?type=design&node-id=1-16&t=wnO5IFOFeYm3m5F8-1&scaling=scale-down&page-id=0%3A1&mode=design"
             target="_blank"
