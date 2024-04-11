@@ -48,8 +48,7 @@
 
 .category-btnactive {
   background: #F6BBBC;
-  box-shadow: none;
-  font-size: 12px !important;
+  box-shadow: 0px 0px 1px #324b56;  font-size: 12px !important;
   margin: 0;
   margin-right: 4px;
   margin-left: 4px;
