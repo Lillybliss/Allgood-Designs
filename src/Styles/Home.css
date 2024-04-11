@@ -42,7 +42,7 @@
 
   .tagline {
     color: white;
-    text-shadow: 2px 4px 5px #182429;
+    text-shadow: 0px 2px 5px #182429;
     width: 90%;
     margin-top: 10%;
     margin-left: 5%;
@@ -71,7 +71,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 0.9em;
-    color: #182429;
+    color: rgba(57, 76, 86);
   }
 
   .round-div {
@@ -161,8 +161,8 @@
   margin: 0;
   min-height: 140px;
   min-width: 100%;
-  color: #182429;
-  
+  color: rgba(57, 76, 86);
+
 }
 
 .services-3 { /* view more button */
@@ -173,7 +173,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    
+  
 }
 
 .services-1, .services-2, .services-4, .services-5, .services-6 {
@@ -181,7 +181,7 @@
     background-color: white;
     width: 31%;
     padding: 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -247,7 +247,7 @@
   .working-together button {
     width: 100%;
     height: 50px;
-    color: #182429;
+    color: rgba(57, 76, 86);
   }
 
 

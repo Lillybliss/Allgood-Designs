@@ -55,7 +55,7 @@ const Resume = () => {
               image={biggerHeadshot}
             />
             <div className="transparent-header">
-              <h1 className="white-header">Lilly Allgood</h1>
+              <h3 className="white-header">Lilly Allgood</h3>
               <button
                 type="button"
                 className="resume-btn"

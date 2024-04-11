@@ -13,10 +13,10 @@ const Contact = () => {
       <div className="contact-background">
         <div className="contact-header-container">
           <h1 className="header-title">Contact Me</h1>
-          <h2 className="contact-h2">
+          <p className="contact-h2">
             Please contact me if you're interested in learning more about my
             work or would like to discuss potential opportunities.
-          </h2>
+          </p>
           <div className="contact-email">
             <img src={email} alt="Email" className="contact-email-icon" />
             <p className="resume-p">

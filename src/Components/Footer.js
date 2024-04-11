@@ -18,7 +18,9 @@ const Footer = () => {
         </div>
         <hr className="footer-line" />{" "}
         <div className="footer-bottom">
-          <p>&copy; 2024 Allgood Designs. All rights reserved.</p>
+          <p className="footer-p">
+            &copy; 2024 Allgood Designs. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

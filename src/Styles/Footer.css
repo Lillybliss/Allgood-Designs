@@ -19,6 +19,10 @@ footer {
     flex-direction: column;
 }
 
+.footer-p {
+  color: white;
+}
+
 .content {
     display: flex;
     flex-direction: column;

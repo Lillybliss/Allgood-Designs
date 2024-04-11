@@ -45,14 +45,14 @@ body {
 button {
   background-color: #F6BBBC;
   border-radius: 30px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   height: 35px;
   min-width: 120px; 
   border: none;
   font-family: 'Montserrat-Medium', sans-serif;
   padding: 10px 20px;
   font-size: 14px;
-  color: #141e22;
+  color: rgba(57, 76, 86);
 }
 
 button:hover {
@@ -63,7 +63,7 @@ button:hover {
 }
 
 h1 {
-  font-family: 'Montserrat-Medium', 'Verdana', sans-serif;
+  font-family: 'Lovelace-Regular', 'Garamond', serif;
   font-size: 2em;
   color: #527687;
   text-align: left;
@@ -80,13 +80,23 @@ h2 {
   padding: 0;
 }
 
+h3 {
+  font-family: 'Montserrat-Medium', 'Verdana', sans-serif;
+  font-size: 2em;
+  color: #527687;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-family: 'Montserrat', 'Verdana', sans-serif;
   font-size: 1em;
   text-align: left;
   margin: 0;
   padding: 0;
-
+  color: rgba(57, 76, 86);
+  line-height: 1.5;
 }
 
 li {
