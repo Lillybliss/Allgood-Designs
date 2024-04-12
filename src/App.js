@@ -22,7 +22,7 @@ import ToDo from "./Portfolio Pages/ToDo.js";
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="app">
         <Header />
 
         <Routes>
@@ -49,7 +49,7 @@ const App = () => {
           <Route path="/portfolio/LA-logo" element={<LAlogo />} />
           <Route path="/portfolio/ToDo-App" element={<ToDo />} />
         </Routes>
-        <Footer />
+        <Footer className="footerstyle" />
       </div>
     </Router>
   );

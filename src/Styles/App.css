@@ -30,12 +30,20 @@ body {
   background-color: #527687;
   /* Montserrat Fallback */
   font-family: 'Montserrat', 'Verdana', sans-serif;
-  min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  flex: 1; 
 }
 
 .gradient-body {
   background-image: linear-gradient(white, #527687);
-  padding-bottom: 100px;}
+  padding-bottom: 100px;
+  min-height: 100vh !important;}
 
 .Link {
   text-decoration: none;
