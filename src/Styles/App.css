@@ -30,6 +30,7 @@ body {
   background-color: #527687;
   /* Montserrat Fallback */
   font-family: 'Montserrat', 'Verdana', sans-serif;
+  min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
 }
 
 .gradient-body {
@@ -80,7 +81,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat-Medium', 'Verdana', sans-serif;
+  font-family: 'Montserrat-Medium', 'Verdana', Arial, sans-serif;
   font-size: 2em;
   color: #527687;
   text-align: left;
@@ -89,12 +90,12 @@ h3 {
 }
 
 p {
-  font-family: 'Montserrat', 'Verdana', sans-serif;
+  font-family: 'Montserrat', 'Verdana', Arial, sans-serif;
   font-size: 1em;
   text-align: left;
   margin: 0;
   padding: 0;
-  color: rgba(57, 76, 86);
+  color: rgb(47, 62, 71);
   line-height: 1.5;
 }
 
