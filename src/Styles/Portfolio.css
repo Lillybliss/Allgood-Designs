@@ -5,6 +5,7 @@
     background-image: url('../Assets/blue-water2.gif');
     background-size: cover; 
     background-position: center;
+    height: 185px; /* Adjust header height as needed */
     text-align: center; 
 }
 
