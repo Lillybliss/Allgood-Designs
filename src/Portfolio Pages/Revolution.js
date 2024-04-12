@@ -199,8 +199,6 @@ const Revolution = () => {
             >
               View the digital Operations Manual here.
             </a>
-          </p>
-          <p className="right-text">
             <a
               href="https://www.canva.com/design/DAGAuWEdViQ/ESC7q7MPvuyIjg87r-fgmw/view?utm_content=DAGAuWEdViQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"
               target="_blank"
