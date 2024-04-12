@@ -5,8 +5,8 @@
 .contact-background {   
     background-color: rgba(57, 76, 86, 0.4);
     padding-bottom: 100px;
-    padding-top: 10px;
-    min-height: 100vh !important;
+    padding-top: 30px;
+    min-height: 95vh !important;
 }
 
 .contact-header-container {
@@ -121,6 +121,7 @@ textarea::placeholder {
 @media (min-width: 708px) {
     .contact-background {   
         background-color: rgba(57, 76, 86, 0.0);
+
 
     }
 

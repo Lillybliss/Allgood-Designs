@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     /* Set a fixed background attachment */
     background-attachment: fixed;  
-    min-height: 100vh !important;
+    min-height: 80vh !important;
   }
 
 
