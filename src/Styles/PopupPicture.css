@@ -48,6 +48,6 @@
 
 .popup-container img {
     max-width: 100%; /* Allow images to expand horizontally */
-    max-height: 90vh; /* Set a maximum height for the popup container */
+    max-height: 95vh; /* Set a maximum height for the popup container */
     object-fit: contain; /* Maintain aspect ratio */
 }
