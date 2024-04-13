@@ -221,18 +221,13 @@ const AllgoodDesigns = () => {
             plan to add a back end connection using a MERN Stack in the future.
           </p>
           <p className="right-text">
-            As of today, my site is deployed to Gitub pages while I get my
-            personal domain set up. Github pages comes with a lot of
-            limitations, but it's a great way to showcase my work to potential
-            employers. I look forward to deploying my site to a more robust
-            platform in the future at{" "}
-            <a
-              href="https://allgoodesigns.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              allgoodesigns.com.
-            </a>{" "}
+            I deployed my site useing the node package "npm run build". This
+            package is a script that creates a production build of the site. The
+            build is minified and the filenames include the hashes. Next, I
+            uploaded the build folder to my custom domain's cPanel. I then added
+            a .htaccess file to the build folder to redirect all traffic to the
+            index.html file. This ensures that the React Router can handle the
+            routing.
             <br />
             <a
               href="https://github.com/Lillybliss/Allgood-Designs"
