@@ -221,7 +221,7 @@ const AllgoodDesigns = () => {
             plan to add a back end connection using a MERN Stack in the future.
           </p>
           <p className="right-text">
-            I deployed my site useing the node package "npm run build". This
+            I deployed my site using the node package "npm run build". This
             package is a script that creates a production build of the site. The
             build is minified and the filenames include the hashes. Next, I
             uploaded the build folder to my custom domain's cPanel. I then added
