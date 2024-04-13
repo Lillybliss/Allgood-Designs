@@ -73,8 +73,8 @@ const LAlogo = () => {
       <div className="port-about-container">
         <h2 className="port-about-title">About</h2>
         <p className="port-about-text">
-          A fusion of my initials 'L' and 'A', elegantly designed using
-          Photoshop. This versatile logo shines on my business card, adding a
+          A fusion of my initials 'L' and 'A', elegantly designed using Adobe
+          Illustrator. This versatile logo shines on my business card, adding a
           touch of muted blue for contrast amid the shades of purple.
         </p>
         <div className="project-tags">

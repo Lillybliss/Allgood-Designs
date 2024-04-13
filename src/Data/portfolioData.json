@@ -47,16 +47,6 @@
       }
       ,
     {
-        "id": 6,
-        "imageUrl": "logo_LA_transparent.jpg",
-        "title": "L.A.",
-        "subtitle": "Logo Design",
-        "route": "/portfolio/LA-logo",
-        "categories": [ "graphic design"],
-      "tags": ["Graphic Design"]
-      }
-      ,
-    {
         "id": 7,
         "imageUrl": "colorization_smaller.jpg",
         "title": "Image Retouching",
