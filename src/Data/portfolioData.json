@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "imageUrl": "TSS_hifi_mockup.png",
+      "imageUrl": "tsscover1.png",
       "title": "The Suite Spot",
       "subtitle": "Branding, Web Design, and Responsive Development",
       "route": "/portfolio/The-Suite-Spot-Project",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "imageUrl": "Allgood_Designs_Mockup_smaller.png",
+      "imageUrl": "ADmockupcover.png",
       "title": "Allgood Designs",
       "subtitle": "Branding, Web Design, and Responsive Development",
       "route": "/portfolio/Allgood-Designs",

@@ -83,11 +83,11 @@ const TSS = () => {
             </h2>
 
             <a
-              href="https://github.com/lwolbrink23/group8"
+              href="https://the-suite-spot.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="portfolio-btn">View Code</button>
+              <button className="portfolio-btn">View Website</button>
             </a>
           </div>
           <div className="mockup-image">
