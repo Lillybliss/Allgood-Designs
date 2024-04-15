@@ -88,14 +88,5 @@
         "route": "/portfolio/Floral-Moth-Ink",
         "categories": ["art"],
           "tags": ["Art"]
-      },
-      {
-        "id": 11,
-        "imageUrl": "todo_cover.png",
-        "title": "To-Do App",
-        "subtitle": "React Native App",
-        "route": "/portfolio/ToDo-App",
-        "categories": ["development"],
-        "tags": ["Mobile App Development"]
       }
   ]

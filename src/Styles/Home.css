@@ -174,7 +174,6 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-  
 }
 
 .services-1, .services-2, .services-4, .services-5, .services-6 {
@@ -445,10 +444,7 @@
     }
       
     .viewMore {
-        height: 40px;
-        border-radius: 30px;
-        width: 31%;
-        min-height: 40px;
+        min-height: 150px;
       }
     
     .services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
@@ -609,7 +605,7 @@
         font-size: 1.3em;
       }
 
-      .services-1, .services-2, .services-3, .services-4, .services-5, .services-6 {
+      .services-1, .services-2, .services-3, .services-4, .services-5, .services-6, .viewMore {
         min-height: 200px;
     }
 
