@@ -43,8 +43,16 @@
         "route": "/portfolio/plannify",
         "categories": [ "ui design"],
       "tags": ["Branding", "WireFrame & Prototyping"]
-      }
-      ,
+      },{
+        "id": 6,
+        "imageUrl": "todo_cover.png",
+        "title": "To-Do App",
+        "subtitle": "React Native App",
+        "route": "/portfolio/ToDo-App",
+        "categories": ["development"],
+        "tags": ["Mobile App Development"]
+      },
+
     {
         "id": 7,
         "imageUrl": "colorization_smaller.jpg",

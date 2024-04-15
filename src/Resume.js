@@ -91,17 +91,16 @@ const Resume = () => {
           </div>
           <hr className="horizontal-line" />
           <div className="skills">
-            <h2 className="underline">What I Can Do</h2>
+            <h2 className="underline">Deliverables</h2>
             <ul>
               <li>Responsive Web Design</li>
+              <li>Wireframe and Prototyping</li>
               <li>Front-End Development</li>
               <li>Branding Collateral (Brochures, Banners, etc.)</li>
-              <li>Print Design</li>
-              <li>Email Marketing Campaigns</li>
-              <li>Social Media Graphics</li>
-              <li>Image Editing</li>
-              <li>Wireframe and Prototyping</li>
               <li>Mockups</li>
+              <li>Email Marketing Campaigns</li>
+              <li>Print Design</li>
+              <li>Social Media Graphics</li>
             </ul>
 
             <h2 className="underline">Software Skills</h2>
@@ -137,13 +136,13 @@ const Resume = () => {
               <li>Web Accessibility & Engagement</li>
             </ul>
 
-            <h2 className="underline">Personal Skills</h2>
+            <h2 className="underline">Soft Skills</h2>
             <ul>
-              <li>Customer Service</li>
               <li>Organization</li>
               <li>Collaboration</li>
               <li>Time Management</li>
               <li>Creativity</li>
+              <li>Customer Service</li>
             </ul>
           </div>
         </div>
