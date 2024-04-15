@@ -93,13 +93,13 @@ const Resume = () => {
           <div className="skills">
             <h2 className="underline">Deliverables</h2>
             <ul>
-              <li>Responsive Web Design</li>
-              <li>Wireframe and Prototyping</li>
+              <li>Responsive Web Designs</li>
+              <li>Wireframes and Prototypes</li>
               <li>Front-End Development</li>
               <li>Branding Collateral (Brochures, Banners, etc.)</li>
               <li>Mockups</li>
               <li>Email Marketing Campaigns</li>
-              <li>Print Design</li>
+              <li>Print Designs</li>
               <li>Social Media Graphics</li>
             </ul>
 
