@@ -171,16 +171,14 @@ const Rebel = () => {
         <div className="right-text">
           <h2 className="right-title">The Development Phase</h2>
           <p className="right-text">
-            In the Development Phase, I created a visual design guide to be
-            applied to the website. It defines a color scheme, typography, and a
-            logo for the brand. The color scheme is comprised of contrasting,
-            grayscale tones, paired with a vibrant golden accent. Drawing
-            inspiration from craft brews and punk rock, my design mood board
-            informed this selection. Embracing the accent color as a unifying
-            element, I ensured coherence throughout the website. The chosen
-            golden hue aids in highlighting calls to action. Additionally, the
-            website features a high level of contrast, ensuring accessibility
-            for all users.
+            In the Development Phase, I created a visual design guide that
+            defines a color scheme, typography, and logo for the brand. The
+            color scheme is comprised of contrasting, grayscale tones, paired
+            with a vibrant golden accent. Drawing inspiration from craft brews
+            and punk rock, my design mood board informed this selection. The
+            chosen golden hue aids in highlighting calls to action.
+            Additionally, the website features a high level of contrast,
+            ensuring accessibility for all users.
           </p>
           <p className="right-text">
             <a
