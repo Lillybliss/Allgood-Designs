@@ -182,7 +182,7 @@ const Rebel = () => {
           </p>
           <p className="right-text">
             <a
-              href="https://www.figma.com/proto/oQjLYSSJvaEtgbkDgg1OaB/Rebel-Brewing-Co.?type=design&node-id=96-7618&t=lWaxvNuyIUlkTErd-1&scaling=scale-down&page-id=72%3A608&mode=design"
+              href="https://www.figma.com/file/oQjLYSSJvaEtgbkDgg1OaB/Rebel-Brewing-Co.?type=design&node-id=72%3A608&mode=design&t=AdgeBUh8n9ktTNPK-1"
               target="_blank"
               rel="noopener noreferrer"
             >
