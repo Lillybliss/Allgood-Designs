@@ -1,15 +1,33 @@
 [
-    {
-      "id": 1,
-      "imageUrl": "tsscover1.png",
-      "title": "The Suite Spot",
-      "subtitle": "Branding, Web Design, and Responsive Development",
-      "route": "/portfolio/The-Suite-Spot-Project",
-      "categories": ["development", "ui design"],
-      "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
+  {
+    "id": 1,
+    "imageUrl": "tsscover1.png",
+    "title": "The Suite Spot",
+    "subtitle": "Branding, Web Design, and Responsive Development",
+    "route": "/portfolio/The-Suite-Spot-Project",
+    "categories": ["development", "ui design"],
+    "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
+  },
+  {
+    "id": 2,
+    "imageUrl": "RBcover.jpg",
+    "title": "Rebel Brewing Co.",
+    "subtitle": "Branding & Responsive Web Design",
+    "route": "/portfolio/RebelBrews",
+    "categories": ["graphic design", "ui design", "digital marketing"],
+  "tags": ["Branding", "WireFrame & Prototyping"]
+  },
+  {
+      "id": 3,
+      "imageUrl": "revolution-trifold-small.jpg",
+      "title": "Revolution Lash Studio",
+      "subtitle": "Rebrand Marketing Collateral",
+      "route": "/portfolio/Revolution-Lash-Studio",
+      "categories": [ "graphic design", "digital marketing"],
+    "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
     },
     {
-      "id": 2,
+      "id": 4,
       "imageUrl": "ADmockupcover.png",
       "title": "Allgood Designs",
       "subtitle": "Branding, Web Design, and Responsive Development",
@@ -18,75 +36,66 @@
       "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
-        "id": 3,
-        "imageUrl": "revolution-trifold-small.jpg",
-        "title": "Revolution Lash Studio",
-        "subtitle": "Rebrand Marketing Collateral",
-        "route": "/portfolio/Revolution-Lash-Studio",
-        "categories": [ "graphic design", "digital marketing"],
-      "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
-      },
-      {
-        "id": 4,
-        "imageUrl": "merchmate_inhand_small.png",
-        "title": "MerchMate",
-        "subtitle": "Mobile App Prototype",
-        "route": "/portfolio/MerchMate",
-        "categories": [ "ui design"],
-      "tags": ["Branding", "WireFrame & Prototyping"]
-      },
-      {
-        "id": 5,
-        "imageUrl": "Plannify_lowCover.png",
-        "title": "Plannify",
-        "subtitle": "Mobile App Prototype",
-        "route": "/portfolio/plannify",
-        "categories": [ "ui design"],
-      "tags": ["Branding", "WireFrame & Prototyping"]
-      },{
-        "id": 6,
-        "imageUrl": "todo_cover.png",
-        "title": "To-Do App",
-        "subtitle": "React Native App",
-        "route": "/portfolio/ToDo-App",
-        "categories": ["development"],
-        "tags": ["Mobile App Development"]
-      },
+      "id": 5,
+      "imageUrl": "merchmate_inhand_small.png",
+      "title": "MerchMate",
+      "subtitle": "Mobile App Prototype",
+      "route": "/portfolio/MerchMate",
+      "categories": [ "ui design"],
+    "tags": ["Branding", "WireFrame & Prototyping"]
+    },
+    {
+      "id": 6,
+      "imageUrl": "Plannify_lowCover.png",
+      "title": "Plannify",
+      "subtitle": "Mobile App Prototype",
+      "route": "/portfolio/plannify",
+      "categories": [ "ui design"],
+    "tags": ["Branding", "WireFrame & Prototyping"]
+    },{
+      "id": 7,
+      "imageUrl": "todo_cover.png",
+      "title": "To-Do App",
+      "subtitle": "React Native App",
+      "route": "/portfolio/ToDo-App",
+      "categories": ["development"],
+      "tags": ["Mobile App Development"]
+    },
 
-    {
-        "id": 7,
-        "imageUrl": "colorization_smaller.jpg",
-        "title": "Image Retouching",
-        "subtitle": "Adobe Photoshop",
-        "route": "/portfolio/image-retouching",
-        "categories": ["graphic design"],
-      "tags": ["Graphic Design"]
-      } ,
-      {
-          "id": 8,
-          "imageUrl": "lilly-allgood-fungi-skull-sm.png",
-          "title": "Fungi Skull",
-          "subtitle": "Acrylic on Canvas",
-          "route": "/portfolio/Fungi-Skull",
-          "categories": ["art"],
-          "tags": ["Art"]
-    } ,
-        {
-            "id": 9,
-            "imageUrl": "bubble_dragon.png",
-            "title": "Bubble Dragon",
-            "subtitle": "Acrylic on Canvas",
-            "route": "/portfolio/Bubble-Dragon",
-            "categories": ["art"],
-          "tags": ["Art"]
+  {
+      "id": 7,
+      "imageUrl": "colorization_smaller.jpg",
+      "title": "Image Retouching",
+      "subtitle": "Adobe Photoshop",
+      "route": "/portfolio/image-retouching",
+      "categories": ["graphic design"],
+    "tags": ["Graphic Design"]
     } ,
     {
-        "id": 10,
-        "imageUrl": "floral_moth.png",
-        "title": "Floral Moth",
-        "subtitle": "Ink on Paper",
-        "route": "/portfolio/Floral-Moth-Ink",
+        "id": 8,
+        "imageUrl": "lilly-allgood-fungi-skull-sm.png",
+        "title": "Fungi Skull",
+        "subtitle": "Acrylic on Canvas",
+        "route": "/portfolio/Fungi-Skull",
         "categories": ["art"],
-          "tags": ["Art"]
-      }
-  ]
+        "tags": ["Art"]
+  } ,
+      {
+          "id": 9,
+          "imageUrl": "bubble_dragon.png",
+          "title": "Bubble Dragon",
+          "subtitle": "Acrylic on Canvas",
+          "route": "/portfolio/Bubble-Dragon",
+          "categories": ["art"],
+        "tags": ["Art"]
+  } ,
+  {
+      "id": 10,
+      "imageUrl": "floral_moth.png",
+      "title": "Floral Moth",
+      "subtitle": "Ink on Paper",
+      "route": "/portfolio/Floral-Moth-Ink",
+      "categories": ["art"],
+        "tags": ["Art"]
+    }
+]

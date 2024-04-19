@@ -18,6 +18,7 @@ import FloralMoth from "./Portfolio Pages/FloralMoth.js";
 import Plannify from "./Portfolio Pages/Plannify.js";
 import LAlogo from "./Portfolio Pages/LAlogo.js";
 import ToDo from "./Portfolio Pages/ToDo.js";
+import Rebel from "./Portfolio Pages/Rebel.js";
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
           <Route path="/portfolio/plannify" element={<Plannify />} />
           <Route path="/portfolio/LA-logo" element={<LAlogo />} />
           <Route path="/portfolio/ToDo-App" element={<ToDo />} />
+          <Route path="/portfolio/RebelBrews" element={<Rebel />} />
         </Routes>
         <Footer className="footerstyle" />
       </div>
