@@ -80,7 +80,7 @@ const AllgoodDesigns = () => {
           <div className="row">
             <h1 className="portfolio-title">Allgood Designs</h1>
             <h2 className="header-subtitle">
-              Branding, Web Design, & Responsive Development
+              UX/UI Design, & Responsive Development
             </h2>
             <a
               href="https://github.com/Lillybliss/Allgood-Designs"
@@ -109,11 +109,7 @@ const AllgoodDesigns = () => {
         <div className="project-tags">
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Branding</p>
-          </div>
-          <div className="tag">
-            <img src={tag} alt="tag"></img>
-            <p>Web Design</p>
+            <p>UX/UI Design</p>
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>

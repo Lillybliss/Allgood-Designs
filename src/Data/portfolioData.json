@@ -3,16 +3,16 @@
     "id": 1,
     "imageUrl": "tsscover1.png",
     "title": "The Suite Spot",
-    "subtitle": "Branding, Web Design, and Responsive Development",
+    "subtitle": "UX/UI Design & Responsive Development",
     "route": "/portfolio/The-Suite-Spot-Project",
     "categories": ["development", "ui design"],
-    "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
+    "tags": ["User Research", "UI Design", "Responsive Development", "WireFrame & Prototyping"]
   },
   {
     "id": 2,
     "imageUrl": "RBcover.jpg",
     "title": "Rebel Brewing Co.",
-    "subtitle": "Branding & Responsive Web Design",
+    "subtitle": "UI Design & Prototyping",
     "route": "/portfolio/RebelBrews",
     "categories": ["graphic design", "ui design", "digital marketing"],
   "tags": ["Branding", "WireFrame & Prototyping"]
@@ -30,25 +30,25 @@
       "id": 4,
       "imageUrl": "ADmockupcover.png",
       "title": "Allgood Designs",
-      "subtitle": "Branding, Web Design, and Responsive Development",
+      "subtitle": "UX/UI Design & Responsive Development",
       "route": "/portfolio/Allgood-Designs",
       "categories": ["development", "ui design"],
-      "tags": ["Branding", "Web Design", "Responsive Development", "WireFrame & Prototyping"]
+      "tags": ["UI Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
       "id": 5,
       "imageUrl": "merchmate_inhand_small.png",
       "title": "MerchMate",
-      "subtitle": "Mobile App Prototype",
+      "subtitle": "UI Design & Prototyping",
       "route": "/portfolio/MerchMate",
       "categories": [ "ui design"],
-    "tags": ["Branding", "WireFrame & Prototyping"]
+    "tags": ["UI Design", "WireFrame & Prototyping"]
     },
     {
       "id": 6,
       "imageUrl": "Plannify_lowCover.png",
       "title": "Plannify",
-      "subtitle": "Mobile App Prototype",
+      "subtitle": "UX/UI Design & Prototyping",
       "route": "/portfolio/plannify",
       "categories": [ "ui design"],
     "tags": ["Branding", "WireFrame & Prototyping"]

@@ -78,7 +78,7 @@ const Plannify = () => {
         <div className="together-top">
           <div className="row">
             <h1 className="portfolio-title">Plannify</h1>
-            <h2 className="header-subtitle">Mobile App Prototype</h2>
+            <h2 className="header-subtitle">UX/UI Design & Prototyping</h2>
             <a
               href="https://www.figma.com/proto/Lr1NH2SpJ1A3VKEq1cNDfu/Pannify-Wireframes-Portfolio?type=design&node-id=2009-766&t=uahUYmMtfq42NfLG-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2009%3A766&show-proto-sidebar=1"
               target="_blank"
@@ -111,7 +111,11 @@ const Plannify = () => {
         <div className="project-tags">
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Branding</p>
+            <p>User Research</p>
+          </div>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>UI Design</p>
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>

@@ -79,7 +79,7 @@ const TSS = () => {
           <div className="row">
             <h1 className="portfolio-title">The Suite Spot</h1>
             <h2 className="header-subtitle">
-              Branding, Web Design, & Responsive Development
+              UX/UI Design, & Responsive Development
             </h2>
 
             <a
@@ -130,15 +130,19 @@ const TSS = () => {
         <div className="project-tags">
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Branding</p>
+            <p>User Research</p>
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Web Design</p>
+            <p>UI Design</p>
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>
             <p>Responsive Development</p>
+          </div>
+          <div className="tag">
+            <img src={tag} alt="tag"></img>
+            <p>Wireframe & Prototyping</p>
           </div>
         </div>
       </div>

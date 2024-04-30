@@ -79,7 +79,7 @@ const MerchMate = () => {
         <div className="together-top">
           <div className="row">
             <h1 className="portfolio-title">MerchMate Project</h1>
-            <h2 className="header-subtitle">Mobile App Prototype</h2>
+            <h2 className="header-subtitle">UI Design & Prototyping</h2>
             <a
               href="https://www.figma.com/proto/T8VR19INyceYt6xXxw1XWa/MerchMate-Mobile-Prototype-(Copy)?type=design&node-id=1-2&t=J7FynIHyF4GWKb0t-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design"
               target="_blank"
@@ -111,7 +111,7 @@ const MerchMate = () => {
         <div className="project-tags">
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Branding</p>
+            <p>UI Design</p>
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>

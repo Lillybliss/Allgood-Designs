@@ -76,9 +76,7 @@ const Rebel = () => {
         <div className="together-top">
           <div className="row">
             <h1 className="portfolio-title">Rebel Brewing Co.</h1>
-            <h2 className="header-subtitle">
-              Branding & Responsive Web Design
-            </h2>
+            <h2 className="header-subtitle">UI Design & Prototyping</h2>
             <a
               href="https://www.figma.com/proto/oQjLYSSJvaEtgbkDgg1OaB/Rebel-Brewing-Co.?type=design&node-id=96-7618&t=lWaxvNuyIUlkTErd-1&scaling=scale-down&page-id=72%3A608&mode=design"
               target="_blank"
@@ -114,7 +112,7 @@ const Rebel = () => {
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Web Design</p>
+            <p>UI Design</p>
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>
