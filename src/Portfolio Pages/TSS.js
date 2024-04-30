@@ -368,40 +368,46 @@ const TSS = () => {
         </p>
       </div>
 
+      <div className="padding"></div>
+
+      <div className="oneimageinrow">
+        <img
+          src={TSSmock}
+          alt="Mockup"
+          style={{ cursor: "pointer" }}
+          onClick={() => openPopup(TSSmock)}
+        />
+      </div>
       <div className="row-1">
-        <div className="left-image">
-          <img
-            src={TSSmock}
-            alt="Mockup"
-            style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
-          />
-        </div>
-        <div className="right-text">
-          <h2 className="right-title">The Development Phase</h2>
-          <p className="right-text">
-            In the Development Phase, we applied our visual design guide to
-            create high-fidelity prototypes for both mobile and web screens. The
-            test mitigation report outlines results from our testing strategy,
-            while the Final Page Tables detail all written content on the site.
-            The final strategy guide covers the practical implementation of the
-            website, including coding languages and the recommended database
-            program.
-          </p>
-          <p className="right-text">
+        <div className="row-4">
+          <h2 className="row-4-title">The Development Phase</h2>
+          <p className="row-4-text">
+            In this Phase, we applied our visual design guide to create{" "}
             <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:20f44273-1525-450b-ac1b-bb0d2663ed7d"
+              href="https://www.figma.com/proto/tOqTtka7fghoRRHIc56d1U/Mobile-Hifi-Portfolio?type=design&node-id=1-77&t=KF0wuzSpdvDF4Dgm-0&scaling=scale-down&page-id=0%3A1"
               target="_blank"
               rel="noopener noreferrer"
             >
-              View the PDF to explore:
-            </a>
-            <ul>
-              <li>High Fidelity Prototypes</li>
-              <li>User Testing & Feedback</li>
-              <li>Test Mitigation Report</li>
-              <li>Final Strategy Guide</li>
-            </ul>
+              high-fidelity prototypes for mobile
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://www.figma.com/proto/rWEF1VH3mkzMKWngkHzHhd/Web-HiFi-Portfolio?type=design&t=KF0wuzSpdvDF4Dgm-0&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              web screens
+            </a>{" "}
+            . Comprehensive Final Page Tables were compiled, outlining all
+            textual content featured across the site. Additionally, a final
+            strategy guide was formulated, delineating the practical
+            implementation aspects of the website, encompassing coding languages
+            and recommended database programs. Our database collections and
+            values spreadsheets meticulously documented the intricacies of user
+            interactions, delineating the CRUD operations performed in response
+            to user actions. This phase also saw the culmination of our design
+            guide and high-fidelity prototype, following the conclusion of final
+            user testing rounds.
           </p>
         </div>
       </div>
