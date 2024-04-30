@@ -163,8 +163,6 @@ const Plannify = () => {
           <p className="right-text">
             Key features include:
             <ul>
-              <li>Customizable daily planner</li>
-              <li>Collaborative Entries</li>
               <li>Workout tracker</li>
               <li>Goal setting</li>
               <li>Task management</li>
@@ -175,7 +173,6 @@ const Plannify = () => {
         </div>
       </div>
 
-      <div className="padding"></div>
       <div className="row-3-three">
         <img src={themes} alt="Themes" className="left-pic" />
         <img src={popupPlannify} alt="pop up example" className="middle-pic" />
