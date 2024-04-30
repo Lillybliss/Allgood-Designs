@@ -5,6 +5,7 @@ import tag from "../Assets/icons/icons8-tag-96.png";
 import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
 import mainTSSMock from "../Assets/Portfolio/TSS_mockup_web_updates.png";
 import lowfiTSSmock from "../Assets/Portfolio/TSS_lofi_mockup.png";
+import colorblind from "../Assets/Portfolio/colorblind.png";
 import react from "../Assets/icons/react.svg";
 import node from "../Assets/icons/node.svg";
 import mongo from "../Assets/icons/mongoDB.svg";
@@ -247,29 +248,52 @@ const TSS = () => {
       <div className="row-4">
         <h2 className="row-4-title">User Research</h2>
         <p className="row-4-text">
-          Initiating our user research, we formulated real-world use cases
+          Initiating our user research, we formulated{" "}
+          <a
+            href="https://www.figma.com/proto/k4C2KZmCtMaxVQGRtdfbsn/Design-Phase-Portfolio?type=design&node-id=9-32&t=x4m22RXVf4QxFpNa-0&scaling=min-zoom&page-id=0%3A1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            real-world use cases
+          </a>{" "}
           tailored to our target audience, ensuring alignment with their needs
-          and expectations. With a robust testing plan meticulously crafted for
-          each phase—alpha and beta testing for the low-fidelity prototype,
-          high-fidelity prototype, and deployed website—we embarked on a
-          comprehensive examination of user interactions and experiences.
+          and expectations. With a{" "}
+          <a
+            href="https://www.figma.com/proto/k4C2KZmCtMaxVQGRtdfbsn/Design-Phase-Portfolio?type=design&node-id=459-3&t=x4m22RXVf4QxFpNa-0&scaling=min-zoom&page-id=0%3A1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            robust testing plan
+          </a>{" "}
+          meticulously crafted for each phase—alpha and beta testing for the
+          low-fidelity prototype, high-fidelity prototype, and deployed
+          website—we embarked on a comprehensive examination of user
+          interactions and experiences.
         </p>
         <p className="row-4-text">
-          Utilizing think-aloud protocols and task analysis methodologies during
-          usability testing sessions, we delved into user behaviors, identifying
-          areas of confusion, error occurrences, and task completion rates. This
-          deep dive into interaction analysis played a pivotal role in refining
-          our prototypes as we progressed towards the final design iteration.
+          Utilizing{" "}
+          <a
+            href="https://docs.google.com/document/d/1O7vDT5TvPpgZyDgUO4ZrOcXz0Cx4ijcMYh_pSlMsDcM/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            think-aloud protocols and task analysis methodologies
+          </a>{" "}
+          during usability testing sessions, we delved into user behaviors,
+          identifying areas of confusion, error occurrences, and task completion
+          rates. This deep dive into interaction analysis played a pivotal role
+          in refining our prototypes as we progressed towards the final design
+          iteration.
         </p>
       </div>
 
       <div className="row-1">
         <div className="left-image">
           <img
-            src={lowfiTSSmock}
-            alt="Mockup"
+            src={colorblind}
+            alt="colorblind test"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(lowfiTSSmock)}
+            onClick={() => openPopup(colorblind)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
@@ -297,17 +321,22 @@ const TSS = () => {
       <div className="row-4">
         <h2 className="row-4-title">Test Mitigation Report</h2>
         <p className="row-4-text">
-          Following our user research, we compiled a test mitigation report.
-          This report contains an overview of our testing methodologies, key
+          Following our user research, we compiled a{" "}
+          <a
+            href="https://www.figma.com/proto/lo1byXOalM5blNw7NzhTeX/Develop-Phase-Portfolio?type=design&node-id=9-32&t=9Jn8491jwRexfMLF-0&scaling=min-zoom&page-id=0%3A1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            test mitigation report
+          </a>{" "}
+          . This report contains an overview of our testing methodologies, key
           findings, and mitigation strategies adopted to address identified
           issues.
         </p>
         <p className="row-4-text">
           <strong>Testing Plan Review: </strong>Our detailed testing plan,
           established during the design phase, served as the cornerstone for our
-          testing procedures. You can access the comprehensive testing plan,
-          outlining the strategies employed to ensure the robustness of our web
-          design.{" "}
+          testing procedures.
         </p>
         <p className="row-4-text">
           <strong>Think Aloud Protocol: </strong>To ensure comprehensive
@@ -325,10 +354,17 @@ const TSS = () => {
         </p>
         <p className="row-4-text">
           <strong>User Experience Surveys: </strong>Post think-aloud protocol,
-          we administered a survey to gather extensive feedback from our
-          participants. This survey aimed to capture insights into overall
-          experience, usability, and satisfaction, including perspectives on
-          accessibility from users with disabilities.{" "}
+          we administered a{" "}
+          <a
+            href="https://www.figma.com/proto/lo1byXOalM5blNw7NzhTeX/Develop-Phase-Portfolio?type=design&node-id=824-2&t=9Jn8491jwRexfMLF-0&scaling=min-zoom&page-id=0%3A1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            survey to gather extensive feedback from our participants
+          </a>
+          . This survey aimed to capture insights into overall experience,
+          usability, and satisfaction, including perspectives on accessibility
+          from users with disabilities.{" "}
         </p>
       </div>
 
