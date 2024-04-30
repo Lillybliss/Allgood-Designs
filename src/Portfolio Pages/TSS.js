@@ -108,12 +108,12 @@ const TSS = () => {
           managing orders/appointments through user accounts.
         </p>
         <p className="port-about-text">
-          Our collaborative efforts involved comprehensive branding, web design,
-          and responsive development for the platform. Here, I will break down
-          each phase of our project: the design phase, development phase, and
-          deployment phase. My primary contributions involve shaping the design
-          guide, designing prototypes, developing the user account system in
-          React.js, and interacting with the database through MongoDB.
+          Our collaborative efforts involved comprehensive user research, UI
+          design, and responsive development for the platform. Here, I will
+          break down each phase of our project: the design phase, development
+          phase, and deployment phase. My primary contributions involve shaping
+          the design guide, designing prototypes, developing the user account
+          system in React.js, and interacting with the database through MongoDB.
         </p>
         <p className="port-about-text">
           Throughout the project, our team showcased exceptional communication
@@ -124,8 +124,7 @@ const TSS = () => {
         </p>
         <p className="port-about-text">
           My team members include Lindsey Wolbrink, Brianna Lattimore, Callie
-          Vaughn, and Quynh Vo <br />
-          <strong>Check back soon to see the final deployed website!</strong>
+          Vaughn, and Quynh Vo.
         </p>
         <div className="project-tags">
           <div className="tag">
@@ -147,6 +146,123 @@ const TSS = () => {
         </div>
       </div>
 
+      <div className="oneimageinrow">
+        <img
+          src={lowfiTSSmock}
+          alt="Mockup"
+          style={{ cursor: "pointer" }}
+          onClick={() => openPopup(lowfiTSSmock)}
+        />
+      </div>
+
+      <div className="padding"> </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">The Design Phase</h2>
+        <p className="row-4-text">
+          In the Design Phase, we meticulously crafted "The Suite Spot"{" "}
+          <a
+            href="https://www.figma.com/proto/k4C2KZmCtMaxVQGRtdfbsn/Design-Phase-Portfolio?type=design&node-id=1-2&t=wkGeYFbm50NuNsrP-1&scaling=min-zoom&page-id=0%3A1&mode=design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visual Design Guide
+          </a>
+          , a roadmap for visual consistency and brand integrity. This involved
+          establishing a unified color palette, defining typography, creating
+          logo variations, and detailing each design element. We began our
+          design with{" "}
+          <a
+            href="https://app.uizard.io/p/39a0e03a"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            wireframe sketches
+          </a>{" "}
+          that were then iterated into interactive, low fidelity prototypes. Our{" "}
+          <a
+            href="https://www.figma.com/proto/uWYDFIJV0JLLFfSclhmAns/Mobile-LoFi-Prototype-(Copy)?type=design&node-id=1-2&t=H0qNFjaxjNCALpUX-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            low-fidelity mobile prototype
+          </a>{" "}
+          is an early representation of the site's design, developed as part of
+          our iterative design process. Using the collaborative design tool
+          Figma, we created a simplified mobile layout that outlines the basic
+          structure and user interactions. This prototype enables us to test and
+          refine the design's functionality, ensuring that our website is
+          user-friendly on smaller screens.
+        </p>
+        <p className="row-4-text">
+          The{" "}
+          <a
+            href="https://www.figma.com/proto/EUTAwSICIDWIAJ6Uv4loN4/Web-LoFi-Prototype-(Copy)?type=design&t=6v64mAEcuvCof0RW-1&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&show-proto-sidebar=1&mode=design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            low-fidelity web prototype
+          </a>{" "}
+          was also developed collaboratively with Figma. The concept provides a
+          foundational layout for larger screens, emphasizing content
+          organization, navigation, and information hierarchy. Although it lacks
+          visual finesse, this prototype aids us in planning the spatial
+          arrangements and user interactions for the desktop experience. It's an
+          integral part of our design process, enabling us to create a visually
+          pleasing and user-friendly desktop layout.
+        </p>
+      </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">Accessibility & Responsive Guidelines</h2>
+        <p className="row-4-text">
+          In preparation for user research, we created robust{" "}
+          <a
+            href="https://www.figma.com/proto/k4C2KZmCtMaxVQGRtdfbsn/Design-Phase-Portfolio?type=design&node-id=133-3&t=x4m22RXVf4QxFpNa-0&scaling=min-zoom&page-id=0%3A1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            guidelines for accessibility and responsiveness
+          </a>{" "}
+          to enhance the user experience on our final website deployment. Our
+          approach to responsiveness prioritizes a mobile-first strategy,
+          employing fluid layout units, multiple breakpoints, and relative
+          typography units such as ems. This ensures seamless adaptation across
+          various screen sizes while maintaining optimal readability and
+          usability.
+        </p>
+        <p className="row-4-text">
+          Furthermore, our dedication to accessibility aligns with WCAG
+          guidelines, encompassing practices such as semantic HTML utilization,
+          comprehensive alternative text implementation, deliberate focus
+          styles, and form accessibility enhancements. We meticulously address
+          color contrast ratios to facilitate readability for all users,
+          alongside implementing consistent navigation structures. To validate
+          our efforts, we engage in thorough user testing and feedback loops,
+          continually refining our design to meet the diverse needs of our
+          audience.
+        </p>
+      </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">User Research</h2>
+        <p className="row-4-text">
+          Initiating our user research, we formulated real-world use cases
+          tailored to our target audience, ensuring alignment with their needs
+          and expectations. With a robust testing plan meticulously crafted for
+          each phase—alpha and beta testing for the low-fidelity prototype,
+          high-fidelity prototype, and deployed website—we embarked on a
+          comprehensive examination of user interactions and experiences.
+        </p>
+        <p className="row-4-text">
+          Utilizing think-aloud protocols and task analysis methodologies during
+          usability testing sessions, we delved into user behaviors, identifying
+          areas of confusion, error occurrences, and task completion rates. This
+          deep dive into interaction analysis played a pivotal role in refining
+          our prototypes as we progressed towards the final design iteration.
+        </p>
+      </div>
+
       <div className="row-1">
         <div className="left-image">
           <img
@@ -162,32 +278,58 @@ const TSS = () => {
           />
         </div>
         <div className="right-text">
-          <h2 className="right-title">The Design Phase</h2>
+          <h2 className="right-title">Accessibility Testing</h2>
           <p className="right-text">
-            In the Design Phase, we meticulously crafted "The Suite Spot" Visual
-            Design Guide, a roadmap for visual consistency and brand integrity.
-            This involved establishing a unified color palette, defining
-            typography, creating logo variations, and detailing each design
-            element.
+            Our testing scope encompassed various disabilities. We prioritized
+            functionalities enabling screen reader compatibility, keyboard
+            navigation, and other essential tools utilized by diverse user
+            groups.
           </p>
           <p className="right-text">
-            <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ef1b201a-9341-4ea5-b7e1-7251b36fdd5f"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View the PDF to explore:
-            </a>
-            <ul>
-              <li>Our Visual Design Guide</li>
-              <li>Guidelines for Accessibility and Responsiveness</li>
-              <li>Real-World Use Cases</li>
-              <li>A Rigorous Testing Plan</li>
-              <li>Wireframe Sketches</li>
-              <li>Low Fidelity Prototypes</li>
-            </ul>
+            Leveraging online resources such as the WAVE accessibility
+            evaluation tool and Google PageSpeed Insights, we assessed
+            accessibility compliance and performance optimization. Additionally,
+            the Toptal color blind test aided in evaluating contrast levels.
           </p>
         </div>
+      </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">Test Mitigation Report</h2>
+        <p className="row-4-text">
+          Following our user research, we compiled a test mitigation report.
+          This report contains an overview of our testing methodologies, key
+          findings, and mitigation strategies adopted to address identified
+          issues.
+        </p>
+        <p className="row-4-text">
+          <strong>Testing Plan Review: </strong>Our detailed testing plan,
+          established during the design phase, served as the cornerstone for our
+          testing procedures. You can access the comprehensive testing plan,
+          outlining the strategies employed to ensure the robustness of our web
+          design.{" "}
+        </p>
+        <p className="row-4-text">
+          <strong>Think Aloud Protocol: </strong>To ensure comprehensive
+          coverage of our user interface, we implemented think-aloud protocols
+          involving 15 participants. This structured approach facilitated
+          balanced task distribution across participant groups, enabling
+          thorough data collection and analysis.{" "}
+        </p>
+        <p className="row-4-text">
+          <strong>Task/Interaction Analysis: </strong>Our task analysis
+          methodology involved meticulous recording of errors, user expressions
+          of confusion, and task completion rates. This detailed analysis
+          enabled us to pinpoint areas requiring attention and implement
+          necessary improvements.{" "}
+        </p>
+        <p className="row-4-text">
+          <strong>User Experience Surveys: </strong>Post think-aloud protocol,
+          we administered a survey to gather extensive feedback from our
+          participants. This survey aimed to capture insights into overall
+          experience, usability, and satisfaction, including perspectives on
+          accessibility from users with disabilities.{" "}
+        </p>
       </div>
 
       <div className="row-1">
