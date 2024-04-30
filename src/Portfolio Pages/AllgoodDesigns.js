@@ -2,26 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
-import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData.json";
 import AllgoodSmall from "../Assets/Portfolio/CoverPhotos/Allgood_Designs_Mockup_smaller.png";
 import ADlofi from "../Assets/Portfolio/AllgoodDesigns_lofi.jpg";
 import brand1 from "../Assets/Portfolio/ADbranding1.png";
 import brand2 from "../Assets/Portfolio/ADbranding2.png";
 import brand4 from "../Assets/Portfolio/ADbranding4.png";
-import react from "../Assets/icons/react.svg";
 
 const AllgoodDesigns = () => {
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [popupImage, setPopupImage] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
-
-  const openPopup = (image) => {
-    setIsPopupOpen(true);
-    setPopupImage(image);
-  };
-
-  const closePopup = () => setIsPopupOpen(false);
 
   const currentProjectId = 2;
 
@@ -122,77 +111,37 @@ const AllgoodDesigns = () => {
         </div>
       </div>
       <div className="padding"></div>
-      <div className="row-1">
-        <div className="left-image">
-          <img
-            src={ADlofi}
-            alt="Mockup"
-            style={{ cursor: "pointer" }}
-            onClick={() => openPopup(ADlofi)}
-          />
-          <PopUpPicture
-            isOpen={isPopupOpen}
-            closePopup={closePopup}
-            image={popupImage}
-          />
-        </div>
-        <div className="right-text">
-          <h2 className="right-title">The Design Phase</h2>
-          <p className="right-text">
-            In the Design Phase, I utilized my information architecture to craft
-            a preliminary vision for the Allgood Designs website through a
-            low-fidelity prototype. I began by sketching wireframes on paper,
-            which I then translated into digital form using Figma. This process
-            allowed me to visualize the site’s layout, ensuring a user-friendly
-            experience.
-          </p>
-          <p className="right-text">
-            <a
-              href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=19-345&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=19%3A345"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View the Low Fidelity Prototype here.
-            </a>
-          </p>
-        </div>
+
+      <div className="padding"></div>
+
+      <div className="oneimageinrow">
+        <img src={ADlofi} alt="Low Fidelity Mockup" />
       </div>
 
-      <div className="row-1">
-        <div className="left-image">
-          <img
-            src={AllgoodSmall}
-            alt="Mockup"
-            style={{ cursor: "pointer" }}
-            onClick={() => openPopup(AllgoodSmall)}
-          />
-        </div>
-        <div className="right-text">
-          <h2 className="right-title">The Development Phase</h2>
-          <p className="right-text">
-            In the Development Phase, I applied my visual design guide to create
-            a high-fidelity prototype. For the color scheme, I curated a palette
-            comprised of soft, complementary tones, punctuated by a vibrant pink
-            accent. Drawing inspiration from dawn clouds and beach sunrises, my
-            design mood board informed this selection.
-          </p>
-          <p className="right-text">
-            Embracing the cloud motif as a unifying element, I ensured coherence
-            throughout the website. The chosen pink hue, both subdued and
-            eye-catching, serves as a distinct accent, aiding in highlighting
-            key calls to action. Additionally, I opted for a modern, easily
-            legible font to enhance user experience.
-          </p>
-          <p className="right-text">
-            <a
-              href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=97-2893&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=97%3A2893&show-proto-sidebar=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View the High Fidelity Prototype here.
-            </a>
-          </p>
-        </div>
+      <div className="row-4">
+        <h2 className="row-4-title">The Design Phase</h2>
+        <p className="row-4-text">
+          In the Design Phase, I utilized my information architecture to craft a
+          preliminary vision for the Allgood Designs website through a{" "}
+          <a
+            href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=19-345&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=19%3A345"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            low-fidelity prototype.
+          </a>{" "}
+          I began by sketching wireframes on paper, which I then translated into
+          digital form using Figma. This process allowed me to visualize the
+          site’s layout, ensuring a user-friendly experience.
+        </p>
+        <p className="row-4-text">
+          My design process was informed by a mood board that I curated. The
+          board featured a collection of images, colors, and typography that
+          inspired the site’s aesthetic. I selected a palette of soft, calming
+          tones, accented by a vibrant pink hue. This color scheme was chosen to
+          evoke a sense of tranquility and creativity, reflecting the essence of
+          Allgood Designs.
+        </p>
       </div>
 
       {/*three images instead of 4*/}
@@ -202,38 +151,66 @@ const AllgoodDesigns = () => {
         <img src={brand1} alt="Mockup" />
       </div>
 
-      <div className="row-1">
-        <div className="left-image">
-          <img src={react} alt="React logo" />
-        </div>
-        <div className="right-text">
-          <h2 className="right-title">The Deployment Phase</h2>
-          <p className="right-text">
-            My programming language of choice for my portfolio is React.js.
-            React’s component-based architecture allowed me to create reusable
-            elements, streamlining the development process. I also employed
-            React Router to manage the application’s navigation. For now, my
-            site is only operating on the front end using React and Node.js. I
-            plan to add a back end connection using a MERN Stack in the future.
-          </p>
-          <p className="right-text">
-            I deployed my site using the node package "npm run build". This
-            package is a script that creates a production build of the site. The
-            build is minified and the filenames include the hashes. Next, I
-            uploaded the build folder to my custom domain's cPanel. I then added
-            a .htaccess file to the build folder to redirect all traffic to the
-            index.html file. This ensures that the React Router can handle the
-            routing.
-            <br />
-            <a
-              href="https://github.com/Lillybliss/Allgood-Designs"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View my Github Repository here.
-            </a>
-          </p>
-        </div>
+      <div className="padding"></div>
+
+      <div className="oneimageinrow">
+        <img src={AllgoodSmall} alt="High Fidelity Mockup" />
+      </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">The Development Phase</h2>
+        <p className="row-4-text">
+          In the Development Phase, I focused on user experience and developing
+          my website from my final{" "}
+          <a
+            href="https://www.figma.com/proto/Ln6ise2FDmAL8XocUqWsp5/My-Portfolio?type=design&node-id=97-2893&t=k9DFvPjazrnfEzjC-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=97%3A2893&show-proto-sidebar=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            high-fidelity prototype.
+          </a>{" "}
+          Embracing the cloud motif as a unifying element, I ensured coherence
+          throughout the website. The chosen pink hue, both subdued and
+          eye-catching, serves as a distinct accent, aiding in highlighting key
+          calls to action. Additionally, I opted for a modern, easily legible
+          font to enhance user experience.
+        </p>
+        <p className="row-4-text">
+          My programming language of choice for my portfolio is React.js.
+          React’s component-based architecture allowed me to create reusable
+          elements, streamlining the development process. I also employed React
+          Router to manage the application’s navigation. Throughout development,
+          I used the Toptal Colorblind Tool and the WAVE Web Accessibility
+          Evaluation Tool to identify and correct any accessibility issues. I
+          also tested the site on various devices to ensure its responsive
+          design. I made adjustments to the layout and typography to ensure that
+          the site was visually appealing on all screen sizes.
+        </p>
+      </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">The Deployment Phase</h2>
+        <p className="row-4-text">
+          For now, my site is only operating on the front end using React and
+          Node.js. I plan to add a back end connection using a MERN Stack in the
+          future.
+        </p>
+        <p className="row-4-text">
+          I deployed my site using the node package "npm run build". This
+          package is a script that creates a production build of the site. The
+          build is minified and the filenames include the hashes. Next, I
+          uploaded the build folder to my custom domain's cPanel. I then added a
+          .htaccess file to the build folder to redirect all traffic to the
+          index.html file. This ensures that the React Router can handle the
+          routing.{" "}
+          <a
+            href="https://github.com/Lillybliss/Allgood-Designs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View my Github Repository here.
+          </a>
+        </p>
       </div>
 
       <div className="padding"></div>

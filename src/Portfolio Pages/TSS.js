@@ -129,19 +129,19 @@ const TSS = () => {
         </p>
         <div className="project-tags">
           <div className="tag">
-            <img src={tag} alt="tag"></img>
+            <img src={tag} alt=""></img>
             <p>User Research</p>
           </div>
           <div className="tag">
-            <img src={tag} alt="tag"></img>
+            <img src={tag} alt=""></img>
             <p>UI Design</p>
           </div>
           <div className="tag">
-            <img src={tag} alt="tag"></img>
+            <img src={tag} alt=""></img>
             <p>Responsive Development</p>
           </div>
           <div className="tag">
-            <img src={tag} alt="tag"></img>
+            <img src={tag} alt=""></img>
             <p>Wireframe & Prototyping</p>
           </div>
         </div>
@@ -150,7 +150,7 @@ const TSS = () => {
       <div className="oneimageinrow">
         <img
           src={lowfiTSSmock}
-          alt="Mockup"
+          alt="Low Fidelity Mockup"
           style={{ cursor: "pointer" }}
           onClick={() => openPopup(lowfiTSSmock)}
         />
@@ -373,50 +373,49 @@ const TSS = () => {
       <div className="oneimageinrow">
         <img
           src={TSSmock}
-          alt="Mockup"
+          alt="High Fidelity Mockup"
           style={{ cursor: "pointer" }}
           onClick={() => openPopup(TSSmock)}
         />
       </div>
-      <div className="row-1">
-        <div className="row-4">
-          <h2 className="row-4-title">The Development Phase</h2>
-          <p className="row-4-text">
-            In this Phase, we applied our visual design guide to create{" "}
-            <a
-              href="https://www.figma.com/proto/tOqTtka7fghoRRHIc56d1U/Mobile-Hifi-Portfolio?type=design&node-id=1-77&t=KF0wuzSpdvDF4Dgm-0&scaling=scale-down&page-id=0%3A1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              high-fidelity prototypes for mobile
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://www.figma.com/proto/rWEF1VH3mkzMKWngkHzHhd/Web-HiFi-Portfolio?type=design&t=KF0wuzSpdvDF4Dgm-0&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&show-proto-sidebar=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              web screens
-            </a>{" "}
-            . Comprehensive Final Page Tables were compiled, outlining all
-            textual content featured across the site. Additionally, a final
-            strategy guide was formulated, delineating the practical
-            implementation aspects of the website, encompassing coding languages
-            and recommended database programs. Our database collections and
-            values spreadsheets meticulously documented the intricacies of user
-            interactions, delineating the CRUD operations performed in response
-            to user actions. This phase also saw the culmination of our design
-            guide and high-fidelity prototype, following the conclusion of final
-            user testing rounds.
-          </p>
-        </div>
+
+      <div className="row-4">
+        <h2 className="row-4-title">The Development Phase</h2>
+        <p className="row-4-text">
+          In this Phase, we applied our visual design guide to create{" "}
+          <a
+            href="https://www.figma.com/proto/tOqTtka7fghoRRHIc56d1U/Mobile-Hifi-Portfolio?type=design&node-id=1-77&t=KF0wuzSpdvDF4Dgm-0&scaling=scale-down&page-id=0%3A1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            high-fidelity prototypes for mobile
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.figma.com/proto/rWEF1VH3mkzMKWngkHzHhd/Web-HiFi-Portfolio?type=design&t=KF0wuzSpdvDF4Dgm-0&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            web screens
+          </a>{" "}
+          . Comprehensive Final Page Tables were compiled, outlining all textual
+          content featured across the site. Additionally, a final strategy guide
+          was formulated, delineating the practical implementation aspects of
+          the website, encompassing coding languages and recommended database
+          programs. Our database collections and values spreadsheets
+          meticulously documented the intricacies of user interactions,
+          delineating the CRUD operations performed in response to user actions.
+          This phase also saw the culmination of our design guide and
+          high-fidelity prototype, following the conclusion of final user
+          testing rounds.
+        </p>
       </div>
 
       <div className="row-3">
-        <img src={mongo} alt="Mockup" />
-        <img src={express} alt="Mockup" />
-        <img src={react} alt="Mockup" />
-        <img src={node} alt="Mockup" />
+        <img src={mongo} alt="MongoDB" />
+        <img src={express} alt="Express" />
+        <img src={react} alt="React" />
+        <img src={node} alt="Node" />
       </div>
 
       <div className="row-4">
