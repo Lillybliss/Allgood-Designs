@@ -204,6 +204,47 @@ const Plannify = () => {
         </p>
       </div>
 
+      <div className="row-4">
+        <h2 className="row-4-title">User Research</h2>
+        <p className="row-4-text">
+          I began my user research with a series of usability tests conducted on
+          similar existing apps, supplemented by a think-aloud protocol and task
+          analysis involving a cohort of 5 users. By recording both the user’s
+          face as well as the mobile screen, I captured errors, user expressions
+          of confusion, and task completion rates. This analysis provided
+          invaluable insights, enabling targeted solutions to address identified
+          issues within my design framework. Additionally, I conducted
+          preliminary user experience surveys to gauge satisfaction levels with
+          existing apps and assess the significance of specific features to
+          potential users. These surveys provided valuable insights into user
+          preferences and expectations, informing the prioritization of features
+          and functionalities within the design process.
+        </p>
+        <p className="row-4-text">
+          To validate my design iterations, I engaged in a rigorous cycle of
+          user testing and feedback loops, continuously refining the interface
+          to cater to the diverse needs of the target audience. Alpha and beta
+          user testing phases were conducted across the mid-fidelity and
+          high-fidelity prototypes, utilizing think-aloud protocols and task
+          analysis methodologies to delve into user behaviors and identify pain
+          points.
+        </p>
+        <p className="row-4-text">
+          Upon the completion of the high-fidelity prototype, meticulous
+          attention was paid to ensure adherence to WCAG guidelines. This
+          entailed meticulous adjustments to address color contrast ratios for
+          enhanced readability and the implementation of consistent navigation
+          structures to streamline user interactions.
+        </p>
+        <p className="row-4-text">
+          User Experience Surveys: Following the think-aloud protocol sessions
+          for the final design iteration, I administered a survey to solicit
+          extensive feedback from participants. This survey aimed to capture
+          insights into overall experience, usability, and satisfaction,
+          including perspectives on accessibility from users with disabilities.
+        </p>
+      </div>
+
       <div className="padding"> </div>
 
       <div className="row-4">
