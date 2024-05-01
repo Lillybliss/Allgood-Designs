@@ -69,7 +69,7 @@ const AllgoodDesigns = () => {
           <div className="row">
             <h1 className="portfolio-title">Allgood Designs</h1>
             <h2 className="header-subtitle">
-              UX/UI Design, & Responsive Development
+              UX/UI Design & Responsive Development
             </h2>
             <a
               href="https://github.com/Lillybliss/Allgood-Designs"
