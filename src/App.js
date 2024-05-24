@@ -1,13 +1,7 @@
 import "./Styles/App.css";
-import React, { useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useLocation,
-} from "react-router-dom";
-import ReactGA from "react-ga";
-import analytics from "./analytics"; // Import Google Analytics setup
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Home";
@@ -28,11 +22,6 @@ import ToDo from "./Portfolio Pages/ToDo.js";
 import Rebel from "./Portfolio Pages/Rebel.js";
 
 const App = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    analytics.pageview(location.pathname + location.search);
-  }, [location]);
   return (
     <Router>
       <div className="app">
