@@ -7,10 +7,13 @@ import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-T4FQJ24F38");
 
+// page view analytics
 ReactGA.send({
   hitType: "pageview",
   page: window.location.pathname,
 });
+
+// add more analytics here
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
