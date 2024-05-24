@@ -45,6 +45,7 @@
     color: white;
     text-shadow: 0px 2px 5px #182429;
     width: 90%;
+    max-width: 400px;
     margin-top: 10%;
     margin-left: 5%;
     padding-top: 10px;
@@ -257,6 +258,8 @@
   .tagline {
     font-size: 0.9em;
     line-height: 1.5em;
+    width: 80%;
+    max-width: 250px;
   }
 
   .home-btn {
@@ -563,7 +566,7 @@
         font-weight: lighter;
         font-size: 1.9em;
         width: 60%;
-        max-width: 600px;
+        max-width: 500px;
       }
 
     .homeLogo {
