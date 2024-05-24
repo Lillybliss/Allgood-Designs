@@ -12,8 +12,7 @@ const Footer = () => {
             <img src={logo} alt="Logo" className="logo-img" />
           </Link>
           <h2 className="footer-header">
-            Elevating Digital Experiences Through Design, Development, and
-            More...
+            Elevating Digital Experiences Through Design & Development
           </h2>
         </div>
         <hr className="footer-line" />{" "}

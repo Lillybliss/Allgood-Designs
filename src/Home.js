@@ -19,7 +19,7 @@ const Home = () => {
         <img src={logo} alt="Lilly Allgood Logo" className="homeLogo" />
         <div className="home-content">
           <h2 className="tagline">
-            Elevating Digital Experiences Through Design, Development, & More...
+            Elevating Digital Experiences Through Design & Development
           </h2>
 
           <div className="home-buttons">
