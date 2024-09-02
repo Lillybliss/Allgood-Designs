@@ -57,7 +57,7 @@ const HamburgerMenu = () => {
                 </Link>
               </li>
               <li>
-              <a href="https://templates.allgoodesigns.com/" className="nav-link">
+              <a href="https://templates.allgoodesigns.com/" className="mobile-nav-link">
     The Template Shop
   </a>
               </li>
