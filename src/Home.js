@@ -40,19 +40,18 @@ const Home = () => {
             <h1>About Me</h1>
             <h2>Hello and welcome to my online portfolio!</h2>
             <p>
-              My name is Lilly Allgood. I'm a visual designer and web developer
+              My name is Lilly Allgood. I'm a web designer and developer
               based in Orlando, Florida. I'm deeply passionate about crafting
               exceptional user experiences and leveraging my creativity to
-              enhance the digital world. While obtaining my BA in Digital Media
-              at the University of Central Florida, I have immersed myself in
-              industry standard coding languages and design software. In fact, I
+              enhance the digital world. I have immersed myself in
+              various industry standard coding languages and design software. In fact, I
               designed and developed this portfolio website from scratch using
               Node and React.js.{" "}
             </p>{" "}
             <p>
               I have maintained a place on the Honor's List, Dean's List, and
               President's Honor Roll, maintaining a 4.0 GPA throughout my
-              academic career. Outside of academia I enjoy painting and
+              academic career. In my free time I enjoy painting and
               showcasing my art in local markets. I believe in art as a powerful
               form of self-expression, and I'm committed to using my diverse
               skills to make a meaningful impact in today's digital landscape.
