@@ -99,7 +99,6 @@ const Resume = () => {
               <li>Branding Collateral (Brochures, Banners, etc.)</li>
               <li>Mockups</li>
               <li>Email Marketing Campaigns</li>
-              <li>Print Designs</li>
               <li>Social Media Graphics</li>
             </ul>
 
@@ -111,14 +110,12 @@ const Resume = () => {
               <li>ReactJS</li>
               <li>Node.js</li>
               <li>Visual Studio Code</li>
-              <li>Database Management: MongoDB </li>
-              <li>Version Control: Git</li>
+              <li>Database Management: MongoDB, MySQL</li>
+              <li>Version Control: Git, Azure DevOps</li>
               <li>Figma</li>
               <li>Adobe Illustrator</li>
               <li>Adobe Photoshop</li>
               <li>Adobe InDesign</li>
-              <li>WordPress</li>
-              <li>MailChimp</li>
               <li>Problem Solving & Debugging</li>
               <li>Microsoft Office</li>
             </ul>
@@ -138,6 +135,8 @@ const Resume = () => {
 
             <h2 className="underline">Soft Skills</h2>
             <ul>
+              <li>Agile Methodology</li>
+              <li>DevOps</li>
               <li>Organization</li>
               <li>Collaboration</li>
               <li>Time Management</li>
@@ -152,7 +151,7 @@ const Resume = () => {
           <div className="prof-summary">
             <h2 className="underline">Professional Summary</h2>
             <p className="resume-p">
-              TEST1 - Digital Media graduate with a strong passion for user-centric
+              Front end developer with a strong passion for user-centered
               design and creative problem-solving. Skilled in designing and
               developing responsive user interfaces, combining aesthetics and
               functionality seamlessly. Proficient in various design tools and
@@ -164,7 +163,47 @@ const Resume = () => {
 
           <div className="Experience">
             <h2 className="underline">Experience</h2>
-            {/* 1st row */}
+            {/* 1st row*/}
+            <div className="resumeRow">
+              <div className="left-column">
+                <img
+                  src={briefcase}
+                  alt="Briefcase"
+                  className="briefcase-icon"
+                />
+                <div className="vertical-line"></div>
+              </div>
+              <div className="right-column">
+                <p className="resume-p">
+                  <strong>Internet Testing Systems</strong>
+                </p>
+                <p className="resume-p">Jr. Front End Designer</p>
+                <p className="resume-p">July 2024 - Present</p>
+                <ul>
+                  <li>
+                  Designed and developed online test interfaces for clients across various industries, ensuring consistent brand identity while adhering to company-wide design standards.
+                  </li>
+                  <li>
+                  Implemented and maintained UI/UX designs that prioritize accessibility, optimizing user experience and performance across all devices.
+                  </li>
+                  <li>
+                  Collaborated with DevOps teams to streamline deployment processes, reducing time-to-market and improving overall development efficiency.
+                  </li>
+                  <li>
+                  Performed routine maintenance and updates on client interfaces, ensuring seamless functionality and a superior user experience.
+
+                  </li>
+                  <li>
+                  Engaged with cross-functional teams, iterating on designs based on client feedback to deliver high-quality, user-centric solutions.
+                  </li>
+                  {/* <li>}
+                  <li>
+                  Modernized and maintained the corporate website and online presence, contributing to an improved digital footprint and enhanced user engagement.
+                  </li>*/}
+                </ul>
+              </div>
+            </div>
+            {/* 2nd row */}
             <div className="resumeRow">
               <div className="left-column">
                 <img
@@ -210,7 +249,7 @@ const Resume = () => {
               </div>
             </div>
 
-            {/* 2nd row */}
+            {/* 3rd row */}
             <div className="resumeRow">
               <div className="left-column">
                 <img
@@ -218,7 +257,6 @@ const Resume = () => {
                   alt="Briefcase"
                   className="briefcase-icon"
                 />
-                <div className="vertical-line"></div>
               </div>
               <div className="right-column">
                 <p className="resume-p">
@@ -259,38 +297,7 @@ const Resume = () => {
               </div>
             </div>
 
-            {/* 3rd row */}
-            <div className="resumeRow">
-              <div className="left-column">
-                <img
-                  src={briefcase}
-                  alt="Briefcase"
-                  className="briefcase-icon"
-                />
-              </div>
-              <div className="right-column">
-                <p className="resume-p">
-                  <strong>Dr. Jeanette G Warner, MD</strong>
-                </p>
-                <p className="resume-p">Administrative Assistant</p>
-                <p className="resume-p">February 2018 - July 2019</p>
-                <ul>
-                  <li>
-                    Conducted insurance verification and pre-authorizations and
-                    managed patient charts.
-                  </li>
-                  <li>
-                    Managed over 50 customer calls per day, routed messages and
-                    resolved patient inquiries within target timeframes.
-                  </li>
-                  <li className="bottom">
-                    Built and maintained excellent customer relationships
-                    through timely response to inquiries and going above and
-                    beyond to accommodate unusual requests.
-                  </li>
-                </ul>
-              </div>
-            </div>
+           
           </div>
 
           <div className="Education">
