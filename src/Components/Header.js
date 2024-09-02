@@ -34,6 +34,11 @@ const Header = () => {
               Contact
             </Link>
           </li>
+          <li>
+          <a href="https://templates.allgoodesigns.com/" className="nav-link" target="_blank" rel="noopener noreferrer">
+    The Template Shop
+  </a>
+          </li>
         </ul>
       </nav>
       <div className="social-icons">
