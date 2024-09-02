@@ -57,6 +57,11 @@ const HamburgerMenu = () => {
                 </Link>
               </li>
               <li>
+              <a href="https://templates.allgoodesigns.com/" className="nav-link">
+    The Template Shop
+  </a>
+              </li>
+              <li>
                 <a
                   href="https://github.com/Lillybliss"
                   target="_blank"

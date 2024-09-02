@@ -35,7 +35,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-          <a href="https://templates.allgoodesigns.com/" className="nav-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://templates.allgoodesigns.com/" className="nav-link">
     The Template Shop
   </a>
           </li>
