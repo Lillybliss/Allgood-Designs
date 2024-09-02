@@ -152,7 +152,7 @@ const Resume = () => {
           <div className="prof-summary">
             <h2 className="underline">Professional Summary</h2>
             <p className="resume-p">
-              TEST - Digital Media graduate with a strong passion for user-centric
+              TEST1 - Digital Media graduate with a strong passion for user-centric
               design and creative problem-solving. Skilled in designing and
               developing responsive user interfaces, combining aesthetics and
               functionality seamlessly. Proficient in various design tools and
