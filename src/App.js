@@ -20,6 +20,8 @@ import Plannify from "./Portfolio Pages/Plannify.js";
 import LAlogo from "./Portfolio Pages/LAlogo.js";
 import ToDo from "./Portfolio Pages/ToDo.js";
 import Rebel from "./Portfolio Pages/Rebel.js";
+import FreshFemme from "./Portfolio Pages/FreshFemme.js";
+import ModernBreeze from "./Portfolio Pages/ModernBreeze.js";
 
 const App = () => {
   return (
@@ -51,6 +53,9 @@ const App = () => {
           <Route path="/portfolio/LA-logo" element={<LAlogo />} />
           <Route path="/portfolio/ToDo-App" element={<ToDo />} />
           <Route path="/portfolio/RebelBrews" element={<Rebel />} />
+          <Route path="/portfolio/Fresh-Femme-Template" element={<FreshFemme />} />
+
+          <Route path="/portfolio/Modern-Breeze-Template" element={<ModernBreeze />} />
         </Routes>
         <Footer className="footerstyle" />
       </div>

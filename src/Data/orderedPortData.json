@@ -97,5 +97,23 @@
       "route": "/portfolio/Floral-Moth-Ink",
       "categories": ["art"],
         "tags": ["Art"]
-    }
+    },
+    {
+      "id": 12,
+      "imageUrl": "freshfemme_mockup.png",
+      "title": "Fresh & Femme",
+      "subtitle": "Showit Template",
+      "route": "/portfolio/Fresh-Femme-Template",
+      "categories": ["ui design"],
+        "tags": ["UI Design", "Responsive Design"]
+    },
+    {
+        "id": 13,
+        "imageUrl": "modern_mockup.png",
+        "title": "Modern Breeze",
+        "subtitle": "Showit Template",
+        "route": "/portfolio/Modern-Breeze-Template",
+        "categories": ["ui design"],
+          "tags": ["UI Design", "Responsive Design"]
+      }
 ]
