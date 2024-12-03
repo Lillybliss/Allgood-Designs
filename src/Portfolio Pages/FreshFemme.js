@@ -4,9 +4,9 @@ import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData.json";
-import TSSmock from "../Assets/Portfolio/CoverPhotos/TSS_hifi_mockup.png";
+import FFmock from "../Assets/Portfolio/freshfemme_mockup.png";
 
-const LuxeLash = () => {
+const FreshFemme = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [popupImage, setPopupImage] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -74,14 +74,14 @@ const LuxeLash = () => {
       <div className="container">
         <div className="together-top">
           <div className="row">
-            <h1 className="portfolio-title">The Title</h1>
-            <h2 className="header-subtitle">The Subtitle</h2>
+            <h1 className="portfolio-title">Fresh & Femme</h1>
+            <h2 className="header-subtitle">Showit Website Template</h2>
             <a
-              href="https://github.com/Lillybliss"
+              href="https://allgoodesigns-fresh-and-femme.showit.site/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="portfolio-btn">The Button</button>
+              <button className="portfolio-btn">View Website</button>
             </a>
           </div>
           <div className="mockup-image">
@@ -93,29 +93,29 @@ const LuxeLash = () => {
       <div className="port-about-container">
         <h2 className="port-about-title">About</h2>
         <p className="port-about-text">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum
-        </p>
-        <p className="port-about-text">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum
-        </p>
-        <div className="project-tags">
+          
+          Before pursuing a career in web design, I was an esthetician running a small lash business. I know firsthand the challenges of creating a stunning website that truly represents your brand without breaking the bank.
+  
+  When I was setting up our studio's website, we hired a digital marketing agency. It cost us thousands of dollars and the results were... limited, to say the least. The design options were restricted, and the features didn’t really cater to our unique needs as beauty professionals. It was frustrating and expensive!
+  
+  That's when I fell in love with web design. I realized there was a better way for beauty and wellness professionals to create their dream websites—affordable, customizable, and truly reflective of their brand. That’s how Allgood Designs was born.
+  
+          </p>
+          <p className="port-about-text">
+          These Showit website templates are designed specifically for lash artists, with features that cater to their needs. One of the most appealing aspects of Showit is how user-friendly it is. Showit is a drag and drop website builder, which means no coding required! You don't have to be a website designer to make changes to your Showit website. Whether the client is customizing a template or making changes to their custom website, these website templates are built for them to manage. 
+          </p>
+          <div className="project-tags">
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Tag 1</p>
+            <p>Branding</p>
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Tag 2</p>
+            <p>UI Design</p>
           </div>
           <div className="tag">
             <img src={tag} alt="tag"></img>
-            <p>Tag 3</p>
+            <p>Responsive Design</p>
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ const LuxeLash = () => {
             src="https://via.placeholder.com/500"
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
+            onClick={() => openPopup(FFmock)}
           />
           <PopUpPicture
             isOpen={isPopupOpen}
@@ -157,7 +157,7 @@ const LuxeLash = () => {
             src="https://via.placeholder.com/500"
             alt="Mockup"
             style={{ cursor: "pointer" }}
-            onClick={() => openPopup(TSSmock)}
+            onClick={() => openPopup(FFmock)}
           />
         </div>
         <div className="right-text">
@@ -236,4 +236,4 @@ const LuxeLash = () => {
   );
 };
 
-export default LuxeLash;
+export default FreshFemme;
