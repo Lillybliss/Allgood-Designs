@@ -85,7 +85,7 @@ const ModernBreeze = () => {
             </a>
           </div>
           <div className="mockup-image">
-            <img src="https://via.placeholder.com/500" alt="Mockup" />
+            <img src={MMmock} alt="Mockup" />
           </div>
         </div>
       </div>

@@ -85,7 +85,7 @@ const FreshFemme = () => {
             </a>
           </div>
           <div className="mockup-image">
-            <img src="https://via.placeholder.com/500" alt="Mockup" />
+            <img src={FFmock} alt="Mockup" />
           </div>
         </div>
       </div>
