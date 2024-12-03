@@ -1,6 +1,24 @@
 [
   {
     "id": 1,
+    "imageUrl": "freshfemme_mockup.png",
+    "title": "Fresh & Femme",
+    "subtitle": "Showit Website Template",
+    "route": "/portfolio/Fresh-Femme-Template",
+    "categories": ["ui design"],
+      "tags": ["UI Design", "Responsive Design"]
+  },
+  {
+      "id": 2,
+      "imageUrl": "modern_mockup.png",
+      "title": "Modern Breeze",
+      "subtitle": "Showit Website Template",
+      "route": "/portfolio/Modern-Breeze-Template",
+      "categories": ["ui design"],
+        "tags": ["UI Design", "Responsive Design"]
+    },
+  {
+    "id": 3,
     "imageUrl": "tsscover1.png",
     "title": "The Suite Spot",
     "subtitle": "UX/UI Design & Responsive Development",
@@ -9,7 +27,7 @@
     "tags": ["User Research", "UI Design", "Responsive Development", "WireFrame & Prototyping"]
   },
   {
-    "id": 2,
+    "id": 4,
     "imageUrl": "RBcover.jpg",
     "title": "Rebel Brewing Co.",
     "subtitle": "UI Design & Prototyping",
@@ -18,7 +36,7 @@
   "tags": ["Branding", "WireFrame & Prototyping"]
   },
   {
-      "id": 3,
+      "id": 5,
       "imageUrl": "revolution-trifold-small.jpg",
       "title": "Revolution Lash Studio",
       "subtitle": "Rebrand Marketing Collateral",
@@ -27,7 +45,7 @@
     "tags": ["Branding", "Marketing Collateral", "Graphic Design"]
     },
     {
-      "id": 4,
+      "id": 6,
       "imageUrl": "ADmockupcover.png",
       "title": "Allgood Designs",
       "subtitle": "UX/UI Design & Responsive Development",
@@ -36,7 +54,7 @@
       "tags": ["UI Design", "Responsive Development", "WireFrame & Prototyping"]
     },
     {
-      "id": 5,
+      "id": 7,
       "imageUrl": "merchmate_inhand_small.png",
       "title": "MerchMate",
       "subtitle": "UI Design & Prototyping",
@@ -45,7 +63,7 @@
     "tags": ["UI Design", "WireFrame & Prototyping"]
     },
     {
-      "id": 6,
+      "id": 8,
       "imageUrl": "Plannify_lowCover.png",
       "title": "Plannify",
       "subtitle": "UX/UI Design & Prototyping",
@@ -53,7 +71,7 @@
       "categories": [ "ui design"],
     "tags": ["Branding", "WireFrame & Prototyping"]
     },{
-      "id": 7,
+      "id": 9,
       "imageUrl": "todo_cover.png",
       "title": "To-Do App",
       "subtitle": "React Native App",
@@ -63,7 +81,7 @@
     },
 
   {
-      "id": 8,
+      "id": 10,
       "imageUrl": "colorization_smaller.jpg",
       "title": "Image Retouching",
       "subtitle": "Adobe Photoshop",
@@ -72,7 +90,7 @@
     "tags": ["Graphic Design"]
     } ,
     {
-        "id": 9,
+        "id": 11,
         "imageUrl": "lilly-allgood-fungi-skull-sm.png",
         "title": "Fungi Skull",
         "subtitle": "Acrylic on Canvas",
@@ -81,7 +99,7 @@
         "tags": ["Art"]
   } ,
       {
-          "id": 10,
+          "id": 12,
           "imageUrl": "bubble_dragon.png",
           "title": "Bubble Dragon",
           "subtitle": "Acrylic on Canvas",
@@ -90,30 +108,12 @@
         "tags": ["Art"]
   } ,
   {
-      "id": 11,
+      "id": 13,
       "imageUrl": "floral_moth.png",
       "title": "Floral Moth",
       "subtitle": "Ink on Paper",
       "route": "/portfolio/Floral-Moth-Ink",
       "categories": ["art"],
         "tags": ["Art"]
-    },
-    {
-      "id": 12,
-      "imageUrl": "freshfemme_mockup.png",
-      "title": "Fresh & Femme",
-      "subtitle": "Showit Template",
-      "route": "/portfolio/Fresh-Femme-Template",
-      "categories": ["ui design"],
-        "tags": ["UI Design", "Responsive Design"]
-    },
-    {
-        "id": 13,
-        "imageUrl": "modern_mockup.png",
-        "title": "Modern Breeze",
-        "subtitle": "Showit Template",
-        "route": "/portfolio/Modern-Breeze-Template",
-        "categories": ["ui design"],
-          "tags": ["UI Design", "Responsive Design"]
-      }
+    }
 ]
