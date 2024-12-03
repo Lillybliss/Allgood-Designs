@@ -4,7 +4,7 @@ import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData.json";
-import MMmock from "../Assets/Portfolio/modern_mockup.png";
+import MMmock from "../Assets/Portfolio/CoverPhotos/modern_mockup.png";
 
 const ModernBreeze = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);

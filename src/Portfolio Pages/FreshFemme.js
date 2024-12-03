@@ -4,7 +4,7 @@ import "../Styles/HorizontalTemplate.css";
 import tag from "../Assets/icons/icons8-tag-96.png";
 import PopUpPicture from "../Components/PopUpPicture";
 import portfolioData from "../Data/portfolioData.json";
-import FFmock from "../Assets/Portfolio/freshfemme_mockup.png";
+import FFmock from "../Assets/Portfolio/CoverPhotos/freshfemme_mockup.png";
 
 const FreshFemme = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
